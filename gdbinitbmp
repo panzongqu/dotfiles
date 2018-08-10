@@ -1,0 +1,16 @@
+set print pretty
+#set target-async on
+set confirm off
+#set history save
+set mem inaccessible-by-default off
+tar ext /dev/ttyACM0
+
+mon tpwr enable
+#mon connect_srst enable
+mon version
+
+mon swdp_scan
+#mon jtag_scan
+att 1
+mon vector_catch enable hard int bus stat chk nocp mm reset
+file /home/epanda/projects/xwdm_fw/build/firmware.elf

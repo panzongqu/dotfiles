@@ -1,22 +1,4692 @@
-: 1533869210:0;git status 
-: 1533869280:0;git reset 
-: 1533869282:0;git status 
-: 1533869433:0;git reflog show
-: 1533869462:0;git fsck --lost-found
-: 1533872410:0;cd ~/projects/flexoptix/xwdm_fw/
-: 1533872416:0;git show-ref
-: 1533880220:0;sh dot.sh
-: 1533880273:0;pwd
-: 1533880278:0;cd dotfiles
-: 1533880283:0;git show-ref
-: 1533880288:0;echo $?
-: 1533880310:0;sh dot.sh
-: 1533880472:0;git help gc
-: 1533880507:0;git gc
-: 1533880515:0;sh dot.sh
-: 1533881457:0;git add --help
-: 1533881525:0;sh dot.sh
-: 1533881551:0;git status 
-: 1533881667:0;sh dot.sh
-: 1533882061:0;git init
-: 1533882151:0;sh dot.sh
+: 1523959022:0;ls
+: 1523959042:0;pwd
+: 1523959045:0;cd /
+: 1523959046:0;ls
+: 1523959069:0;bash
+: 1523959093:0;z
+: 1523959111:0;cd ~
+: 1523959114:0;l
+: 1523959116:0;ls
+: 1523959117:0;l
+: 1523959119:0;ll
+: 1523959121:0;l
+: 1523965639:0;ping 192.168.40.150
+: 1523966267:0;git push
+: 1523966270:0;pwd
+: 1523966279:0;cd ~/p/x
+: 1523966282:0;cd ~/projects/xwdm_fw
+: 1523966292:0;git push
+: 1523966378:0;pwd
+: 1524013204:0;reboot
+: 1524015082:0;upgrade_oh_my_zsh
+: 1524015191:0;ls
+: 1524015195:0;pwd
+: 1524015212:0;cd projects/xwdm_fw
+: 1524015224:0;ls
+: 1524015233:0;cd /opt
+: 1524015238:0;pwd
+: 1524015483:0;arm-none-eabi-gdb
+: 1524018380:0;cd ~/projects/xwdm_fw/
+: 1524018381:0;ls
+: 1524018386:0;git branch
+: 1524018422:0;git branch --help
+: 1524018465:0;git checkout development
+: 1524018483:0;git branch -c --help
+: 1524018549:0;git branch -c development stm32h7_startup_patch
+: 1524018557:0;git branch 
+: 1524018604:0;git checkout stm32h7_startup_patch
+: 1524018608:0;pwd
+: 1524018717:0;ls lib/STM32Cube_FW_H7_V1.1.0/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/startup_stm32h7
+: 1524018724:0;ls lib/STM32Cube_FW_H7_V1.1.0/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc
+: 1524018761:0;cp -d lib/STM32Cube_FW_H7_V1.1.0/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/* lib_cfg/STM32Cube_FW_H7_V1.1.0/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/
+: 1524018785:0;cp --help
+: 1524018800:0;cp -r lib/STM32Cube_FW_H7_V1.1.0/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/* lib_cfg/STM32Cube_FW_H7_V1.1.0/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/
+: 1524018807:0;cp -R lib/STM32Cube_FW_H7_V1.1.0/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/* lib_cfg/STM32Cube_FW_H7_V1.1.0/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/
+: 1524018846:0;cp -R lib/STM32Cube_FW_H7_V1.1.0/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/* ./lib_cfg/STM32Cube_FW_H7_V1.1.0/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/
+: 1524018871:0;mkdir -p lib_cfg/STM32Cube_FW_H7_V1.1.0/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc
+: 1524018877:0;cp -R lib/STM32Cube_FW_H7_V1.1.0/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/* lib_cfg/STM32Cube_FW_H7_V1.1.0/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/
+: 1524018887:0;ls lib_cfg/STM32Cube_FW_H7_V1.1.0/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc
+: 1524018908:0;git status
+: 1524018930:0;git diff
+: 1524018992:0;git add lib_cfg/STM32Cube_FW_H7_V1.1.0/
+: 1524018995:0;git status
+: 1524019100:0;git commit -m "copy startup files from STM library."
+: 1524019198:0;git status
+: 1524019229:0;git add lib_cfg/cube/
+: 1524019231:0;git status
+: 1524019242:0;git commit -m "copy startup files from STM library."
+: 1524019246:0;git status
+: 1524019266:0;git add lib_cfg/cube/
+: 1524019269:0;git status
+: 1524019319:0;git add lib_cfg/cube/
+: 1524019322:0;git status
+: 1524019331:0;git rm lib_cfg/cube/
+: 1524019341:0;git rm -r lib_cfg/cube/
+: 1524019349:0;git status
+: 1524019386:0;git reset HEAD lib_cfg/cube/
+: 1524019389:0;git status
+: 1524019405:0;git checkout lib_cfg/cube/
+: 1524019407:0;git status
+: 1524019446:0;git rm lib_cfg/STM32Cube_FW_H7_V1.1.0/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/startup_stm32h7*
+: 1524019448:0;git status
+: 1524019933:0;git add lib_cfg/STM32Cube_FW_H7_V1.1.0/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/startup_stm32h743xx.s
+: 1524019935:0;git status
+: 1524019948:0;git add lib_cfg/STM32Cube_FW_H7_V1.1.0/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/startup_stm32h753xx.s
+: 1524019950:0;git status
+: 1524019963:0;git commit -m "copy startup files from STM library."
+: 1524019966:0;git status
+: 1524019998:0;git rebase --help
+: 1524020210:0;git status
+: 1524020590:0;git update-index --assume-unchanged .gitignore
+: 1524020594:0;git status
+: 1524022226:0;make clean
+: 1524022515:0;git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
+: 1524022556:0;plugins=( [plugins...] history-substring-search)
+: 1524022655:0;brew install zsh-history-substring-search
+: 1524022682:0;git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
+: 1524022711:0;source zsh-history-substring-search.zsh
+: 1524023032:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1524023043:0;make clean
+: 1524023045:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1524023096:0;arm-none-eabi-gdb
+: 1524023993:0;make FW=1 EVAL_FRONT=1 STM32H7=1 j4
+: 1524023996:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524024084:0;make clean
+: 1524024089:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524024288:0;make clean
+: 1524024309:0;git checkout stm32h7_eval_ethernet
+: 1524024359:0;git status
+: 1524024369:0;git checkout -a
+: 1524024390:0;git checkout Makefile
+: 1524024398:0;git checkout lib_cfg/
+: 1524024405:0;git checkout main.c
+: 1524024410:0;git checkout stm32h7_eval_ethernet
+: 1524024417:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524024511:0;vim Makefile
+: 1524030330:0;git diff
+: 1524030352:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524030359:0;make clean
+: 1524030361:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524030787:0;git checkout stm32h7_startup_patch
+: 1524030811:0;git checkout Makefile
+: 1524030825:0;git checkout stm32h7_startup_patch
+: 1524031742:0;vim
+: 1524033322:0;git status
+: 1524033344:0;git diff lib_cfg/cube/STM32Cube_FW_H7_V1.1.0/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/startup_stm32h74
+: 1524033348:0;git diff lib_cfg/cube/STM32Cube_FW_H7_V1.1.0/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/startup_stm32h743xx.s
+: 1524033393:0;git diff lib_cfg/cube/STM32Cube_FW_H7_V1.1.0/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/startup_stm32h753xx.s
+: 1524033426:0;vim
+: 1524033463:0;git add lib_cfg/cube/*
+: 1524033467:0;git status
+: 1524033563:0;git commit -m "fill zero dma data section in the h7 startup files."
+: 1524033579:0;git push 
+: 1524033603:0;git push --set-upstream origin stm32h7_startup_patch
+: 1524040618:0;git branch
+: 1524040649:0;git checkout stm32h753xx_usb_support
+: 1524040659:0;git merge --help
+: 1524040744:0;git merge development
+: 1524040780:0;git status
+: 1524040928:0;git pull
+: 1524040938:0;git merge development
+: 1524041020:0;git fectch  development
+: 1524041031:0;git fetch  development
+: 1524041044:0;git fetch
+: 1524041076:0;git checkout development
+: 1524041081:0;git fetch
+: 1524041101:0;git pull
+: 1524041153:0;git pull remote 
+: 1524041179:0;git pull 
+: 1524041215:0;git pull origin development
+: 1524041245:0;git checkout stm32h753xx_usb_support
+: 1524041263:0;git merge development
+: 1524041355:0;git diff main.c
+: 1524041888:0;git merge --help
+: 1524041898:0;git merge --abort
+: 1524041902:0;git merge development
+: 1524041909:0;git diff main.c
+: 1524042204:0;git add main.c
+: 1524042210:0;git status
+: 1524042228:0;vim lib_cfg/cube/stm32h7xx_hal_msp.c
+: 1524042452:0;git diff  lib_cfg/cube/stm32h7xx_hal_msp.c
+: 1524042492:0;make clean
+: 1524042496:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524042545:0;git status
+: 1524042553:0;git add lib_cfg/cube/stm32h7xx_hal_msp.c
+: 1524042558:0;git status
+: 1524042572:0;git commit
+: 1524042594:0;git push
+: 1524042789:0;git checkout stm32h7_update_fw_support
+: 1524042796:0;make clean
+: 1524187397:0;git checkout stm32h7_eval_ethernet
+: 1524187414:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524187767:0;make clean
+: 1524187777:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524187904:0;cd ~/Desktop
+: 1524187917:0;diff firmware_load.bin firmware_noload.bin
+: 1524188044:0;cd ~/projects/xwdm_fw
+: 1524188049:0;make clean
+: 1524188055:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524189274:0;ld -info
+: 1524189277:0;ld --info
+: 1524189288:0;info ld
+: 1524190793:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524190801:0;pwd
+: 1524190810:0;cd projects/xwdm_fw
+: 1524190818:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524193949:0;git checkout stm32h7_startup_patch
+: 1524193958:0;vim
+: 1524194052:0;git status
+: 1524194058:0;git diff
+: 1524194084:0;git add linker_script/*
+: 1524194090:0;git status
+: 1524194467:0;git commit -m ".bss section was implicitly marked as (NOLOAD)."
+: 1524194472:0;git push
+: 1524194486:0;git pull
+: 1524195914:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524195924:0;make clean
+: 1524195925:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524195995:0;git status
+: 1524196019:0;git checkout Makefile
+: 1524196022:0;make clean
+: 1524196025:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524196184:0;make clean
+: 1524196186:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524196821:0;make clean
+: 1524196823:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524203012:0;pwd
+: 1524203024:0;cd /v/w/h
+: 1524203029:0;cd /var/www/html
+: 1524203031:0;ls
+: 1524203041:0;rm index.html.bak
+: 1524203052:0;rm feed.xml
+: 1524203062:0;rm firmware.elf
+: 1524203081:0;rm source
+: 1524203091:0;rm sources.list
+: 1524203781:0;wget http://kdl1.cache.wps.com/ksodl/download/linux/a21//wps-office_10.1.0.5707~a21_amd64.deb
+: 1524203876:0;cd ~/Downloads
+: 1524203877:0;ls
+: 1524203892:0;dpkg -i AdbeRdr9.5.5-1_i386linux_enu.deb
+: 1524203899:0;sudo dpkg -i AdbeRdr9.5.5-1_i386linux_enu.deb
+: 1524203990:0;sudo apt-get install libgtk
+: 1524204029:0;sudo apt-cache search  libgtk
+: 1524204080:0;sudo apt-get install libgtk-3-dev
+: 1524204133:0;sudo apt-get -f install libgtk-3-dev
+: 1524204147:0;sudo apt-get -f install
+: 1524204188:0;sudo apt autoremove
+: 1524204223:0;sudo apt-get install libgtk-3-dev
+: 1524204230:0;sudo dpkg -i AdbeRdr9.5.5-1_i386linux_enu.deb
+: 1524204242:0;sudo apt-get -f install libgtk-3-dev
+: 1524204247:0;sudo apt-get install libgtk-3-dev
+: 1524204284:0;sudo apt-get install libgdk-pixbuf2.0-dev libpango1.0-dev libatk1.0-dev libatk-bridge2.0-dev libcairo2-dev libepoxy-dev libxcomposite-dev nettle-dev
+: 1524204324:0;sudo apt-get install libpng12-dev
+: 1524204354:0;apt-get -f install
+: 1524204362:0;sudo apt-get -f install
+: 1524204382:0;apt-get -f install
+: 1524204385:0;sudo apt-get -f install
+: 1524204395:0;sudo dpkg -i AdbeRdr9.5.5-1_i386linux_enu.deb
+: 1524204404:0;sudo apt-get -f install
+: 1524204475:0;ls
+: 1524204485:0;chmod -x wps-office_10.1.0.5707\~a21_amd64.deb
+: 1524204501:0;dpkg -i wps-office_10.1.0.5707\~a21_amd64.deb
+: 1524204506:0;sduo dpkg -i wps-office_10.1.0.5707\~a21_amd64.deb
+: 1524204516:0;sudo dpkg -i wps-office_10.1.0.5707\~a21_amd64.deb
+: 1524204567:0;sudo apt-get -f install
+: 1524204586:0;sudo apt-get upgrade
+: 1524204613:0;sudo apt-get update
+: 1524204658:0;sudo apt-get upgrade
+: 1524204680:0;sudo apt-get -f install
+: 1524204691:0;sudo dpkg -i AdbeRdr9.5.5-1_i386linux_enu.deb
+: 1524204796:0;sudo add-apt-repository "deb http://archive.canonical.com/ precise partner"
+: 1524204808:0;sudo apt-get update
+: 1524204976:0;sudo apt install adobereader-enu
+: 1524204999:0;sudo apt-get install gtk2-engines-murrine:i386 libcanberra-gtk-module:i386 libatk-adaptor:i386 libgail-common:i386
+: 1524205005:0;apt-get -f install
+: 1524205011:0;sudo apt-get -f install
+: 1524205078:0;sudo add-apt-repository -r "deb http://archive.canonical.com/ precise partner"
+: 1524205084:0;sudo apt update
+: 1524205134:0;sudo add-apt-repository -r "deb http://archive.canonical.com/ precise partner"
+: 1524205139:0;sudo apt update
+: 1524205152:0;sudo apt-get -f install
+: 1524205165:0;sudo apt autoremove
+: 1524205193:0;sudo apt install libxml2:i386
+: 1524205244:0;sudo apt-get install libgtk2.0-0
+: 1524205257:0;sudo apt-get -f install
+: 1524205268:0;sudo dpkg -i AdbeRdr9.5.5-1_i386linux_enu.deb
+: 1524205273:0;sudo apt-get install libgtk2.0-0
+: 1524205277:0;sudo apt-get -f install
+: 1524205287:0;sudo dpkg -i AdbeRdr9.5.5-1_i386linux_enu.deb
+: 1524205301:0;sudo apt-get -f install
+: 1524205327:0;sudo apt install libxml2:i386
+: 1524205337:0;sudo dpkg -i AdbeRdr9.5.5-1_i386linux_enu.deb
+: 1524205349:0;sudo apt install libxml2:i386
+: 1524205361:0;sudo apt-get -f install
+: 1524205381:0;sudo apt install libxml2:i386
+: 1524205393:0;sudo dpkg -i AdbeRdr9.5.5-1_i386linux_enu.deb
+: 1524205411:0;sudo apt remove libxml2:i386
+: 1524205418:0;sudo apt-get -f install
+: 1524205426:0;reboot
+: 1524205446:0;systemctl -i reboot
+: 1524205554:0;ls
+: 1524205562:0;sudo apt-get -f install
+: 1524205575:0;sudo dpkg -i AdbeRdr9.5.5-1_i386linux_enu.deb
+: 1524205583:0;sudo apt-get -f install
+: 1524205598:0;cd ~/Desktop
+: 1524205600:0;sudo dpkg -i AdbeRdr9.5.5-1_i386linux_enu.deb
+: 1524205613:0;cd ~/Downloads
+: 1524205615:0;sudo dpkg -i AdbeRdr9.5.5-1_i386linux_enu.deb
+: 1524205622:0;sudo apt-get -f install
+: 1524205636:0;sudo dpkg -i AdbeRdr9.5.5-1_i386linux_enu.deb
+: 1524205700:0;sudo apt-get install gtk2-engines-murrine:i386 libcanberra-gtk-module:i386 libatk-adaptor:i386 libgail-common:i386
+: 1524205815:0;sudo apt-get -f install
+: 1524206307:0;cd ~/Desktop
+: 1524206308:0;ls
+: 1524206324:0;chmod -x AdbeRdr9.5.5-1_i386linux_enu.deb
+: 1524206331:0;sudo dpkg -i AdbeRdr9.5.5-1_i386linux_enu.deb
+: 1524206448:0;sudo apt-get install libgtk2.0-0:i386 libnss3-1d:i386 libnspr4-0d:i386 lib32nss-mdns* libxml2:i386 libxslt1.1:i386 libstdc++6:i386
+: 1524206539:0;sudo apt-get install acroread
+: 1524206793:0;sudo apt-get -f install
+: 1524206800:0;Foxit Reader 
+: 1524206945:0;sudo apt-cache search foxit
+: 1524207444:0;sudo apt-get -f install
+: 1524207572:0;cd ~/projects/xwdm_fw
+: 1524207579:0;clear
+: 1524207623:0;l
+: 1524207630:0;ls
+: 1524208954:0;tar xvf FoxitReader2.4.1.0609_Server_x64_enu_Setup.run.tar
+: 1524208983:0;./FoxitReader.enu.setup.2.4.1.0609\(r08f07f8\).x64.run
+: 1524209194:0;cd Desktop
+: 1524209203:0;dpkg -i wps-office_10.1.0.5707\~a21_amd64.deb
+: 1524209207:0;sudo dpkg -i wps-office_10.1.0.5707\~a21_amd64.deb
+: 1524209716:0;data
+: 1524210202:0;cd -2
+: 1524210209:0;cd -
+: 1524210353:0;z SFF-8436.PDF
+: 1524210439:0;z -l
+: 1524210442:0;z -l c
+: 1524211344:0;cd ~/p/x
+: 1524211347:0;cd ~/projects/xwdm_fw
+: 1524211383:0;z -
+: 1524211394:0;z -l
+: 1524211397:0;z -l c
+: 1524211408:0;cd ~/
+: 1524211410:0;z -l c
+: 1524211669:0;cd ~/projects/xwdm_fw
+: 1524212196:0;chsh -s /bin/zsh
+: 1524212221:0;upgrade_oh_my_zsh
+: 1524212250:0;pwd
+: 1524212722:0;zsh .zshrc
+: 1524212747:0;cd ~/projects/xwdm_fw
+: 1524213156:0;upgrade_oh_my_zsh
+: 1524213195:0;z -
+: 1524213205:0;z /home/epanda/projects/xwdm_fw
+: 1524213445:0;z -
+: 1524213690:0;z /home/epanda/projects/xwdm_fw
+: 1524213877:0;dat 
+: 1524213973:0;date
+: 1524214076:0;cd ~/p/x
+: 1524214362:0;antigen theme candy
+: 1524214387:0;antigen theme fish
+: 1524214429:0;antigen theme frish
+: 1524214445:0;antigen theme pure
+: 1524214455:0;ls
+: 1524214524:0;antigen theme fishy
+: 1524214532:0;ls
+: 1524214544:0;antigen theme fishzz
+: 1524215162:0;z /home/epanda/projects/xwdm_fw
+: 1524215164:0;ls
+: 1524216129:0;cd /opt
+: 1524216477:0;z /home/epanda/projects/xwdm_fw
+: 1524216492:0;vim
+: 1524276858:0;sudo mkdir /usr/share/fonts/kingsoft
+: 1524276937:0;echo $USER
+: 1524277042:0;sudo mv wps/* /usr/share/fonts/kingsoft
+: 1524277064:0;ls /usr/share/fonts/kingsoft
+: 1524277094:0;sudo chown -R $USER:$USER /usr/share/fonts/kingsoft
+: 1524277103:0;sudo chmod -R o+rw,g+rw /usr/share/fonts/kingsoft
+: 1524277119:0;sudo fc-cache -vfs
+: 1524278184:0;cd ~/p
+: 1524278189:0;cd ~/projects
+: 1524278190:0;ls
+: 1524278207:0;git clone ssh://git@niter.flexoptix.net:7999/xwdm/executer_example.git
+: 1524278214:0;ls
+: 1524279509:0;cd executer_example
+: 1524279520:0;ls
+: 1524279525:0;vim
+: 1524448345:0;cd ~/D
+: 1524448352:0;cd ~/Desktop
+: 1524448358:0;wget http://starumlreleases-7a0.kxcdn.com/v2.8.1/StarUML-v2.8.1-64-bit.deb
+: 1524448469:0;ls
+: 1524448482:0;chmod -x StarUML-v2.8.1-64-bit.deb
+: 1524448498:0;sudo dpkg -i StarUML-v2.8.1-64-bit.deb
+: 1524448573:0;sudo apt-get install libgcrypt11 libpango1.0-0 
+: 1524448595:0;sudo apt-get install libgcrypt11 
+: 1524448606:0;su
+: 1524448615:0;su 
+: 1524448625:0;su epanda
+: 1524448632:0;exit
+: 1524448643:0;cd ~/
+: 1524448649:0;cd De
+: 1524448655:0;cd Desktop
+: 1524448666:0;sudo dpkg -i StarUML-v2.8.1-64-bit.deb
+: 1524448693:0;sudo apt-cache search libgcrypt11
+: 1524448718:0;sudo apt-get install libgcrypt11-dev
+: 1524448734:0;sudo apt-get -f install
+: 1524448763:0;sudo apt-get install libgcrypt11-dev
+: 1524448785:0;sudo apt-cache search libpango1.0-0
+: 1524448792:0;sudo apt-cache search libpango
+: 1524448817:0;sudo apt-get install libpango1.0-dev
+: 1524448846:0;sudo apt-get install libcairo2-dev libfontconfig1-dev libfreetype6-dev libxft-dev
+: 1524448866:0;sudo apt-get install libcairo2-dev libfontconfig1-dev libfreetype6-dev libxft-dev libpng-dev
+: 1524448878:0;sudo apt-get install libpng-dev
+: 1524448929:0;sudo apt-cache search  startuml
+: 1524448939:0;sudo apt-cache search  staruml
+: 1524449058:0;sudo dpkg -i libgcrypt11_1.5.3-2ubuntu4.2_amd64.deb
+: 1524449112:0;sudo dpkg -i StarUML-v2.8.1-64-bit.deb
+: 1524449156:0;sudo apt-get -f install
+: 1524449166:0;sudo dpkg -i StarUML-v2.8.1-64-bit.deb
+: 1524449309:0;staruml
+: 1524483506:0;ls
+: 1524483527:0;python -i application.py
+: 1524483700:0;python -i my_frist.py
+: 1524484135:0;cd /
+: 1524484140:0;cd Desktop
+: 1524484150:0;cd ~/Desktop
+: 1524484164:0;python -i
+: 1524486286:0;python -i test.py
+: 1524534839:0;git branch
+: 1524534853:0;git branch stm32h753xx_usb_support
+: 1524534865:0;git checkout stm32h753xx_usb_support
+: 1524534883:0;git checkout development
+: 1524534897:0;git pull
+: 1524534940:0;git fetch 
+: 1524534958:0;git log
+: 1524535087:0;git pull remote development
+: 1524535126:0;git pull origin development
+: 1524535204:0;git log
+: 1524535281:0;git fetch origin stm32h753xx_usb_support
+: 1524535315:0;git checkout development
+: 1524535321:0;git merge FETCH_HEAD
+: 1524535352:0;git merge --abort
+: 1524535382:0;git fetch origin stm32h753xx_usb_support
+: 1524535399:0;git branch stm32h753xx_usb_support
+: 1524535413:0;git checkout stm32h753xx_usb_support
+: 1524535443:0;git merge origin development
+: 1524535455:0;git diff
+: 1524535469:0;git status
+: 1524535488:0;vim lib_cfg/cube/stm32h7xx_hal_msp.c
+: 1524535627:0;vim lib_cfg/cube/stm32h7xx_it.c
+: 1524535729:0;vim lib_cfg/cube/stm32h7xx_it.h
+: 1524536014:0;make clean
+: 1524536023:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524536062:0;make clean
+: 1524536064:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524536627:0;git status
+: 1524536641:0;git add lib_cfg/cube/*
+: 1524536643:0;git status
+: 1524536666:0;git diff --staged lib_cfg/cube/stm32h7xx_hal_msp.c
+: 1524536690:0;git diff --staged lib_cfg/cube/stm32h7xx_it.c
+: 1524536703:0;git diff --staged lib_cfg/cube/stm32h7xx_it.h
+: 1524536715:0;git diff --staged lib_cfg/cube/stm32h7xx_it.c
+: 1524536720:0;git diff --staged lib_cfg/cube/stm32h7xx_hal_msp.c
+: 1524536739:0;git commit
+: 1524536751:0;git diff
+: 1524536775:0;git log
+: 1524536796:0;git diff b15959762168ed129df39d196c18fb8a0c0e7179
+: 1524536819:0;git log
+: 1524536831:0;git diff b15959762168ed129df39d196c18fb8a0c0e7179 88133c8a21798fc7cc718afffa157c253dd17bb0
+: 1524536844:0;git diff 88133c8a21798fc7cc718afffa157c253dd17bb0  b15959762168ed129df39d196c18fb8a0c0e7179
+: 1524536883:0;git push
+: 1524537364:0;git checkout stm32h7_startup_patch
+: 1524537372:0;make clean
+: 1524537378:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524537421:0;git merge origin development
+: 1524537436:0;git status
+: 1524537458:0;git push
+: 1524537496:0;make clean
+: 1524537504:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524538315:0;make clean
+: 1524538316:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524538407:0;make clean
+: 1524538408:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524538513:0;make clean
+: 1524538515:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524538577:0;git status
+: 1524538585:0;git add Makefile
+: 1524538677:0;git commit -m "Update makefile to compile the patch startup.s file"
+: 1524538684:0;git push
+: 1524549681:0;make clean
+: 1524549688:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524549725:0;git status
+: 1524549744:0;git add lib_cfg/cube/*
+: 1524549746:0;git status
+: 1524549759:0;git add Makefile
+: 1524549761:0;git status
+: 1524549801:0;git commit -m "Rename startup file name"
+: 1524549807:0;git push
+: 1524549832:0;git status
+: 1524550094:0;arm-none-eabi-gdb
+: 1524550586:0;make clean
+: 1524550593:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524550631:0;arm-none-eabi-gdb
+: 1524551634:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524551759:0;arm-none-eabi-gdb
+: 1524551842:0;arm-none-eabi-gdb build/firmware.elf
+: 1524557415:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524557424:0;arm-none-eabi-gdb build/firmware.elf
+: 1524557624:0;make clean
+: 1524557629:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524557666:0;arm-none-eabi-gdb build/firmware.elf
+: 1524558220:0;make clean
+: 1524558223:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524558259:0;arm-none-eabi-gdb build/firmware.elf
+: 1524558487:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524558532:0;arm-none-eabi-gdb build/firmware.elf
+: 1524558810:0;make clean
+: 1524558816:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524558891:0;arm-none-eabi-gdb build/firmware.elf
+: 1524558958:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524558962:0;arm-none-eabi-gdb build/firmware.elf
+: 1524559269:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524559272:0;arm-none-eabi-gdb build/firmware.elf
+: 1524559447:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524559450:0;arm-none-eabi-gdb build/firmware.elf
+: 1524559646:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524559650:0;arm-none-eabi-gdb build/firmware.elf
+: 1524559738:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524559741:0;arm-none-eabi-gdb build/firmware.elf
+: 1524559962:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524559965:0;arm-none-eabi-gdb build/firmware.elf
+: 1524560434:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524560438:0;arm-none-eabi-gdb build/firmware.elf
+: 1524560574:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524560577:0;arm-none-eabi-gdb build/firmware.elf
+: 1524560777:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524560780:0;arm-none-eabi-gdb build/firmware.elf
+: 1524560873:0;q
+: 1524560880:0;arm-none-eabi-gdb build/firmware.elf
+: 1524561195:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524561234:0;arm-none-eabi-gdb build/firmware.elf
+: 1524562406:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524562409:0;arm-none-eabi-gdb build/firmware.elf
+: 1524562505:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524562508:0;arm-none-eabi-gdb build/firmware.elf
+: 1524562573:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524624081:0;make clean
+: 1524624083:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524624665:0;make clean
+: 1524624668:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524624715:0;arm-none-eabi-gdb build/firmware.elf
+: 1524625081:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524625131:0;arm-none-eabi-gdb build/firmware.elf
+: 1524625655:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524626005:0;vim
+: 1524626260:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524626362:0;git  status
+: 1524626386:0;git add lib_cfg/cube/*
+: 1524626405:0;git add linker_script/h7_firmware.ld
+: 1524626419:0;git status
+: 1524626456:0;git diff --staged
+: 1524626601:0;git commit -m "adjust startup and linker script files"
+: 1524626606:0;git push
+: 1524626615:0;git status
+: 1524626643:0;git checkout Makefile
+: 1524626650:0;git status
+: 1524626988:0;git merge origin development
+: 1524627007:0;git pull
+: 1524627016:0;git merge origin development
+: 1524627040:0;git pull origin development
+: 1524627068:0;git status
+: 1524627109:0;git diff linker_script/h7_firmware.ld
+: 1524627139:0;vim linker_script/h7_firmware.ld
+: 1524627207:0;git diff linker_script/h7_firmware.ld
+: 1524627220:0;git add linker_script/h7_firmware.ld
+: 1524627231:0;git status
+: 1524627245:0;git commit
+: 1524627257:0;git push
+: 1524627377:0;git checkout development
+: 1524635036:0;clear
+: 1524705479:0;git remote -v
+: 1524710196:0;git pull
+: 1524727407:0;git b
+: 1524727417:0;git branch -a
+: 1524727436:0;git pull
+: 1524727483:0;git checkout origin/feature/H7_SD_card
+: 1524727498:0;git pull
+: 1524727509:0;git log
+: 1524727532:0;git pull
+: 1524727601:0;git pull origin remotes/origin/feature/H7_SD_card
+: 1524727615:0;git pull remot feature/H7_SD_card
+: 1524727620:0;git pull remote feature/H7_SD_card
+: 1524727626:0;git pull remote H7_SD_card
+: 1524727659:0;git checkout origin/feature/H7_SD_card
+: 1524727666:0;git status
+: 1524727674:0;git log
+: 1524727781:0;git branch
+: 1524727843:0;git checkout origin  
+: 1524727892:0;git checkout origin H7_SD_card
+: 1524727904:0;git checkout origin development
+: 1524727945:0;git checkout origin/development
+: 1524727963:0;git branch -a
+: 1524727999:0;git checkout development
+: 1524728002:0;git branch -a
+: 1524728060:0;git checkout origin/development
+: 1524728187:0;history | git
+: 1524728193:0;history | grep git
+: 1524728291:0;git checkout development
+: 1524728307:0;git checkout origin/development
+: 1524728312:0;git checkout development
+: 1524728944:0;git checkout origin/feature/H7_SD_card
+: 1524728949:0;make clean
+: 1524728952:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524728970:0;vim
+: 1524729051:0;arm-none-eabi-gdb build/firmware.elf
+: 1524743507:0;ls
+: 1524743671:0;sudo dfu-util -d 1d50:6018,:6017 -s 0x08002000:leave -D blackmagic.bin
+: 1524743721:0;arm-none-eabi-gdb build/firmware.elf
+: 1524743770:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524743776:0;make clean
+: 1524743779:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524743814:0;git status
+: 1524743836:0;arm-none-eabi-gdb build/firmware.elf
+: 1524744007:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524744013:0;arm-none-eabi-gdb build/firmware.elf
+: 1524744089:0;git checkout development
+: 1524744095:0;make clean
+: 1524744102:0;git status
+: 1524744119:0;git checkout core
+: 1524744122:0;git status
+: 1524744146:0;git diff
+: 1524744156:0;make clean
+: 1524744167:0;rm core
+: 1524744170:0;make clean
+: 1524744174:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1524744204:0;arm-none-eabi-gdb build/firmware.elf
+: 1524744257:0;make clean
+: 1524744320:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1524744350:0;arm-none-eabi-gdb build/firmware.elf
+: 1524744413:0;make clean
+: 1524744423:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1524744455:0;arm-none-eabi-gdb build/firmware.elf
+: 1524744497:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1524744505:0;arm-none-eabi-gdb build/firmware.elf
+: 1524744632:0;make clean
+: 1524744640:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1524744671:0;vim
+: 1524744747:0;arm-none-eabi-gdb build/firmware.elf
+: 1524808150:0;git status
+: 1524808163:0;ls
+: 1524809283:0;gnome-help
+: 1524809991:0;pwd
+: 1524809995:0;wget http://mirrors.njupt.edu.cn/ubuntu-releases/18.04/ubuntu-18.04-desktop-amd64.iso
+: 1524810083:0;ssh root@vpandav.com
+: 1524810142:0;wget http://mirrors.njupt.edu.cn/ubuntu-releases/18.04/ubuntu-18.04-desktop-amd64.iso
+: 1524811207:0;wget http://mirror.pnl.gov/releases/bionic/ubuntu-18.04-desktop-amd64.iso
+: 1524812336:0;ls
+: 1524815893:0;readelf -h core
+: 1524816695:0;rm core
+: 1524816698:0;ls
+: 1524816891:0;mv ubuntu-18.04-desktop-amd64.iso /var/www/html
+: 1524817182:0;fdisk
+: 1524817190:0;fdisk -l
+: 1524817195:0;sudo fdisk -l
+: 1524817231:0;gparted
+: 1524817238:0;sudo gparted
+: 1524817589:0;ls
+: 1524817594:0;rm lost+found
+: 1524817603:0;rm -rf lost+found
+: 1524817755:0;ls
+: 1524817807:0;pwd
+: 1524817815:0;ls
+: 1524817834:0;cp /var/www/html/ubuntu-18.04-desktop-amd64.iso .
+: 1524817852:0;chmod 777 /var/www/html/ubuntu-18.04-desktop-amd64.iso
+: 1524817855:0;cp /var/www/html/ubuntu-18.04-desktop-amd64.iso .
+: 1524817868:0;sudo cp /var/www/html/ubuntu-18.04-desktop-amd64.iso .
+: 1524817889:0;ls
+: 1524819084:0;./install_sw4stm32_linux_64bits-v2.4.run
+: 1524819218:0;./var/www/html/install_sw4stm32_linux_64bits-v2.4.run
+: 1524819284:0;cd /var/www/html
+: 1524819285:0;ls
+: 1524819288:0;./install_sw4stm32_linux_64bits-v2.4.run
+: 1524819334:0;ls -l
+: 1524883655:0;systemctl v2ray
+: 1524883676:0;service v2ray restart
+: 1524886611:0;lddconfig
+: 1524886623:0;ldconfig
+: 1524897444:0;python -m pip install ipykernel
+: 1524897485:0;conda install ipykernel
+: 1524897522:0;pip
+: 1524897533:0;python -m ensurepip
+: 1524897559:0;apt-get install python-ensurepip
+: 1524897563:0;sudo apt-get install python-ensurepip
+: 1524897590:0;sudo apt-get install python-pip
+: 1524897607:0;python -m pip install ipykernel
+: 1524897977:0;python setup.py egg_info
+: 1524898005:0;python -m ipykernel install --user
+: 1524898016:0;python -m pip install ipykernel
+: 1524898070:0;python-pip 
+: 1524898098:0;sudo apt-get install python-pip
+: 1524898114:0;sudo apt autoremove
+: 1524898161:0;sudo apt-get remove python-pip
+: 1524898168:0;sudo apt autoremove
+: 1524898302:0;sudo apt-get install python-pip
+: 1524898317:0;sudo -H pip install --upgrade pip
+: 1524898368:0;pip install --upgrade pip
+: 1524898489:0;python -m pip install ipykernel
+: 1524898880:0;python -m ipykernel install --user
+: 1524898904:0;sudo python -m pip install ipykernel
+: 1524898943:0;python -m ipykernel install --user
+: 1524898973:0;sudo -H python -m pip install ipykernel
+: 1524899002:0;pip install --upgrade pip
+: 1524899115:0;python -m pip install ipykernel
+: 1524899152:0;python -m ipykernel install --user
+: 1524899155:0;python -m pip install ipykernel
+: 1524899157:0;python -m ipykernel install --user
+: 1524899208:0;python -m pip install ipykernel
+: 1524899330:0;pip install plotly
+: 1524899438:0;pip install plotly --upgrade.
+: 1524899440:0;pip install plotly --upgrade
+: 1524899471:0;sudo pip install plotly 
+: 1524899524:0;python -
+: 1524899533:0;python -i test.py
+: 1524899568:0;pip install plotly 
+: 1524899588:0;pip install 
+: 1524899647:0;pip
+: 1524899659:0;dpkg -l | grep pip
+: 1524899705:0;sudo -H pip install --upgrade pip
+: 1524899725:0;pip install plotly 
+: 1524899766:0;sudo pip install plotly 
+: 1524899802:0;sudo -H pip install plotly 
+: 1524900742:0;python 
+: 1524901473:0;cd /usr/local/lib/python2.7/dist-packages/plotly/offline
+: 1524901475:0;ls
+: 1524901483:0;cat offline.py
+: 1524902839:0;pydoc sys
+: 1524902860:0;pydoc plotly
+: 1524902886:0;pydoc plotly.offline
+: 1524906030:0;skypeforlinux
+: 1525223448:0;cd ~/projects/xwdm_fw
+: 1525223449:0;ls
+: 1525223486:0;bash buildnew.sh
+: 1525223492:0;./buildnew.sh
+: 1525223497:0;sh buildnew.sh
+: 1525223503:0;sh build.sh
+: 1525223509:0;./ build.sh
+: 1525223514:0;bash build.sh
+: 1525227702:0;make clean
+: 1525227704:0;bash build.sh
+: 1525229349:0;bash build.sh > build.log
+: 1525229442:0;bash build.sh
+: 1525229703:0;ls
+: 1525229727:0;bash xwdm_make_tests.sh
+: 1525229988:0;git log
+: 1525230109:0;git index-pack -h
+: 1525230130:0;git --help
+: 1525230266:0;git update-index --assume-unchanged xwdm_make_tests.sh
+: 1525230426:0;git status
+: 1525230486:0;git check-ignore
+: 1525230490:0;git check-ignore 
+: 1525230837:0;git check-ignore
+: 1525230844:0;git check-ignore xwdm_make_tests.sh
+: 1525230849:0;git status
+: 1525230899:0;sudo apt-get install git-extras
+: 1525230915:0;git ignore xwdm_make_tests.sh
+: 1525231194:0;git checkout origin/development
+: 1525231212:0;git branch -b development
+: 1525231219:0;git branch -d development
+: 1525231230:0;bash xwdm_make_tests.sh
+: 1525243511:0;ls
+: 1525244067:0;bash xwdm_make_tests.sh
+: 1525244881:0;git status
+: 1525244925:0;git branch fix_compile_error
+: 1525244933:0;git status
+: 1525244946:0;git add lib_cfg/cube/stm32h7xx_it.c main.c
+: 1525244952:0;git status
+: 1525244957:0;git diff
+: 1525244966:0;git diff --staged
+: 1525245105:0;git diff
+: 1525245114:0;git diff --staged
+: 1525245282:0;git diff 
+: 1525245419:0;git status
+: 1525245425:0;git diff main.c
+: 1525245454:0;git diff lib_cfg/cube/stm32h7xx_it.c
+: 1525245613:0;git branch fix_compile_error
+: 1525245623:0;git branch
+: 1525245829:0;git branch -h
+: 1525245924:0;git branch -m fix_compile_error fix_nms_compile_fail
+: 1525245941:0;git push -h
+: 1525245969:0;git push 
+: 1525245988:0;git push --set-upstream origin fix_nms_compile_fail
+: 1525246362:0;git checkout origin/development
+: 1525246373:0;git branch 
+: 1525311619:0;sudo apt-get upgrade
+: 1525313656:0;skypeforlinux
+: 1525396922:0;sudo apt-get upgrade
+: 1525397060:0;sudo apt-get update
+: 1525397249:0;sudo apt-get upgrade
+: 1525397260:0;clean
+: 1525397262:0;clear
+: 1525416232:0;cat /etc/localtime
+: 1525416260:0;ls /etc/localtime
+: 1525416269:0;ls -l  /etc/localtime
+: 1525416280:0;cat /usr/share/zoneinfo/Asia/Shanghai
+: 1525416289:0;ll /usr/share/zoneinfo/Asia/Shanghai
+: 1525416304:0;ll /usr/share/zoneinfo/Asia
+: 1525416478:0;cat /etc/ld.so.conf
+: 1525416497:0;ll /etc/ld.so.conf.d/
+: 1525416567:0;getconf
+: 1525417639:0;mv --help
+: 1525417715:0;gcc -dumpmachine
+: 1525417799:0;gcc -dumpspecs
+: 1525417887:0;gcc --print-libgcc-file-name
+: 1525417917:0;dirname
+: 1525417932:0;dirname /usr/lib/gcc/x86_64-linux-gnu/5/
+: 1525417958:0;dirname /usr/lib/gcc/x86_64-linux-gnu/5/libgcc.s
+: 1525417960:0;dirname /usr/lib/gcc/x86_64-linux-gnu/5/libgcc.a
+: 1525418092:0;cat /usr/lib/gcc/x86_64-linux-gnu/5/libitm.spec
+: 1525418695:0;echo 'main(){}' > dummy.c
+: 1525418701:0;cc dummy.c -v -Wl,--verbose &> dummy.log
+: 1525418708:0;readelf -l a.out | grep ': /lib'
+: 1525418734:0;cat dummy.log
+: 1525418799:0;grep -o '/usr/lib.*/crt[1in].*succeeded' dummy.log
+: 1525418831:0;grep -B1 '^ /usr/include' dummy.log
+: 1525418842:0;grep 'SEARCH.*/usr/lib' dummy.log |sed 's|; |\n|g'
+: 1525418882:0;grep 'SEARCH.*/usr/lib' dummy.log 
+: 1525418892:0;grep 'SEARCH.*/usr/lib' dummy.log |sed 's|; |\n|g'
+: 1525418918:0;grep "/lib.*/libc.so.6 " dummy.log
+: 1525418931:0;grep found dummy.log
+: 1525418947:0;cat dummy.log
+: 1525483916:0;git pull
+: 1525492573:0;git diff
+: 1525492579:0;git status
+: 1525492594:0;rm a.out dummy.c
+: 1525492603:0;git status
+: 1525492616:0;git pull
+: 1525492650:0;git fetch 
+: 1525492692:0;git fetch origin development
+: 1525498514:0;git checkout origin/development
+: 1525656762:0;ssh root@80.74.97.30:2239
+: 1525656781:0;ssh -h
+: 1525656798:0;ssh root@80.74.97.30 -p 2239 
+: 1525656897:0;na
+: 1525656915:0;uname -a
+: 1525658421:0;ifconfig
+: 1525658423:0;ifconfig -a
+: 1525658576:0;lspci -tv
+: 1525658687:0;lspci
+: 1525658845:0;ethtool -i eno1
+: 1525658862:0;ethtool -i eno1 wlp1s0
+: 1525658866:0;ethtool -i wlp1s0
+: 1525659059:0;dhclient -v
+: 1525659072:0;sudo dhclient -v
+: 1525659252:0;mc
+: 1525659587:0;ifconfig -a
+: 1525659599:0;ethtool eno1
+: 1525659628:0;ethtool 
+: 1525659633:0;ethtool -h
+: 1525659660:0;ethtool eno1
+: 1525659705:0;ethtool eno1,wlp1s0
+: 1525659711:0;ethtool eno1|wlp1s0
+: 1525659718:0;ethtool wlp1s0
+: 1525659747:0;sudo ethtool eno1
+: 1525659867:0;ssh root@80.74.97.30 -p 2239 
+: 1525662377:0;lspci -tv
+: 1525662664:0;lspci 
+: 1525672578:0;reboot
+: 1525673390:0;gnome-shell --version
+: 1525673511:0;sudo add-apt-repository ppa:gnome3-team/gnome3-staging
+: 1525673534:0;sudo add-apt-repository ppa:gnome3-team/gnome3
+: 1525673555:0;sudo apt update 
+: 1525673615:0;sudo apt dist-upgrade 
+: 1525674433:0;cd ~/projects/xwdm_fw
+: 1525674437:0;ls
+: 1525674514:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525674522:0;make clean
+: 1525674524:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525674678:0;arm-none-eabi-gdb build/firmware.elf
+: 1525674787:0;make clean
+: 1525674794:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525674830:0;arm-none-eabi-gdb build/firmware.elf
+: 1525674911:0;make clean
+: 1525674916:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525674971:0;sudo apt dist-upgrade 
+: 1525675002:0;arm-none-eabi-gdb build/firmware.elf
+: 1525675074:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525675079:0;arm-none-eabi-gdb build/firmware.elf
+: 1525675741:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525676541:0;git status
+: 1525676547:0;git diff
+: 1525676570:0;git add firmware_util.c lib_cfg/lwip/ethernetif_h7.c main.c
+: 1525676717:0;git branch h7_memory_crash_issue
+: 1525676736:0;git checkout h7_memory_crash_issue
+: 1525676744:0;git status
+: 1525676863:0;git commit -m "data value in 0x30000000 area are changed when enable DMA_I2C_SENSOR_CLK_ENABLE."
+: 1525676882:0;git push --set-upstream origin h7_memory_crash_issue
+: 1525679207:0;sudo apt dist-upgrade 
+: 1525679216:0;reboot
+: 1525680170:0;gnome-shell --version
+: 1525680187:0;sudo apt dist-upgrade 
+: 1525680202:0;sudo apt autoremove
+: 1525680221:0;sudo apt upgrade
+: 1525680227:0;sudo apt update 
+: 1525680240:0;sudo apt upgrade
+: 1525680297:0;sudo apt-get install chrome-gnome-shell
+: 1525680624:0;reboot
+: 1525681895:0;skypeforlinux
+: 1525686044:0;lspci
+: 1525686067:0;ls /
+: 1525686079:0;ls /sys
+: 1525686095:0;ls /sys/bus/pci
+: 1525686104:0;tree /sys/bus/pci
+: 1525691755:0;sudo docker pull twesix/netease-cloud-music
+: 1525692490:0;sudo docker run -d -p 3000:3000 --name netease twesix/netease-music-api
+: 1525692565:0;sudo docker run -d -p 3000:3000 --name netease twesix/netease-cloud-music
+: 1525693140:0;sudo docker container -a
+: 1525693143:0;sudo docker container 
+: 1525693145:0;sudo docker container ls
+: 1525693193:0;sudo docker container stop netease
+: 1525693217:0;sudo docker run -d -i -p 3000:3000 --name netease twesix/netease-cloud-music
+: 1525693223:0;sudo docker run -d -it -p 3000:3000 --name netease twesix/netease-cloud-music
+: 1525693746:0;sudo docker container start netease
+: 1525694352:0;sudo docker pull twesix/netease-music-api
+: 1525746987:0;local 
+: 1525746991:0;local Rhythmbox
+: 1525746998:0;locate Rhythmbox
+: 1525747016:0;cat /usr/share/dbus-1/services/org.gnome.Rhythmbox3.service
+: 1525747042:0;locate rhythmbox
+: 1525747369:0;sudo apt autoremove
+: 1525747427:0;locate rhythmbox
+: 1525747547:0;rm -rf /usr/share/rhythmbox/*
+: 1525747563:0;sudo rm -rf /usr/share/rhythmbox/*
+: 1525747573:0;locate rhythmbox
+: 1525747595:0;rm -rf /usr/share/rhythmbox/**
+: 1525747598:0;rm -rf /usr/share/rhythmbox/*
+: 1525747612:0;locate rhythmbox
+: 1525747623:0;ls /usr/share/rhythmbox/
+: 1525747640:0;ls /usr/share  | grep rhy
+: 1525747663:0;rm -r  /usr/share/rhythmbox/
+: 1525747672:0;sudo rm -r  /usr/share/rhythmbox/
+: 1525747682:0;locate rhythmbox
+: 1525747868:0;locate artwork
+: 1525747905:0;cp /usr/share/icons/hicolor/48x48/status/rhythmbox-missing-artwork.png .
+: 1525747907:0;ls
+: 1525747930:0;mv rhythmbox-missing-artwork.png ~/Desktop
+: 1525747968:0;sudo rm /usr/share/icons/hicolor/48x48/status/rhythmbox-missing-artwork.png 
+: 1525748177:0;systemctl rhythmbox status
+: 1525748188:0;service rhythmbox status
+: 1525748212:0;killall rhythmbox
+: 1525748215:0;service rhythmbox status
+: 1525748304:0;mv ~/Desktop/rhythmbox-missing-artwork.png /usr/share/icons/hicolor/48x48/status/rhythmbox-missing-artwork.png
+: 1525748308:0;sudo mv ~/Desktop/rhythmbox-missing-artwork.png /usr/share/icons/hicolor/48x48/status/rhythmbox-missing-artwork.png
+: 1525748330:0;reboot
+: 1525748469:0;dmesg
+: 1525748508:0;rhythmbox
+: 1525748527:0;sudo apt remove rhythmbox
+: 1525748545:0;sudo apt autoremove
+: 1525748559:0;sudo apt install rhythmbox
+: 1525748830:0;rhythmbox
+: 1525750474:0;sudo  pwck 
+: 1525750894:0;pstree
+: 1525751024:0;fuser rhythmbox
+: 1525751052:0;ps -aux | grep thythmbox
+: 1525751063:0;ps -aux | grep rhythmbox
+: 1525751082:0;prtstat 5216
+: 1525751247:0;peekfd 5216
+: 1525751495:0;w
+: 1525757912:0;cd ~/projects/xwdm_fw
+: 1525757934:0;arm-none-eabi-gdb build/firmware.elf
+: 1525758340:0;make clean
+: 1525758345:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525758767:0;openocd -c gdb_port 3333 -c tcl_port disabled -c telnet_port disabled
+: 1525758804:0;ls
+: 1525758826:0;openocd/bin/openocd -c gdb_port 3333 -c tcl_port disabled -c telnet_port disabled
+: 1525758894:0;history | grep openocd
+: 1525758906:0;openocd/bin/openocd 
+: 1525758922:0;cd ~/projects/xwdm_fw
+: 1525758924:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1525758954:0;mv /home/epanda/.gdbinit /home/epanda/.gdbinit.bak
+: 1525758956:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1525758988:0;openocd/bin/openocd 
+: 1525758998:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1525759029:0;openocd/bin/openocd -c gdb_port 3333
+: 1525759035:0;openocd/bin/openocd 
+: 1525759061:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1525759940:0;git status
+: 1525759982:0;git add lib_cfg/lwip/ethernetif_h7.c
+: 1525760023:0;git diff --staged
+: 1525760150:0;git checkout lib_cfg/lwip/ethernetif_h7.c
+: 1525760155:0;git diff --staged
+: 1525760179:0;git unstaged  lib_cfg/lwip/ethernetif_h7.c
+: 1525760202:0;git --help 
+: 1525760235:0;git checkout --help 
+: 1525760421:0;git rm --cached  lib_cfg/lwip/ethernetif_h7.c
+: 1525760428:0;git diff 
+: 1525760435:0;git status
+: 1525760478:0;git reset   lib_cfg/lwip/ethernetif_h7.c
+: 1525760481:0;git status
+: 1525760494:0;git diff
+: 1525760578:0;git add lib_cfg/lwip/ethernetif_h7.c
+: 1525760647:0;git commit -m "comment cache function"
+: 1525760657:0;git push --set-upstream origin h7_memory_crash_issue
+: 1525760690:0;git branch -a
+: 1525760741:0;git checkout origin/development
+: 1525760746:0;make clean
+: 1525760889:0;git branch -a
+: 1525760924:0;git checkout h7_memory_crash_issue
+: 1525761933:0;make clean
+: 1525761939:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525763195:0;openocd/bin/openocd 
+: 1525763202:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1525766730:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525766742:0;openocd/bin/openocd 
+: 1525766745:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1525766847:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525767569:0;openocd/bin/openocd 
+: 1525767572:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1525767699:0;openocd/bin/openocd 
+: 1525767702:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1525767826:0;touch uint64_test.log
+: 1525769414:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525780230:0;git checkout test
+: 1525780240:0;git branch -h
+: 1525780248:0;git branch test
+: 1525780253:0;git checkout test
+: 1525780264:0;git diff
+: 1525780288:0;git status
+: 1525780294:0;git add main.c
+: 1525780312:0;git commit -m "local test"
+: 1525780322:0;git branch -a
+: 1525780438:0;git checkout origin/development
+: 1525780636:0;git pull
+: 1525780694:0;git checkout -b fix_update_firmware
+: 1525780706:0;git checkout test
+: 1525781001:0;git checkout  fix_update_firmware
+: 1525781013:0;git add firmware_util.c
+: 1525781015:0;git checkout  fix_update_firmware
+: 1525781061:0;git commit -m "local test"
+: 1525781064:0;git checkout  fix_update_firmware
+: 1525781107:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525781142:0;git status
+: 1525781146:0;git diff
+: 1525781619:0;git log
+: 1525781635:0;git diff b9238124e69adfd3cf00521532a1b1a86227be51
+: 1525781660:0;git log b9238124e69adfd3cf00521532a1b1a86227be51
+: 1525781674:0;git log b923812
+: 1525781697:0;git status -h
+: 1525781711:0;git log -h
+: 1525781726:0;git  b9238124e69adfd3cf00521532a1b1a86227be51
+: 1525781733:0;git commit  b9238124e69adfd3cf00521532a1b1a86227be51
+: 1525781755:0;git branch -h
+: 1525781796:0;git branch -m fix_update_firmware fix_update_firmware_function
+: 1525781814:0;git push --set-upstream origin fix_update_firmware_function
+: 1525783631:0;l
+: 1525828956:0;git checkout origin/development
+: 1525829022:0;git checkout -b h7_disable_cache
+: 1525829053:0;vim
+: 1525829284:0;git status
+: 1525829291:0;git diff
+: 1525829502:0;git add firmware_util.c lib_cfg/lwip/ethernetif_h7.c 
+: 1525829604:0;git commit  -m "disable cache."
+: 1525829639:0;git log 20e48ad4
+: 1525829667:0;git diff  20e48ad4
+: 1525829695:0;git log 
+: 1525829719:0;git diff  20e48ad4 origin/development
+: 1525829748:0;git diff origin/development 20e48ad4
+: 1525829808:0;git push --set-upstream origin h7_disable_cache
+: 1525831800:0;git checkout test
+: 1525831848:0;git diff origin/development test
+: 1525832682:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525833200:0;openocd/bin/openocd 
+: 1525833213:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1525834917:0;git status
+: 1525834926:0;git add main.c
+: 1525834940:0;git commit -m 'test'
+: 1525834952:0;git br
+: 1525834956:0;git branch
+: 1525835007:0;git checkout fix_update_firmware_function
+: 1525835021:0;vim
+: 1525835737:0;git diff
+: 1525835961:0;git status
+: 1525835969:0;git add firmware_util.c
+: 1525836014:0;git commit -m 'fix start sector and number sector'
+: 1525836022:0;git push
+: 1525836345:0;git checkout test
+: 1525836572:0;make clean
+: 1525836584:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525846481:0;git -
+: 1525846922:0;git status
+: 1525846927:0;git diff
+: 1525847729:0;make clean
+: 1525847738:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525849408:0;make clean
+: 1525849411:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525851900:0;make clean
+: 1525851901:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525852477:0;make clean
+: 1525852478:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525852650:0;hexdump build/firmware.bin
+: 1525852858:0;hexdump build/firmware.bin -v
+: 1525853094:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525853126:0;hexdump build/firmware.bin -v
+: 1525853133:0;hexdump build/firmware.bin 
+: 1525853308:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525853327:0;hexdump build/firmware.bin 
+: 1525853404:0;make clean
+: 1525853406:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525853547:0;hexdump build/firmware.bin 
+: 1525853958:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525854016:0;hexdump build/firmware.bin 
+: 1525854152:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525854166:0;hexdump build/firmware.bin 
+: 1525854184:0;hexdump -h
+: 1525854200:0;hexdump --help
+: 1525854209:0;man hexdump
+: 1525854263:0;hexdump build/firmware.bin -bx
+: 1525854283:0;man hexdump
+: 1525854337:0;hexdump build/firmware.bin -c
+: 1525854341:0;hexdump build/firmware.bin -cx
+: 1525854356:0;hexdump build/firmware.bin 
+: 1525854433:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525854463:0;hexdump build/firmware.bin 
+: 1525854504:0;git diff
+: 1525854513:0;git status
+: 1525854529:0;git add main.c linker_script/h7_firmware.ld
+: 1525854556:0;git commit -m 'fix firmware size'
+: 1525863853:0;sudo apt upgrade
+: 1525864040:0;yes
+: 1525864051:0;yes epanda
+: 1525864248:0;readline
+: 1525865675:0;ssh root@80.74.97.30 -p 2239 
+: 1525915221:0;git checkout fix_update_firmware_function
+: 1525922493:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525922502:0;make clean
+: 1525922504:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525930524:0;git diff 
+: 1525930738:0;git status
+: 1525930748:0;git add firmware_util.c
+: 1525930819:0;git commit -m 'error whole the flash FW space'
+: 1525930825:0;git push
+: 1525934390:0;mv STM32H743xI\ Errata\ sheet.pdf /var/www/html/STM32H753I
+: 1525937379:0;git checkout test
+: 1525937423:0;git merge fix_update_firmware_function
+: 1525937499:0;git diff 
+: 1525937507:0;git status
+: 1525937515:0;git diff firmware_util.c
+: 1525937527:0;git add firmware_util.c
+: 1525937543:0;git diff --staged
+: 1525937577:0;git commit
+: 1525937998:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525938189:0;git diff
+: 1525938205:0;git add main.c
+: 1525938234:0;git commit -m 'add flash test funciton.'
+: 1525938283:0;git branch -m test fw_update_test
+: 1525938303:0;git pull
+: 1525938335:0;git merge origin/feature/H7_SD_card
+: 1525938421:0;git merge --abort
+: 1525938444:0;git checkout feature/H7_SD_card
+: 1525938457:0;git pull
+: 1525938469:0;git log
+: 1525938493:0;git merge fw_update_test
+: 1525938508:0;git merge --abort
+: 1525938534:0;git checkout fw_update_test
+: 1525938548:0;git merge origin/feature/H7_SD_card
+: 1525938614:0;git status
+: 1525938627:0;git diff main.c
+: 1525938645:0;git add main.c
+: 1525938650:0;git status
+: 1525938725:0;git diff firmware_util.c
+: 1525938732:0;git status
+: 1525938754:0;git diff firmware_util.c
+: 1525938762:0;git add firmware_util.c
+: 1525938838:0;git diff lib_cfg/lwip/ethernetif_h7.c
+: 1525938850:0;git add lib_cfg/lwip/ethernetif_h7.c
+: 1525938865:0;git commit
+: 1525938946:0;git branch -m fw_update_test test_large_fw_size_update
+: 1525938989:0;git push --set-upstream origin test_large_fw_size_update
+: 1525939113:0;make clean
+: 1525939123:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525939155:0;make clean
+: 1525939160:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525939165:0;make clean
+: 1525939175:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525941277:0;make clean
+: 1525941279:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525941599:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1525941610:0;openocd/bin/openocd 
+: 1525941616:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1525941711:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525941747:0;make clean
+: 1525941752:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1525954061:0;git status
+: 1525954072:0;git add main.c linker_script/h7_firmware.ld
+: 1525954147:0;git commit -m 'adjust flash sector boundary'
+: 1525954151:0;git push
+: 1525956318:0;systemd-cgls
+: 1525956402:0;systemd-cgtop
+: 1526005808:0;sudo apt-cache search  chm
+: 1526005880:0;sudo apt-get install chmsee
+: 1526005894:0;sudo apt-get install xchm
+: 1526005945:0;sudo apt-get remove xchm
+: 1526005958:0;sudo apt autoremove
+: 1526006595:0;systemd-networkd
+: 1526006622:0;systemd 
+: 1526006626:0;systemd -v
+: 1526006633:0;systemd --version
+: 1526006825:0;ip link
+: 1526010632:0;ifconfig -
+: 1526010634:0;ifconfig 
+: 1526017319:0;cat /etc/hos
+: 1526017330:0;cat /etc/hosts
+: 1526017455:0;man 
+: 1526017476:0;man resolv.conf
+: 1526017516:0;cat /etc/resolv.conf
+: 1526017547:0;cat /etc/sysconfig/network
+: 1526017562:0;ls /etc/sysconfig/network
+: 1526019154:0;ssh root@172.16.34.130
+: 1526019300:0;ls
+: 1526019308:0;cd ~/projects/
+: 1526019311:0;ls
+: 1526019362:0;scp centostrap root@172.16.34.130:/home
+: 1526019374:0;scp -d centostrap root@172.16.34.130:/home
+: 1526019877:0;ls
+: 1526024857:0;git diff
+: 1526260823:0;skypeforlinux
+: 1526263840:0;ssh root@172.16.34.130
+: 1526265936:0;cd ~/Desktop/stmh7/openocd_cfg
+: 1526265937:0;ls
+: 1526265943:0;openocd/bin/openocd 
+: 1526265960:0;cd ~/projects/xwdm_fw
+: 1526265960:0;ls
+: 1526266174:0;git pull
+: 1526266612:0;git checkout feature/H7_SD_card
+: 1526266620:0;git pull
+: 1526266679:0;git status
+: 1526266683:0;git log
+: 1526266701:0;make clean
+: 1526266715:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1526266763:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1526266845:0;openocd/bin/openocd 
+: 1526266850:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1526266924:0;openocd/bin/openocd 
+: 1526266932:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1526266987:0;openocd/bin/openocd 
+: 1526266993:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1526267110:0;make clean
+: 1526267121:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1526267567:0;touch centosstrap.log
+: 1526268927:0;killall gparted
+: 1526268940:0;ps -aux | grep gpart
+: 1526269105:0;dmesg
+: 1526276797:0;fsck
+: 1526276927:0;fdick
+: 1526276932:0;fdisk
+: 1526276941:0;fdisk -l
+: 1526276957:0;sudo fdisk -l
+: 1526279888:0;make clean
+: 1526279911:0;git checkout 
+: 1526279947:0;git checkout fw_update_test
+: 1526279961:0;git branch -a
+: 1526279999:0;git checkout test_large_fw_size_update
+: 1526280005:0;make clean
+: 1526280152:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1526280401:0;make clean
+: 1526280413:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526280457:0;git merge origin/feature/H7_SD_card
+: 1526280468:0;git status
+: 1526280545:0;make clean
+: 1526280547:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526280613:0;git diff
+: 1526280696:0;git merge origin/feature/H7_SD_card
+: 1526280977:0;git status
+: 1526280997:0;git commit 
+: 1526281011:0;make clean
+: 1526281014:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526282215:0;touch version_lock.conf
+: 1526282548:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526282909:0;make clean
+: 1526282924:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526283027:0;make clean
+: 1526283031:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526283924:0;make clean
+: 1526283927:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526284084:0;make clean
+: 1526284090:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526284201:0;make clean
+: 1526284209:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526284252:0;lo
+: 1526284379:0;make clean
+: 1526284394:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526284398:0;make clean
+: 1526284404:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526287127:0;make clean
+: 1526287142:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526287226:0;git checkout test_large_fw_size_update
+: 1526287290:0;make clean
+: 1526288251:0;ls
+: 1526288272:0;bash release.sh
+: 1526288275:0;ls
+: 1526288583:0;pwd
+: 1526288666:0;ll
+: 1526288683:0;chmod -R 777 current
+: 1526288719:0;cp -r current ../4621-00003
+: 1526288723:0;cp -r current ../4621-00002
+: 1526288726:0;cp -r current ../4621-00001
+: 1526288729:0;cp -r current ../4621-00000
+: 1526288753:0;cd ..
+: 1526288754:0;ls
+: 1526288798:0;git diff
+: 1526288803:0;git status
+: 1526288818:0;rm -d release
+: 1526288825:0;rm -rf release
+: 1526288828:0;ls
+: 1526288832:0;git status
+: 1526288841:0;make clean
+: 1526288844:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526290533:0;hexdump *.bin 
+: 1526290562:0;hexdump -h
+: 1526290574:0;man hexdump
+: 1526290600:0;hexdump *.bin  -s 0x180
+: 1526290604:0;man hexdump
+: 1526290631:0;hexdump *.bin  -s 0x180 -n 0x10
+: 1526290639:0;man hexdump
+: 1526290695:0;hexdump *.bin  -s 0x180 -n 16
+: 1526290710:0;hexdump *.bin  -s 0x170 -n 32
+: 1526290818:0;cat *.bin | wc -c | tr -d " "
+: 1526290876:0;printf "%08X" $(cat EVAL_large_fw_test.bin | wc -c | tr -d " ") 
+: 1526290936:0;hexdump *.bin  -s 0x180 -n 32
+: 1526296332:0;printf "%08X" $(cat EVAL_large_fw_test.bin | wc -c | tr -d " ") 
+: 1526296353:0;hexdump EVAL_large_fw_test.bin  -s 0x180 -n 32
+: 1526348324:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526349503:0;git diff
+: 1526350239:0;openocd/bin/openocd 
+: 1526350243:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1526351199:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526352467:0;git status
+: 1526352473:0;git diff
+: 1526353909:0;git add firmware_util.c
+: 1526353929:0;git diff --staged
+: 1526354028:0;git commit -m 'erase flash size base on the binary file size'
+: 1526362805:0;git status
+: 1526362891:0;git diff fix_update_firmware_function
+: 1526363383:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526363403:0;make clean
+: 1526363416:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526364277:0;openocd/bin/openocd 
+: 1526364307:0;make clean
+: 1526364312:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526364345:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1526365079:0;openocd/bin/openocd 
+: 1526365084:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1526365430:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1526365510:0;make clean
+: 1526365516:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1526365920:0;make clean
+: 1526365934:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526368064:0;git push
+: 1526368076:0;git status
+: 1526368087:0;git diff
+: 1526368108:0;git reset   main.c
+: 1526368115:0;git status
+: 1526368131:0;git checkout main.c
+: 1526368541:0;hexdump EVAL_large_fw_test.bin  -s 0x180 -n 32
+: 1526368542:0;ls
+: 1526368589:0;hexdump eval_rev00_fw_ver00015.bin  -s 0x180 -n 32
+: 1526368617:0;hexdump eval_rev00_fw_ver00015.bin  -s 0xfffff -n 32
+: 1526368624:0;hexdump eval_rev00_fw_ver00015.bin  -s 0xffff -n 32
+: 1526368630:0;hexdump eval_rev00_fw_ver00015.bin  -s 0xffff -n 64
+: 1526368650:0;hexdump eval_rev00_fw_ver00015.bin  -s 0xffff0 -n 64
+: 1526368676:0;hexdump eval_rev00_fw_ver00015.bin  -s 0xefff0 -n 64
+: 1526368693:0;hexdump eval_rev00_fw_ver00015.bin  -s 0xdffff -n 64
+: 1526368701:0;hexdump eval_rev00_fw_ver00015.bin  -s 0xdfff0 -n 64
+: 1526368715:0;hexdump eval_rev00_fw_ver00015.bin  -s 0xdffe0 -n 64
+: 1526368721:0;hexdump eval_rev00_fw_ver00015.bin  -s 0xdffe0 -n 100
+: 1526368731:0;hexdump eval_rev00_fw_ver00015.bin  -s 0xdffe0 -n 96
+: 1526368863:0;man hexdump
+: 1526368885:0;hexdump eval_rev00_fw_ver00015.bin  -s 0xdffe0 -n 96 -x
+: 1526368887:0;hexdump eval_rev00_fw_ver00015.bin  -s 0xdffe0 -n 96 -c
+: 1526368890:0;hexdump eval_rev00_fw_ver00015.bin  -s 0xdffe0 -n 96 -C
+: 1526369432:0;dmesg
+: 1526369957:0;pwd
+: 1526373604:0;hwclock --localtime --show
+: 1526373611:0;sudo hwclock --localtime --show
+: 1526373787:0;git diff
+: 1526374118:0;locale -a
+: 1526384266:0;journalctl -b
+: 1526384523:0;ls /usr/lib/
+: 1526384566:0;ls /usr/lib/tmpfiles.d/
+: 1526384588:0;ls /etc/tmpfiles.d
+: 1526384649:0;ls c/systemd/system
+: 1526384659:0;ls /etc/systemd/system
+: 1526384705:0;cat  /etc/systemd/system/sshd.service
+: 1526384968:0;systemctl list-units -t service
+: 1526385037:0;systemctl list-units -t target 
+: 1526385059:0;systemctl show -p Wants multi-user.target 
+: 1526385069:0;systemctl status sshd.service 
+: 1526385127:0;systemctl status apache2.service
+: 1526385152:0;systemctl status ninja.service
+: 1526385163:0;systemctl status v2ray.service
+: 1526385375:0;man 5 fstab
+: 1526386145:0;sudo cat System.map-4.4.0-124-generic
+: 1526386289:0;diff config-4.4.0-124-generic config-4.13.0-32-generic
+: 1526386306:0;diff -uN  config-4.4.0-124-generic config-4.13.0-32-generic
+: 1526439949:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526440214:0;git status 
+: 1526440221:0;git add xwdm_crypto.c
+: 1526440259:0;git commit -m 'include stm32xx header file'
+: 1526440268:0;git push
+: 1526450999:0;cd ~/De
+: 1526451008:0;cd ~/Desktop
+: 1526451010:0;ls
+: 1526451014:0;wget https://silicom.ftptoday.com/Files.Download.File/VID_20180507_164713.mp4
+: 1526452069:0;sudo apt-get install gftp
+: 1526453202:0;gftp
+: 1526461039:0;ssh root@vpandav.com
+: 1526461220:0;ping vpandav.com
+: 1526525426:0;make clean
+: 1526525432:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526525473:0;make clean
+: 1526525481:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1526525515:0;make clean
+: 1526525530:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1526525587:0;git status 
+: 1526525596:0;git add Makefile
+: 1526525608:0;git add lib_cfg/cube/STM32Cube_FW_H7_V1.1.0/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/startup_stm32h743xx_patch.s lib_cfg/cube/STM32Cube_FW_H7_V1.1.0/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/startup_stm32h753xx_patch.s
+: 1526525640:0;git commit -m 'delete startup file patch.'
+: 1526526827:0;make FW=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1526526844:0;make clean
+: 1526526850:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1526527328:0;openocd/bin/openocd 
+: 1526527332:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1526527727:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1526535535:0;openocd/bin/openocd 
+: 1526535540:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1526535632:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1526538063:0;openocd/bin/openocd 
+: 1526538066:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1526538159:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1526538414:0;make clean
+: 1526538419:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1526538849:0;openocd/bin/openocd 
+: 1526538854:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1526539084:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1526539674:0;git push --set-upstream origin adjust_dma_section_data_initialization
+: 1526542692:0;mkdir -p /var/www/html/aaron
+: 1526542718:0;cp VID_20180507_16* /var/www/html/aaron
+: 1526629300:0;make clean
+: 1526629305:0;make BL=1 EVAL_FRONT=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1526629334:0;make clean
+: 1526629350:0;make FW=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526629387:0;git status 
+: 1526629395:0;git add firmware_util.c
+: 1526629480:0;git commit -m 'delete unnecessary macro definition'
+: 1526629485:0;git push
+: 1526711704:0;git checkout feature/H7_SD_card
+: 1526711708:0;git pull
+: 1526711740:0;make clean
+: 1526711760:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526711910:0;openocd/bin/openocd 
+: 1526711931:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1526712190:0;git checkout test_large_fw_size_update
+: 1526712202:0;git merge origin/feature/H7_SD_card
+: 1526712213:0;git status
+: 1526712259:0;git diff main.c
+: 1526712302:0;vim main.c
+: 1526712449:0;git diff main.c
+: 1526712487:0;vim main.c
+: 1526712554:0;git add main.c
+: 1526712563:0;git commit
+: 1526712577:0;git push
+: 1526712596:0;make clean
+: 1526712601:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1526712636:0;openocd/bin/openocd 
+: 1526712639:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1526713271:0;openocd/bin/openocd 
+: 1526713277:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1526713419:0;openocd/bin/openocd 
+: 1526713433:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1526713827:0;openocd/bin/openocd 
+: 1526868011:0;ssh epanda@192.168.40.201
+: 1526868328:0;pwd
+: 1526868338:0;cd Downloads
+: 1526868355:0;sudo dpkg -i teamviewer_13.1.3026_amd64.deb
+: 1526868421:0;ssh epanda@192.168.40.201
+: 1526868447:0;sudo apt --fix-broken install
+: 1526873493:0;sudo apt 
+: 1526901589:0;ssh root@192.168.40.201
+: 1526901634:0;ssh-keygen -f "/home/epanda/.ssh/known_hosts" -R 192.168.40.201
+: 1526901636:0;ssh root@192.168.40.201
+: 1526904542:0;scp /home/epanda/kernel-devel-3.10.0-862.el7.x86_64.rpm root@192.168.40.201:/home/epanda
+: 1526905606:0;scp /home/epanda/bp_ctl-5.2.0.35.tar.gz root@192.168.40.201:/home/epanda
+: 1526905614:0;ssh root@192.168.40.201
+: 1526953131:0;mc
+: 1526953144:0;sudo apt install mc
+: 1526953175:0;mc
+: 1526953238:0;1
+: 1526953317:0;vi
+: 1526953528:0;left
+: 1526953532:0;file
+: 1526953914:0;mc
+: 1526953922:0;pwd
+: 1526954473:0;ssh root@192.168.40.201
+: 1526954617:0;touch rj_cmd
+: 1526959274:0;uname -r
+: 1526959303:0;sudo apt-cache search linux-image
+: 1526959396:0;uname -a
+: 1526960022:0;lsb_release -s -rdc
+: 1526960037:0;update-grub --version
+: 1526960242:0;reboot
+: 1526960307:0;ssh root@192.168.40.201
+: 1526967648:0;touch centos_his
+: 1526972394:0;ssh root@192.168.40.201
+: 1526976760:0;pwd
+: 1526976773:0;cd ~/Desktop/RJ
+: 1526976805:0;mv ~/a.out .
+: 1526976806:0;ls
+: 1526976888:0;gedit a.out
+: 1526976958:0;cp a.out /var/www/html
+: 1526977328:0;mv ~/a0.out .
+: 1526977330:0;ls
+: 1526977344:0;cp a0.out /var/www/html/aaron
+: 1526977348:0;cp a.out /var/www/html/aaron
+: 1526978840:0;ssh root@192.168.40.201
+: 1526981483:0;touch run_tool.sh
+: 1526981490:0;vim run_tool.sh
+: 1526981758:0;ssh root@192.168.40.201
+: 1526981878:0;scp runtool.sh root@192.168.40.201:/root
+: 1526981978:0;vim run_tool.sh
+: 1526981999:0;vim runtool.sh
+: 1526982042:0;scp runtool.sh root@192.168.40.201:/root
+: 1526982048:0;ssh root@192.168.40.201
+: 1526982358:0;vim runtool.sh
+: 1526982720:0;ssh root@192.168.40.201
+: 1526986869:0;minicom
+: 1526986881:0;sudo apt install minicom
+: 1526986918:0;minicom
+: 1526986924:0;sudo minicom
+: 1526986976:0;sudo minicom -S
+: 1526987011:0;sudo minicom -s
+: 1526987048:0;ls /dev/
+: 1526987200:0;sudo minicom -s
+: 1526987265:0;sudo minicom
+: 1526988753:0;ssh root@192.168.40.201
+: 1526990903:0;ssh root@192.168.40.201 -p epanda
+: 1526990907:0;ssh root@192.168.40.201 
+: 1526991010:0;ssh
+: 1526991080:0;ssh root@192.168.40.201 
+: 1526991366:0;ssh root@192.168.40.201 --passsword epanda
+: 1526991372:0;ssh root@192.168.40.201 
+: 1526991485:0;sshpass
+: 1526991568:0;ssh root@192.168.40.201 
+: 1526994811:0;mv ~/a0_2111.out /var/www/html/aaron
+: 1527041407:0;man ifconfig
+: 1527041542:0;man ethtool
+: 1527042773:0;ssh root@192.168.40.201 
+: 1527043397:0;sudo apt install sshpass
+: 1527043422:0;sshpass
+: 1527043492:0;sshpass -p 'epanda'  ssh root@192.168.40.201 
+: 1527043667:0;man ethtool
+: 1527054370:0;cp i40e-2.4.6.tar.gz slcmi_2.0.2.tar.gz /var/www/html/aaron
+: 1527062757:0;sshpass -p 'epanda'  ssh root@192.168.40.201 
+: 1527064722:0;touch rjrate.sh
+: 1527066404:0;sshpass -p 'epanda'  ssh root@192.168.40.201 
+: 1527067738:0;cat f0.data
+: 1527067752:0;touch f0.data
+: 1527068201:0;dmesg -n
+: 1527068321:0;sshpass -p 'epanda'  ssh root@192.168.40.201 
+: 1527068376:0;ping 192.168.40.201
+: 1527068452:0;sshpass -p 'epanda'  ssh root@192.168.40.201 
+: 1527068652:0;make
+: 1527068714:0;make cean
+: 1527068718:0;make clean
+: 1527068953:0;pwd
+: 1527077054:0;sshpass -p 'epanda'  ssh root@192.168.40.201 
+: 1527085844:0;cp i40e-2.4.6.tar.gz slcmi_2.0.2.tar.gz /var/www/html/aaron
+: 1527085859:0;sshpass -p 'epanda'  ssh root@192.168.40.201 
+: 1527087192:0;poweroff
+: 1527146820:0;cd ~/projects/xwdm_fw
+: 1527146822:0;ls
+: 1527146843:0;cd ~/Desktop/stmh7/openocd_cfg
+: 1527146850:0;./openocd
+: 1527146855:0;ls
+: 1527146871:0;cd ..
+: 1527146872:0;ls
+: 1527146881:0;openocd/bin/openocd 
+: 1527146887:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1527146898:0;make clean
+: 1527146911:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1527147690:0;vim
+: 1527147794:0;make clean
+: 1527147802:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1527148238:0;git diff
+: 1527148255:0;git checkout Makefile
+: 1527148930:0;vim
+: 1527149514:0;openocd/bin/openocd 
+: 1527216724:0;wc 
+: 1527216727:0;ls
+: 1527216745:0;wc -c openocd.cfg
+: 1527216755:0;man wc
+: 1527230331:0;git checkout fix_update_firmware_function
+: 1527230339:0;git log
+: 1527231516:0;make clean
+: 1527231523:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1527231969:0;openocd/bin/openocd 
+: 1527231981:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1527232174:0;git checkout test_large_fw_size_update
+: 1527232190:0;git merge fix_update_firmware_function
+: 1527232198:0;git diff
+: 1527232217:0;vim
+: 1527232536:0;make clean
+: 1527232539:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1527234235:0;systemd-analyze
+: 1527234256:0;systemd-analyze blame
+: 1527234359:0;systemd-analyze critical-chain
+: 1527234461:0;hostnamectl
+: 1527234628:0;localectl
+: 1527234756:0;timedatectl
+: 1527234812:0;loginctl
+: 1527234953:0;loginctl user-status
+: 1527234976:0;q
+: 1527234978:0;loginctl user-status
+: 1527235068:0;loginctl activate
+: 1527235099:0;loginctl list-sessions
+: 1527235131:0;loginctl show-user
+: 1527235301:0;systemctl list-units
+: 1527235439:0;systemctl list-units --all
+: 1527235508:0;systemctl status
+: 1527240848:0;ls/usr/lib/systemd/system/
+: 1527240851:0;ls /usr/lib/systemd/system/
+: 1527240870:0;ls /usr/lib/systemd/
+: 1527240875:0;ls /usr/lib/systemd/boot
+: 1527240881:0;ls /usr/lib/systemd/user
+: 1527240904:0;ls /etc/systemd/system/
+: 1527240963:0;sudo systemctl disable snap.service
+: 1527240981:0;sudo systemctl disable snapd.service
+: 1527240984:0;ls /etc/systemd/system/
+: 1527241021:0;sudo systemctl disable snapd
+: 1527241048:0;systemctl list-unit-files
+: 1527241338:0;systemctl status bluetooth
+: 1527469643:0;+
+: 1527474220:0;systemctl list-unit-files --type=target
+: 1527474317:0;systemctl list-dependencies multi-user.target
+: 1527474360:0;systemctl list-unit-files --type=target
+: 1527474382:0;systemctl list-dependencies multi-user.target
+: 1527474974:0;ls /lib/systemd/system
+: 1527475023:0;cat /lib/systemd/system/bluetooth.target
+: 1527475057:0;systemctl list-dependencies bluetooth.target
+: 1527475151:0;ls /etc/systemd/system
+: 1527476596:0;journalctl 
+: 1527476622:0;dmesg
+: 1527476816:0;sudo journalctl -u nginx.service -f
+: 1527476848:0;sudo journalctl -u nginx.service
+: 1527476882:0;sudo journalctl --disk-usage
+: 1527477809:0;ls /lib/modules/`uname -r`/kernel/drivers/net
+: 1527477838:0;ls /lib/modules/`uname -r`/kernel/drivers/net/..
+: 1527477867:0;ls /lib/modules/4.13.0-32-generic/kernel/drivers/net/../blu
+: 1527477874:0;ls /lib/modules/4.13.0-32-generic/kernel/drivers/net/../bluetooth
+: 1527477945:0;ls /lib/modules/`uname -r`/kernel/drivers/net
+: 1527478097:0;ls /lib/modules/`uname -r`/kernel/drivers/net/..
+: 1527478104:0;ls /lib/modules/`uname -r`/kernel/drivers/net/../spi
+: 1527479748:0;systemctl show appache
+: 1527479820:0;systemctl show bluetooth
+: 1527486137:0;z
+: 1527486147:0;6
+: 1527486152:0;z 6
+: 1527486154:0;ls
+: 1527486211:0;z 810
+: 1527486213:0;pwd
+: 1527486366:0;z
+: 1527486372:0;z x
+: 1527486387:0;git checkout fix_update_firmware_function
+: 1527486396:0;vim
+: 1527486459:0;git diff
+: 1527486489:0;git add firmware_util.c
+: 1527486508:0;git commit -m 'fix bug'
+: 1527486512:0;git push
+: 1527491857:0;touch switch_cmd
+: 1527496009:0;cat /etc/group
+: 1527496405:0;skypeforlinux
+: 1527506909:0;bash
+: 1527506951:0;exit
+: 1527506953:0;ex
+: 1527560503:0;sshpass -p 'root'  ssh root@172.16.34.132 
+: 1527560507:0;ls
+: 1527560513:0;sshpass -p 'root'  ssh root@172.16.34.132 
+: 1527560815:0;sshpass -p 'root'  ssh root@172.16.34.131
+: 1527560828:0;ssh root@172.16.34.131
+: 1527560999:0;uname -a
+: 1527564770:0;cat /etc/fstab
+: 1527564899:0;blkid
+: 1527565361:0;blkid -h
+: 1527565402:0;blkid -k
+: 1527565431:0;blkid -h
+: 1527575466:0;ls
+: 1527575484:0;pwd
+: 1527575509:0;ls /proc
+: 1527575514:0;ls projects
+: 1527575521:0;ls
+: 1527575531:0;ls github
+: 1527575537:0;cd github/rt-thread
+: 1527575540:0;ls
+: 1527575545:0;git diff
+: 1527575552:0;git status
+: 1527575640:0;ls
+: 1527575661:0;scons
+: 1527575677:0;sudo apt install scons
+: 1527575693:0;scons
+: 1527575742:0;ls
+: 1527575750:0;ls tools
+: 1527575779:0;ls
+: 1527575820:0;cd bsp/stm32h743-nucleo/
+: 1527575821:0;ls
+: 1527575829:0;scons
+: 1527575841:0;vim
+: 1527576327:0;scons
+: 1527576340:0;ls
+: 1527576392:0;mc
+: 1527576715:0;scons
+: 1527576761:0;make
+: 1527576768:0;scons
+: 1527576773:0;scons clean
+: 1527576785:0;scons 
+: 1527576795:0;mc
+: 1527576858:0;which arm-none-eabi-gcc
+: 1527576986:0;scons 
+: 1527576993:0;MC
+: 1527576995:0;mc
+: 1527577050:0;scons 
+: 1527577358:0;mc
+: 1527577549:0;ls
+: 1527577556:0;mc
+: 1527577663:0;mv /home/epanda/github/rt-thread/include/libc/libc_signal.h /home/epanda/github/rt-thread/include/libc/libc_signal.h.bak
+: 1527577667:0;scons 
+: 1527577690:0;ls
+: 1527577724:0;ls /home/epanda/github/rt-thread/include/
+: 1527577777:0;mv /home/epanda/github/rt-thread/include/libc/libc_signal.h.bak /home/epanda/github/rt-thread/include/
+: 1527577831:0;mv /home/epanda/github/rt-thread/include/libc_signal.h.bak /home/epanda/github/rt-thread/include/libc/libc_signal.h
+: 1527577835:0;scons 
+: 1527577846:0;scons clean
+: 1527577996:0;scons -c
+: 1527578000:0;scons
+: 1527578032:0;ls /home/epanda/github/rt-thread/include/libc/
+: 1527578052:0;mv /home/epanda/github/rt-thread/include/libc/libc_signal.h /home/epanda/github/rt-thread/include/libc/libc_signal.h.bak
+: 1527578055:0;scons -c
+: 1527578058:0;scons
+: 1527578122:0;cat /home/epanda/github/rt-thread/include/rtlibc.h
+: 1527578234:0;scons
+: 1527578260:0;ls /home/epanda/github/rt-thread/include/
+: 1527578272:0;ls /home/epanda/github/rt-thread/include/libc
+: 1527578309:0;git status
+: 1527578342:0;git reset ../../include/libc/libc_signal.h
+: 1527578345:0;git status
+: 1527578376:0;git reset ../../include/libc/libc_signal.h
+: 1527578389:0;git reset libc_signal.h
+: 1527578424:0;cd ../
+: 1527578425:0;ls
+: 1527578427:0;cd ..
+: 1527578428:0;ls
+: 1527578433:0;git status
+: 1527578444:0;git reset include/libc/libc_signal.h.
+: 1527578447:0;git reset include/libc/libc_signal.h
+: 1527578490:0;git status
+: 1527578497:0;scons
+: 1527578511:0;ls
+: 1527578546:0;rm include/libc/libc_signal.h.bak
+: 1527578551:0;git status
+: 1527578570:0;git checkout include/libc/libc_signal.h
+: 1527578573:0;git status
+: 1527578581:0;scons
+: 1527578605:0;mv /home/epanda/github/rt-thread/include/libc/libc_signal.h /home/epanda/github/rt-thread/include/libc/libc_signal.h.bak
+: 1527578606:0;scons
+: 1527578638:0;git status
+: 1527578645:0;git checkout include/libc/libc_signal.h
+: 1527578648:0;git status
+: 1527578660:0;git checkout include/libc/libc_signal.h
+: 1527578666:0;git checkout ../../include/libc/libc_signal.h
+: 1527578669:0;git status
+: 1527578676:0;scons
+: 1527578696:0;ls /home/epanda/toolchain/arm-none-eabi/include/sys/
+: 1527578741:0;mv  /home/epanda/toolchain/arm-none-eabi/include/sys/signal.h /home/epanda/toolchain/arm-none-eabi/include/sys/signal.h.bak 
+: 1527578745:0;scons
+: 1527578777:0;mv  /home/epanda/toolchain/arm-none-eabi/include/sys/signal.h.bak /home/epanda/toolchain/arm-none-eabi/include/sys/signal.h
+: 1527578797:0;scons -c
+: 1527578800:0;scons
+: 1527579263:0;scons -c
+: 1527579266:0;scons
+: 1527579366:0;scons -c
+: 1527579369:0;scons
+: 1527580204:0;scons -c
+: 1527580207:0;scons
+: 1527580470:0;git statusmc
+: 1527580472:0;mc
+: 1527583643:0;scons
+: 1527585331:0;scons -c
+: 1527585334:0;scons
+: 1527587389:0;cat /proc/cpuinfo
+: 1527587631:0;scons
+: 1527587719:0;env
+: 1527593629:0;scons
+: 1527593925:0;echo $PATH
+: 1527593977:0;ls /home/epanda/toolchain/bin
+: 1527593991:0;PATH=
+: 1527593997:0;PATH=""
+: 1527594016:0;e=y
+: 1527594050:0;export PATH=
+: 1527594054:0;export PATH=""
+: 1527594058:0;export PATH=''
+: 1527594079:0;echo $PATH
+: 1527594091:0;cons
+: 1527594096:0;scons
+: 1527594104:0;set
+: 1527594108:0;env
+: 1527594112:0;exit
+: 1527594118:0;env
+: 1527594128:0;ls
+: 1527594140:0;cd bsp/stm32h743-nucleo/
+: 1527594141:0;ls
+: 1527594144:0;con
+: 1527594150:0;scons
+: 1527594207:0;ls
+: 1527594209:0;cd ../..
+: 1527594210:0;ls
+: 1527594212:0;cd examples
+: 1527594212:0;ls
+: 1527594220:0;cd test
+: 1527594220:0;ls
+: 1527594228:0;c ..
+: 1527594232:0;../..
+: 1527594234:0;ls
+: 1527594256:0;scons
+: 1527594260:0;ls
+: 1527594263:0;cd bsp/stm32h743-nucleo/
+: 1527594265:0;scons
+: 1527594440:0;pwd
+: 1527594649:0;scons -c
+: 1527594652:0;scons 
+: 1527594727:0;which arm-none-eabi-gcc
+: 1527594759:0;scons 
+: 1527594799:0;scons -c
+: 1527594802:0;scons 
+: 1527594868:0;scons -c
+: 1527594870:0;scons 
+: 1527594894:0;scons -c
+: 1527594897:0;scons 
+: 1527594972:0;scons -c
+: 1527594976:0;scons 
+: 1527642618:0;cd bsp/stm32h743-nucleo/
+: 1527642643:0;z
+: 1527642651:0;z 350
+: 1527642653:0;pwd
+: 1527642668:0;z bsp
+: 1527642671:0;pwd
+: 1527642680:0;z muc
+: 1527642683:0;pwd
+: 1527642690:0;z nuc
+: 1527642708:0;scons 
+: 1527643780:0;scons â€ƒ³verbose
+: 1527643833:0;scons â€ƒ³v
+: 1527643837:0;scons â€ƒ³h
+: 1527643842:0;scons --help
+: 1527643852:0;scons â€ƒ³-verbose
+: 1527643918:0;scons --verbose
+: 1527644185:0;scons
+: 1527646220:0;scons --verbose
+: 1527646601:0;scons -c
+: 1527646605:0;scons 
+: 1527646779:0;cd ~/projects/xwdm_fw
+: 1527646783:0;make
+: 1527646787:0;make clean
+: 1527646789:0;make
+: 1527646812:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1527646899:0;scons --verbose
+: 1527647281:0;scons 
+: 1527647956:0;ls
+: 1527647962:0;ls build
+: 1527649222:0;ls
+: 1527649225:0;scons 
+: 1527651644:0;arm-none-eabi-gcc 
+: 1527651647:0;arm-none-eabi-gcc -v
+: 1527651889:0;cd ..
+: 1527651890:0;ls
+: 1527651936:0;cd stm32f7-disco
+: 1527651940:0;scons
+: 1527652122:0;scons -c
+: 1527652124:0;scons
+: 1527652272:0;scons -c
+: 1527652316:0;scons 
+: 1527652524:0;scons -C
+: 1527652528:0;scons -c
+: 1527652532:0;scons 
+: 1527652677:0;scons -c
+: 1527652680:0;scons 
+: 1527653140:0;git diff
+: 1527658615:0;git status
+: 1527683864:0;scons
+: 1527683878:0;scons -c
+: 1527683880:0;scons
+: 1527683902:0;arm-none-eabi-gcc -v
+: 1527684531:0;git rev-parse HEAD
+: 1527685228:0;gcc -v
+: 1527738885:0;ls
+: 1527738909:0;cd ..
+: 1527738910:0;ls
+: 1527738916:0;cd ..
+: 1527738917:0;ls
+: 1527738942:0;scons bsp/stm32h743-nucleo
+: 1527738954:0;scons bsp/stm32h743-nucleo/
+: 1527738964:0;cd  bsp/stm32h743-nucleo/
+: 1527738969:0;scons
+: 1527739150:0;ls
+: 1527739156:0;scons -c
+: 1527739159:0;ls
+: 1527739161:0;scons
+: 1527739186:0;ls
+: 1527739249:0;cd ~/Desktop/stmh7/openocd_cfg
+: 1527739257:0;./openocd
+: 1527739268:0;cd ..
+: 1527739279:0;ls
+: 1527739294:0;openocd/bin/openocd 
+: 1527739297:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1527745108:0;ls
+: 1527745116:0;mc
+: 1527745271:0;arm-none-eabi-nm rtthread-stm32h7xx.elf
+: 1527745450:0;arm-none-eabi-nm rtthread-stm32h7xx.elf -n
+: 1527746178:0;scons
+: 1527747423:0;openocd/bin/openocd 
+: 1527747436:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1527747449:0;scons
+: 1527747468:0;arm-none-eabi-nm rtthread-stm32h7xx.elf -n
+: 1527747516:0;scons
+: 1527747519:0;arm-none-eabi-nm rtthread-stm32h7xx.elf -n
+: 1527747699:0;arm-none-eabi-nm rtthread-stm32h7xx.elf -n | grep __preinit_array_end
+: 1527747727:0;arm-none-eabi-nm rtthread-stm32h7xx.elf -n | grep __init_array_end
+: 1527748037:0;cd ~/projects/xwdm_fw
+: 1527748042:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1527748130:0;vim
+: 1527748344:0;make clean
+: 1527748348:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1527748382:0;ls
+: 1527748408:0;cat build/firmware.sym
+: 1527748416:0;cat build/firmware.sym | grep
+: 1527748420:0;cat build/firmware.sym | grep init
+: 1527748432:0;cat build/firmware.sym 
+: 1527748436:0;cat build/firmware.sym | more
+: 1527748788:0;cat build/firmware.map | grep __init
+: 1527748802:0;cat build/firmware.map | grep _init
+: 1527748816:0;cat build/firmware.map | grep _init |more
+: 1527748843:0;cat build/firmware.map | grep _init
+: 1527748919:0;cat rtthread_stm32h7xx.map | grep _init
+: 1527749090:0;scons -c
+: 1527749094:0;scons 
+: 1527749205:0;cat rtthread_stm32h7xx.map | grep _init
+: 1527749273:0;scons -c
+: 1527749279:0;scons 
+: 1527749404:0;scons -c
+: 1527749411:0;scons -j4
+: 1527750712:0;scons -c
+: 1527750714:0;scons -j4
+: 1527750763:0;scons -c
+: 1527750771:0;git status
+: 1527750861:0;scons -c
+: 1527750868:0;scons -j4
+: 1527750929:0;scons -c
+: 1527750932:0;scons -j4
+: 1527750973:0;scons -c
+: 1527750975:0;scons -j4
+: 1527751072:0;ls
+: 1527751100:0;scons -c
+: 1527751104:0;scons -j4
+: 1527752114:0;ls
+: 1527752120:0;cd ../
+: 1527752121:0;ls
+: 1527752125:0;cd stm32f7-disco
+: 1527752126:0;ls
+: 1527752133:0;scons -s
+: 1527752142:0;bash
+: 1527752323:0;scons -s
+: 1527752513:0;scons 
+: 1527752517:0;scons -c
+: 1527752520:0;scons 
+: 1527759011:0;ssh root@vpandav.com
+: 1527759180:0;scp root@vpandav.com:/root/gcc-arm-none-eabi-7-2017-q4-major-linux.tar.bz2 ~/Desktop
+: 1527759281:0;ssh root@vpandav.com
+: 1527759493:0;mv gcc-arm-none-eabi-7-2017-q4-major-linux.tar.bz2 /opt
+: 1527759501:0;sudo mv gcc-arm-none-eabi-7-2017-q4-major-linux.tar.bz2 /opt
+: 1527759508:0;cd /opt
+: 1527759509:0;ks
+: 1527759510:0;ls
+: 1527759540:0;tar -xf gcc-arm-none-eabi-7-2017-q4-major-linux.tar.bz2
+: 1527759547:0;ls
+: 1527759569:0;sudo chmod -R 777 gcc-arm-none-eabi-7-2017-q4-major-linux.tar.bz2
+: 1527759577:0;tar -xf gcc-arm-none-eabi-7-2017-q4-major-linux.tar.bz2
+: 1527759585:0;sudo tar -xf gcc-arm-none-eabi-7-2017-q4-major-linux.tar.bz2
+: 1527759601:0;ls
+: 1527759634:0;sudo mv gcc-arm-none-eabi-7-2017-q4-major toolchain
+: 1527759636:0;ls
+: 1527759654:0;chmod -R 777  toolchain
+: 1527759661:0;sudo chmod -R 777  toolchain
+: 1527759662:0;ls
+: 1527759708:0;scons -c
+: 1527759711:0;scons 
+: 1527759741:0;scons --verbose
+: 1527759746:0;scons -c
+: 1527759749:0;scons --verbose
+: 1527759872:0;ls
+: 1527759896:0;sudo docker container ls -a
+: 1527759918:0;passwd
+: 1527767775:0;sudo
+: 1527767781:0;sudo ls 
+: 1527767789:0;ls
+: 1527768218:0;scons -j4
+: 1527769655:0;history | pi
+: 1527769659:0;history | grep pi
+: 1527769701:0;ping 192.168.40.207
+: 1527769719:0;ping 192.168.40.201
+: 1527769723:0;ping 192.168.40.207
+: 1527769736:0;ping 192.168.40.201
+: 1527769740:0;ping 192.168.40.207
+: 1527769755:0;ssh pi@192.18.40.207
+: 1527769759:0;ssh pi@192.168.40.207
+: 1527770203:0;history | grep ssh
+: 1527770504:0;ssh pi@192.168.40.207
+: 1527770544:0;sshpass -p 'raspberry' ssh pi@192.168.40.207
+: 1527772380:0;scons -c
+: 1527772385:0;scons -j4
+: 1527772445:0;openocd/bin/openocd 
+: 1527772500:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1527772532:0;/opt/toolchain/bin/arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1527772653:0;git diff
+: 1527772678:0;git status
+: 1527772687:0;git diff drivers/board.c
+: 1527772712:0;git diff drivers/stm32f7xx_hal_conf.h
+: 1527772752:0;git diff rtconfig.h
+: 1527772831:0;ls
+: 1527836689:0;../stm32h743-nucleo
+: 1527836717:0;scons -j4
+: 1527836750:0;scons -c
+: 1527836787:0;scons -j4
+: 1527854094:0;make
+: 1527918310:0;scons -j4
+: 1527918442:0;scons -c
+: 1527918445:0;scons -j4
+: 1527919393:0;cd ~/projects/xwdm_fw
+: 1527919450:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1527919914:0;scons -j4
+: 1527920668:0;clean
+: 1527920671:0;clear
+: 1527923383:0;./configure --help
+: 1527923812:0;./configure --help | grep thread
+: 1527924771:0;ssh root@198.46.131.250
+: 1527924781:0;ssh root@vpandav.com
+: 1527924810:0;scp root@vpandav.com:/root/gcc-arm-none-eabi-7-2017-q4-major-linux.tar.bz2 ~/Desktop
+: 1527925281:0;ping vpandav.com
+: 1527925512:0;ssh jacksong@198.46.131.250
+: 1527925874:0;ssh root@198.46.131.250
+: 1527926260:0;ls
+: 1527926264:0;ls -l
+: 1527926278:0;which profile
+: 1527926287:0;which .profile
+: 1527926293:0;whereis .profile
+: 1527926303:0;locate .profile
+: 1527929144:0;dsdsdsda
+: 1527929173:0;ssh root@198.46.131.250
+: 1528074593:0;ssh-keygen -f "/home/epanda/.ssh/known_hosts" -R 198.46.131.250
+: 1528074595:0;ssh root@198.46.131.250
+: 1528074660:0;ping 198.46.131.250
+: 1528074675:0;ssh root@198.46.131.250
+: 1528077117:0;cd ~/projects/xwdm_fw
+: 1528079604:0;ssh root@198.46.131.250
+: 1528090603:0;cd ~/projects/xwdm_fw
+: 1528090609:0;make clean
+: 1528090615:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1528103968:0;cd ~/github/rt-thread
+: 1528103969:0;ls
+: 1528103979:0;makemanuconfig
+: 1528104062:0;manuconfig
+: 1528104221:0;cd bsp/stm32h743-nucleo/
+: 1528104222:0;ls
+: 1528104256:0;scons menuconfig
+: 1528104272:0;menuconfig
+: 1528104449:0;scons --menuconfig
+: 1528104509:0;cd  ../allwinner_tina
+: 1528104511:0;scons --menuconfig
+: 1528183603:0;pkgs --upgrade
+: 1528183615:0;source ~/.env/env.sh
+: 1528183621:0;pkgs --upgrade
+: 1528183984:0;ls
+: 1528202480:0;cd ~/
+: 1528202486:0;scons
+: 1528272303:0;arm-none-eabi-nm -h
+: 1528272367:0;arm-none-eabi-objcopy -h
+: 1528272416:0;arm-none-eabi-nm -h
+: 1528274056:0;cd ../stm32h753i-eval
+: 1528274061:0;scons -c
+: 1528334974:0;ls
+: 1528334982:0;scons --menuconfig
+: 1528335267:0;ls ../bsp_skeleton
+: 1528335270:0;scons --menuconfig
+: 1528335285:0;cd ../bsp_skeleton
+: 1528335287:0;scons --menuconfig
+: 1528335375:0;source ~/.env/env.sh
+: 1528335378:0;scons --menuconfig
+: 1528335582:0;env 
+: 1528335588:0;env | grep rtt
+: 1528335591:0;env | grep RTT
+: 1528336377:0;scons --menuconfig
+: 1528336672:0;../allwinner_tina
+: 1528336692:0;mv rtconfig.h rtconfig.h.bak
+: 1528336695:0;scons --menuconfig
+: 1528336886:0;../bsp_skeleton
+: 1528336888:0;scons --menuconfig
+: 1528355214:0;scons 
+: 1528355557:0;scons --menuconfig
+: 1528355593:0;scons 
+: 1528355640:0;scons -j4
+: 1528355656:0;scons --menuconfig
+: 1528355670:0;scons -j4
+: 1528355715:0;scons -c
+: 1528355718:0;scons -j4
+: 1528355771:0;scons -c
+: 1528355773:0;scons -j4
+: 1528355863:0;scons --menuconfig
+: 1528356006:0;scons -j4
+: 1528356260:0;scons --menuconfig
+: 1528356317:0;scons -j4
+: 1528356644:0;ls
+: 1528356661:0;cat rtthread.sym
+: 1528356728:0;scons -j4
+: 1528357817:0;cd ~/projects/xwdm_fw
+: 1528357851:0;git branch -a
+: 1528357916:0;git checkout adjust_dma_section_data_initialization
+: 1528357931:0;git status
+: 1528357943:0;git status diff
+: 1528357952:0;git log
+: 1528357979:0;git diff 24dbc95df7ca150f7ec9a956bdd4d404f72d1c84
+: 1528793548:0;python
+: 1528793600:0;pip install wx
+: 1528793617:0;python
+: 1528793646:0;pip 
+: 1528793658:0;pip search wx
+: 1528793756:0;pip search wxPython
+: 1528793778:0;pip install wxPython
+: 1528794794:0;pip install -U \\
+    -f https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-16.04 \\
+    wxPython
+: 1528795132:0;sudo pip install -U \\
+    -f https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-16.04 \\
+    wxPython
+: 1528795189:0;/usr/local/lib/python2.7/dist-packages/wxPython-4.0.1.dist-info
+: 1528795195:0;sudo pip install -U \\
+    -f https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-16.04 \\
+    wxPython
+: 1528795379:0;python
+: 1528803376:0;sudo apt install 
+: 1528852636:0;sudo apt-get upgrade
+: 1528855706:0;ping wiki.shileizcc.com
+: 1528860550:0;wget https://nj01ct01.baidupcs.com/file/dd15cf44272cca16c16b18d6303dc620?bkt=p3-0000edb5312afa782b921abf39fe1c197a64&fid=2855341347-250528-160682022823303&time=1528856330&sign=FDTAXGERLQBHSK-DCb740ccc5511e5e8fedcff06b081203-n0Aom0xP7m9HPOmKTYAeuCEABig%3D&to=63&size=10292649&sta_dx=10292649&sta_cs=0&sta_ft=pdf&sta_ct=7&sta_mt=7&fm2=MH%2CNanjing02%2CAnywhere%2C%2Csichuan%2Cct&vuk=282335&iv=-2&newver=1&newfm=1&secfm=1&flow_ver=3&pkey=0000edb5312afa782b921abf39fe1c197a64&sl=82640974&expires=8h&rt=sh&r=316503388&mlogid=331632625608917965&vbdid=946128953&fin=CROWD-2-8-20150616-PDF.pdf&fn=CROWD-2-8-20150616-PDF.pdf&rtype=1&dp-logid=331632625608917965&dp-callid=0.1.1&hps=1&tsl=50&csl=78&csign=0vnYzTYv2VV%2Ff%2FRkrbacf8q2JPs%3D&so=0&ut=8&uter=4&serv=0&uc=3086161841&ic=4284238908&ti=90e00819b6f5425026311e109e8dc2283403df8199ae4106&by=themis
+: 1528860565:0;wget "https://nj01ct01.baidupcs.com/file/dd15cf44272cca16c16b18d6303dc620?bkt=p3-0000edb5312afa782b921abf39fe1c197a64&fid=2855341347-250528-160682022823303&time=1528856330&sign=FDTAXGERLQBHSK-DCb740ccc5511e5e8fedcff06b081203-n0Aom0xP7m9HPOmKTYAeuCEABig%3D&to=63&size=10292649&sta_dx=10292649&sta_cs=0&sta_ft=pdf&sta_ct=7&sta_mt=7&fm2=MH%2CNanjing02%2CAnywhere%2C%2Csichuan%2Cct&vuk=282335&iv=-2&newver=1&newfm=1&secfm=1&flow_ver=3&pkey=0000edb5312afa782b921abf39fe1c197a64&sl=82640974&expires=8h&rt=sh&r=316503388&mlogid=331632625608917965&vbdid=946128953&fin=CROWD-2-8-20150616-PDF.pdf&fn=CROWD-2-8-20150616-PDF.pdf&rtype=1&dp-logid=331632625608917965&dp-callid=0.1.1&hps=1&tsl=50&csl=78&csign=0vnYzTYv2VV%2Ff%2FRkrbacf8q2JPs%3D&so=0&ut=8&uter=4&serv=0&uc=3086161841&ic=4284238908&ti=90e00819b6f5425026311e109e8dc2283403df8199ae4106&by=themis"
+: 1528876516:0;ls
+: 1528877345:0;rm dd15cf44272cca16c16b18d6303dc620?bkt=p3-0000edb5312afa782b921abf39fe1c197a64&fid=2855341347-250528-160682022823303&time=1528
+: 1528877356:0;rm "dd15cf44272cca16c16b18d6303dc620?bkt=p3-0000edb5312afa782b921abf39fe1c197a64&fid=2855341347-250528-160682022823303&time=1528"
+: 1528877358:0;ls
+: 1528877366:0;rm "dd15cf44272cca16c16b18d6303dc620?bkt=p3-0000edb5312afa782b921abf39fe1c197a64&fid=2855341347-250528-160682022823303&time=1528.4"
+: 1528877368:0;ls
+: 1528940004:0;python wxglade.py
+: 1528969202:0;sudo apt-get upgrade
+: 1529055427:0;ping vpandav.com
+: 1529370780:0;reboot
+: 1529393505:0;sudo docker build -help
+: 1529393512:0;sudo docker build --help
+: 1529393951:0;passwd
+: 1529393961:0;passwd --help
+: 1529394048:0;man passwd
+: 1529394123:0;man passwd 5
+: 1529394140:0;man passwd(5)
+: 1529459760:0;cd ~/projects/xwdm_fw
+: 1529459775:0;git pull
+: 1529460228:0;git checkout development
+: 1529460237:0;git status 
+: 1529460246:0;git log
+: 1529461484:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1529461507:0;make BL=1 EVAL_FRONT=1 STM32F4=1 -j4
+: 1529461512:0;make clean
+: 1529461514:0;make BL=1 EVAL_FRONT=1 STM32F4=1 -j4
+: 1529461612:0;make clean
+: 1529461614:0;make BL=1 EVAL_FRONT=1 STM32F4=1 -j4
+: 1529461964:0;make BL=1 MUX=1 STM32F4=1 -j4
+: 1529464277:0;git branch ?
+: 1529464282:0;git branch development_fix_F4_compile_error
+: 1529464293:0;git checkout development_fix_F4_compile_error
+: 1529464295:0;ls
+: 1529464300:0;git diff
+: 1529464350:0;make BL=1 MUX=1 STM32F4=1 -j4
+: 1529464630:0;git push --set-upstream origin development_fix_F4_compile_error
+: 1529466073:0;make BL=1 EVAL_FRONT=1 STM32F4=1 -j4
+: 1529466936:0;git push --set-upstream origin development_fix_F4_compile_error
+: 1529466940:0;make BL=1 EVAL_FRONT=1 STM32F4=1 -j4
+: 1529475478:0;make BL=1 MUX=1 STM32H7=1 -j4
+: 1529475491:0;make clean
+: 1529475492:0;make BL=1 MUX=1 STM32H7=1 -j4
+: 1529475533:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1529475538:0;make clean
+: 1529475540:0;make BL=1 EVAL_FRONT=1 STM32H7=1 -j4
+: 1529475591:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1529475608:0;cd ~/Desktop/stmh7/openocd_cfg
+: 1529475616:0;./openocd
+: 1529475621:0;cd ..
+: 1529475621:0;ls
+: 1529475651:0;./openocd/bin/openocd
+: 1529475656:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1529486435:0;seq -w 1 100
+: 1529486444:0;seq -w 1 1000
+: 1529486451:0;seq -w 1 99
+: 1529486456:0;seq -w 0 99
+: 1529486479:0;seq ?
+: 1529486481:0;seq 
+: 1529486485:0;seq --help
+: 1529488500:0;git branch -a | grep deve
+: 1529488506:0;git branch -a 
+: 1529488538:0;git branch -a | grep d
+: 1529493060:0;git branch -a | grep bug
+: 1529549640:0;sudo docker run --help
+: 1529630360:0;sudo apt-get upgrade
+: 1529630451:0;skypeforlinux
+: 1529890814:0;git checkout development
+: 1529890829:0;git branch -d development_fix_F4_compile_error
+: 1529893356:0;sudo docker run --help
+: 1529893440:0;ip addr | extract_ip
+: 1529893448:0;ip addr 
+: 1529893503:0;su
+: 1529893536:0;su epanda
+: 1529893555:0;docker container ls
+: 1529893683:0;sudo
+: 1529893705:0;sudo -s
+: 1529893796:0;sudo docker container ls -a
+: 1529893839:0;sudo docker container start centos
+: 1529893939:0;sudo docker exec centos ip addr | extract_ip
+: 1529893956:0;sudo docker exec centos ip addr 
+: 1529894211:0;sudo docker --help
+: 1529896370:0;sudo docker exec centos ip addr | extract_ip
+: 1529896421:0;sudo docker exec centos extract_ip
+: 1529896445:0;sudo docker exec centos ip
+: 1529896453:0;sudo docker exec centos ip address
+: 1529896520:0;sudo docker exec centos cat hosts
+: 1529896526:0;sudo docker exec centos cat /etc/hosts
+: 1529896538:0;sudo docker exec centos hostname
+: 1529896566:0;sudo docker exec 
+: 1529896573:0;sudo docker exec --help
+: 1529896605:0;sudo docker exec -it
+: 1529896616:0;sudo docker -it exec bash
+: 1529896631:0;sudo docker -i exec bash
+: 1529896639:0;sudo docker exec -it  bash
+: 1529896659:0;sudo docker exec -i  bash
+: 1529896688:0;sudo docker exec --help
+: 1529896705:0;sudo docker exec -t -i  bash
+: 1529896714:0;sudo docker exec -t -i centos  bash
+: 1529896729:0;sudo docker exec -ti centos  bash
+: 1529896825:0;extract_ip() {\
+	awk '$1~"[0-9]+:" &&  $2!="lo:" {f=1}; f&&$1=="inet" {print $2; exit 0}'|sed 's#/.*##'\
+}
+: 1529896838:0;extract_ip
+: 1529896883:0;sudo docker exec centos ip address | extract_ip
+: 1529896905:0;sudo docker exec centos ip address 
+: 1529897227:0;sudo docker exec -it centos bash 
+: 1529993615:0;cd ~/p
+: 1529993625:0;cd ~/projects/xwdm_fw
+: 1529993628:0;ls
+: 1529993637:0;make clean
+: 1529993650:0;make BL=1 MUX=1 STM32H7=1 -j4
+: 1529993697:0;ls
+: 1529993777:0;arm-none-eabi-gdb
+: 1529993958:0;vim .gdbinit
+: 1529993974:0;sudo vim .gdbinit
+: 1529994019:0;arm-none-eabi-gdb
+: 1529996166:0;make BL=1 MUX=1 STM32H7=1 -j4
+: 1529996176:0;make clean
+: 1529996192:0;make BL=1 MUX=1 STM32H7=1 -j4
+: 1530001072:0;arm-none-eabi-gdb
+: 1530001898:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1530002089:0;arm-none-eabi-gdb
+: 1530002145:0;make clean
+: 1530002150:0;make BL=1 MUX=1 STM32H7=1 -j4
+: 1530002605:0;git branch Firmware_update_for_MUX_board
+: 1530002619:0;git checkout  Firmware_update_for_MUX_board
+: 1530002648:0;git branch -h
+: 1530002698:0;git branch -m Firmware_update_for_MUX_board firmware_update_for_MUX_board
+: 1530002705:0;git diff
+: 1530002727:0;git status 
+: 1530002737:0;git add main.c eeprom_sensor_driver.c
+: 1530002742:0;git status 
+: 1530002751:0;rm core
+: 1530002754:0;git status 
+: 1530002799:0;git commit -m 'firmware update for new MUX board'
+: 1530002822:0;git push --set-upstream origin firmware_update_for_MUX_board
+: 1530005362:0;git pull
+: 1530005375:0;git status 
+: 1530005398:0;rm .project build/
+: 1530005409:0;rm -r  build/
+: 1530005415:0;git status 
+: 1530005437:0;rm -r  muxlock/build
+: 1530005446:0;git pull
+: 1530005458:0;git branch 
+: 1530005465:0;git branch -a
+: 1530005497:0;git log
+: 1530005617:0;git pull -all
+: 1530005621:0;git pull --all
+: 1530005717:0;git fetch --all
+: 1530015652:0;arm-none-eabi-gdb
+: 1530015710:0;make clean
+: 1530015722:0;git checkout development
+: 1530015728:0;make BL=1 MUX=1 STM32H7=1 -j4
+: 1530015834:0;make BL=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1530015841:0;make clean
+: 1530015845:0;make BL=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1530015916:0;make clean
+: 1530015924:0;make FW=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1530016195:0;arm-none-eabi-gdb
+: 1530016266:0;make FW=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1530016352:0;lsusb
+: 1530016866:0;arm-none-eabi-gdb
+: 1530016990:0;arm-none-eabi-gdb build/firmware.elf
+: 1530017023:0;make FW=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1530017029:0;arm-none-eabi-gdb build/firmware.elf
+: 1530063280:0;make FW=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1530063847:0;arm-none-eabi-gdb build/firmware.elf
+: 1530081986:0;lsusb
+: 1530082830:0;git status 
+: 1530082857:0;git add lib/STM32Cube_FW_H7_V1.2.0/
+: 1530082866:0;git status 
+: 1530083013:0;make FW=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1530083030:0;make clean
+: 1530083031:0;make FW=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1530086155:0;ls
+: 1530086183:0;diff -uN usbd_conf.c usbd_conf_120.c
+: 1530086344:0;diff -uN usbd_conf.c usbd_conf_120.c | more
+: 1530087323:0;git status 
+: 1530087403:0;git checkout lib_cfg/cube/usbhid/usbd_conf.h
+: 1530087406:0;git status 
+: 1530087416:0;git checkout lib_cfg/cube/usbhid/usbd_conf.h
+: 1530087437:0;git status 
+: 1530087458:0;git reset lib_cfg/cube/usbhid/usbd_conf.h
+: 1530087461:0;git status 
+: 1530087833:0;git add lib/STM32Cube_FW_H7_V1.2.0/*
+: 1530087837:0;git status 
+: 1530088016:0;git commit -m 'add STMCube library files version 1.2.0'
+: 1530088046:0;git status 
+: 1530088104:0;git branch -m development update_h7_library_version
+: 1530088109:0;git status 
+: 1530088120:0;make FW=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1530089758:0;git push --set-upstream origin update_h7_library_version
+: 1530092124:0;git push
+: 1530092525:0;make FW=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1530148483:0;gcc --hlep
+: 1530148488:0;gcc --help
+: 1530148647:0;gdb --help
+: 1530149147:0;arm-none-eabi-gdb 
+: 1530149189:0;arm-none-eabi-gdb -h
+: 1530149371:0;arm-none-eabi-gdb --se ~/.gdbinitbak
+: 1530150016:0;git init .
+: 1530150025:0;git status 
+: 1530150031:0;git add all
+: 1530150038:0;git add .
+: 1530150075:0;git status 
+: 1530150148:0;git commit -m 'STM32Cube_FW_H7_V1.2.0'
+: 1530150160:0;git status 
+: 1530150271:0;chmod -R 777 ../STM32Cube_FW_H7_V1.2.0
+: 1530150277:0;git status 
+: 1530150324:0;cd ..
+: 1530150373:0;cd STM32Cube_FW_H7_V1.2.0
+: 1530150380:0;git init .
+: 1530150386:0;git status 
+: 1530150394:0;git add .
+: 1530150430:0;git commit -m 'STM32Cube_FW_H7_V1.2.0'
+: 1530150643:0;mc
+: 1530150930:0;git status 
+: 1530150964:0;git reset Projects/STM32H743I_EVAL/*
+: 1530150966:0;git status 
+: 1530151009:0;git checkout Projects/STM32H743I_EVAL/*
+: 1530151012:0;git status 
+: 1530151051:0;git checkout Projects/STM32H743I_EVAL/Applications/USB_Device/HID_Standalone/SW4STM32/STM32H743I-EVAL_USBD-FS/.gitignore
+: 1530151054:0;git status 
+: 1530151074:0;git reset -
+: 1530151077:0;git reset 
+: 1530151085:0;git reset master er
+: 1530151090:0;git reset master 
+: 1530151096:0;git reset -f master 
+: 1530151107:0;git reset --hard master 
+: 1530151118:0;git reset --hard 4ee24bb
+: 1530151143:0;rm Projects/STM32H743I_EVAL/Applications/USB_Device/HID_Standalone/SW4STM32/STM32H743I-EVAL_USBD-FS/.gitignore Projects/STM32H743I_EVAL/Applications/USB_Device/HID_Standalone/SW4STM32/STM32H743I-EVAL_USBD-FS/.settings/ Projects/STM32H743I_EVAL/Applications/USB_Device/HID_Standalone/SW4STM32/STM32H743I-EVAL_USBD-FS/STM32H743I-EVAL.xml
+: 1530151149:0;git status 
+: 1530151167:0;rm Projects/STM32H743I_EVAL/Applications/USB_Device/HID_Standalone/SW4STM32/STM32H743I-EVAL_USBD-FS/.settings/ Projects/STM32H743I_EVAL/Applications/USB_Device/HID_Standalone/SW4STM32/STM32H743I-EVAL_USBD-FS/Debug/
+: 1530151175:0;rm -r Projects/STM32H743I_EVAL/Applications/USB_Device/HID_Standalone/SW4STM32/STM32H743I-EVAL_USBD-FS/.settings/ Projects/STM32H743I_EVAL/Applications/USB_Device/HID_Standalone/SW4STM32/STM32H743I-EVAL_USBD-FS/Debug/
+: 1530151607:0;cd Projects/STM32H743I_EVAL/Applications/USB_Device/
+: 1530151608:0;ls
+: 1530151628:0;cd 
+: 1530151631:0;ls
+: 1530151637:0;cd Projects/STM32H743I_EVAL/Applications/USB_Device/
+: 1530151657:0;cd STM32Cube_FW_H7_V1.2.0
+: 1530151676:0;cd ~/Desktop/stmh7/STM32Cube_FW_H7_V1.2.0
+: 1530151679:0;cd Projects/STM32H743I_EVAL/Applications/USB_Device/
+: 1530151681:0;ls
+: 1530151693:0;cd CustomHID_Standalone
+: 1530151696:0;ls
+: 1530151737:0;cd SW4STM32/STM32H743I-EVAL_USBD-FS/Debug/
+: 1530151737:0;ls
+: 1530151751:0;arm-none-eabi-gdb 
+: 1530151807:0;lsusb
+: 1530152322:0;arm-none-eabi-gdb 
+: 1530152413:0;make clean
+: 1530152422:0;make BL=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1530152608:0;make clean
+: 1530152615:0;make FW=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1530152680:0;lsusb
+: 1530153430:0;make clean
+: 1530153434:0;make FW=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1530153456:0;make clean
+: 1530153459:0;make FW=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1530153462:0;make clean
+: 1530153469:0;make BL=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1530153548:0;make clean
+: 1530153552:0;make FW=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1530153614:0;lsusb
+: 1530154114:0;./muxtool -e ee
+: 1530154121:0;./muxtool -e eehhhhhh
+: 1530164388:0;clean
+: 1530164391:0;clear
+: 1530170237:0;git checkout  Firmware_update_for_MUX_board
+: 1530170245:0;git status 
+: 1530170256:0;git checkout  eeprom_sensor_driver.c eeprom_sensor_driver.h 
+: 1530170258:0;git checkout  Firmware_update_for_MUX_board
+: 1530170287:0;git branch 
+: 1530170310:0;git checkout  firmware_update_for_MUX_board
+: 1530170443:0;make FW=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1530171891:0;make clean
+: 1530171893:0;make FW=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1530171929:0;make clean
+: 1530171937:0;make BL=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1530172681:0;make clean
+: 1530172684:0;make FW=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1530173211:0;make BL=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1530188498:0;sudo apt-get upgrade
+: 1530188538:0;sudo apt-get update
+: 1530189012:0;sudo apt-get upgrade
+: 1530190593:0;rpm -ivh Deployment_Guide-zh-CN-5.0.0-9.el5.centos.noarch.rpm
+: 1530190712:0;rpm -ivh Deployment_Guide-en-US-5.0.0-9.el5.centos.noarch.rpm
+: 1530190733:0;bash
+: 1530193095:0;sudo docker container ls
+: 1530193115:0;sudo docker inspect centos
+: 1530323725:0;ls /etc/docker
+: 1530323742:0;ls /etc
+: 1530323746:0;ls /etc/docker
+: 1530323750:0;sudo ls /etc/docker
+: 1530323774:0;sudo cat /etc/docker/key.json
+: 1530323822:0;ls -l /etc/ | grep docker 
+: 1530323850:0;ls -l /etc/ 
+: 1530323857:0;ls -l /etc/ | grep docker 
+: 1530327013:0;grep epanda /etc/hosts
+: 1530328080:0;bind -p
+: 1530328087:0;bind 
+: 1530328196:0;grep epanda /etc/hosts
+: 1530329183:0;for ( (i=0; i<10; i++)); do echo $i done
+: 1530329208:0;for ((i=0; i<10; i++)); do echo $i; done;
+: 1530329226:0;for (i=0; i<10; i++); do echo $i; done;
+: 1530329237:0;for ((i=0; i<10; i++)); do echo $i; done;
+: 1530329253:0;for ((i=0; i<=10; i++)); do echo $i; done;
+: 1530329262:0;for ((i=0;i<=10;i++)); do echo $i; done;
+: 1530329276:0;for ((i=0;i<=10;i++));do echo $i;done;
+: 1530329288:0;for((i=0;i<=10;i++));do echo $i;done;
+: 1530329293:0;for ((i=0;i<=10;i++));do echo $i;done;
+: 1530329694:0;cat { json /etc/v2ray/config.json}
+: 1530329696:0;cat { json /etc/v2ray/config.json }
+: 1530329704:0;cat json /etc/v2ray/config.json 
+: 1530329750:0;cat  /etc/v2ray/config.json | jq
+: 1530329781:0;sudo apt-get jq
+: 1530329810:0;sudo apt-cache search json query
+: 1530329853:0;sudo apt-cache search jq
+: 1530329889:0;sudo apt-get install jq
+: 1530329900:0;cat  /etc/v2ray/config.json | jq
+: 1530338926:0;cat  /etc/v2ray/config.json | jq .dns
+: 1530338941:0;cat  /etc/v2ray/config.json | jq .servrs
+: 1530338949:0;cat  /etc/v2ray/config.json | jq .serves
+: 1530338968:0;cat  /etc/v2ray/config.json | jq .dns.serves
+: 1530338988:0;cat  /etc/v2ray/config.json | jq .dns.servers
+: 1530338994:0;cat  /etc/v2ray/config.json | jq .dns.servers.1
+: 1530339001:0;cat  /etc/v2ray/config.json | jq .dns.servers.
+: 1530339003:0;cat  /etc/v2ray/config.json | jq .dns.servers
+: 1530339011:0;cat  /etc/v2ray/config.json | jq .dns.servers[0]
+: 1530339014:0;cat  /etc/v2ray/config.json | jq .dns.servers[1]
+: 1530339022:0;cat  /etc/v2ray/config.json | jq .dns.servers.[0]
+: 1530339025:0;cat  /etc/v2ray/config.json | jq .dns.servers
+: 1530339088:0;man jq
+: 1530339263:0;cat  /etc/v2ray/config.json | jq .dns.servers.[1]
+: 1530339281:0;man jq
+: 1530339311:0;cat  /etc/v2ray/config.json | jq .dns.servers.[0]
+: 1530339322:0;cat  /etc/v2ray/config.json | jq .dns.servers.[2]
+: 1530339326:0;cat  /etc/v2ray/config.json | jq .dns.servers
+: 1530339329:0;cat  /etc/v2ray/config.json | jq .dns.servers.
+: 1530339343:0;cat  /etc/v2ray/config.json | jq .dns.servers.[ 0 ]
+: 1530339371:0;cat  /etc/v2ray/config.json | jq .dns.servers.[2:3]
+: 1530339404:0;cat  /etc/v2ray/config.json | jq '.dns.servers.[2:3]'
+: 1530339414:0;cat  /etc/v2ray/config.json | jq '.dns.servers'
+: 1530339424:0;cat  /etc/v2ray/config.json | jq '.dns.servers.[0]'
+: 1530339437:0;cat  /etc/v2ray/config.json | jq '.dns.servers.0'
+: 1530341176:0;alias
+: 1530341220:0;-
+: 1530494397:0;ls
+: 1530494432:0;sed /p minicom.log
+: 1530494446:0;sed -p minicom.log
+: 1530494477:0;sed /^*&/p minicom.log
+: 1530494508:0;sed 1,5p minicom.log
+: 1530494513:0;sed 1,p minicom.log
+: 1530494519:0;sed 1,&p minicom.log
+: 1530494528:0;sed 1,10p minicom.log
+: 1530494565:0;sed 1,&p minicom.log
+: 1530494588:0;sed 1,$p minicom.log
+: 1530494615:0;sed /^*/,$p minicom.log
+: 1530494625:0;sed /^$/,$p minicom.log
+: 1530494646:0;sed 1,9p minicom.log
+: 1530494709:0;sed /^$/,$p minicom.log
+: 1530494743:0;sed /^$/$p minicom.log
+: 1530494759:0;sed /^$/p minicom.log
+: 1530494770:0;sed /^$/,p minicom.log
+: 1530494783:0;sed /^$/,$/p minicom.log
+: 1530494788:0;sed /^$/,$p minicom.log
+: 1530494808:0;sed /^/p minicom.log
+: 1530494813:0;sed //p minicom.log
+: 1530494816:0;sed p minicom.log
+: 1530494822:0;ls
+: 1530494832:0;sed p README
+: 1530494871:0;sed /^$/, $p README
+: 1530494876:0;sed /^$/ ,$p README
+: 1530494879:0;sed /^$/,$p README
+: 1530494882:0;sed /^$/,$/p README
+: 1530494885:0;sed /^$/$/p README
+: 1530494890:0;sed /^$/p README
+: 1530495210:0;sed s/class=/grass-/p  README
+: 1530495250:0;sed p README
+: 1530496653:0;sed 's/\([[:alpha:]]\)\([^ \n]*\)/\2\1ay/g' Pig Latin ("unix is fun" -> "nixuay siay unfay")
+: 1530496670:0;sed 's/\([[:alpha:]]\)\([^ \n]*\)/\2\1ay/g' "Pig Latin ("unix is fun" -> "nixuay siay unfay")"
+: 1530496690:0;sed 's/\([[:alpha:]]\)\([^ \n]*\)/\2\1ay/g' < "Pig Latin ("unix is fun" -> "nixuay siay unfay")"
+: 1530496737:0;echo "Pig Latin ("unix is fun" -> "nixuay siay unfay")" | sed 's/\([[:alpha:]]\)\([^ \n]*\)/\2\1ay/g' 
+: 1530496840:0;echo "pig Latin ("unix is fun" -> "nixuay siay unfay")" | sed 's/\([[:alpha:]]\)\([^ \n]*\)/\2\1ay/g' 
+: 1530496857:0;echo "ppig Latin ("unix is fun" -> "nixuay siay unfay")" | sed 's/\([[:alpha:]]\)\([^ \n]*\)/\2\1ay/g' 
+: 1530496878:0;echo "pig Latin ("unix is fun" -> "nixuay siay unfay")" | sed 's/\([[:alpha:]]\)\([^ \n]*\)/\2\1ay/g' 
+: 1530497568:0;sed /^$/,/$/p README
+: 1530497577:0;sed /^/,/$/p README
+: 1530500354:0;awk README
+: 1530501750:0;ifconfig
+: 1530501858:0;awk print README
+: 1530501869:0;awk { print } README
+: 1530501879:0;awk {print} README
+: 1530501902:0;awk { print $1} README
+: 1530501905:0;awk { print $1 } README
+: 1530501911:0;awk {print $1} README
+: 1530501919:0;awk {print $1 } README
+: 1530501923:0;awk { print $1 } README
+: 1530501930:0;awk { print $0 } README
+: 1530501944:0;awk { print } README
+: 1530501948:0;awk {print} README
+: 1530501983:0;awk { print $0 } << cat README
+: 1530501997:0;awk {print} << cat README
+: 1530502003:0;awk {print} < cat README
+: 1530502024:0;cat README | awk {print} 
+: 1530502028:0;cat README | awk {print } 
+: 1530502036:0;cat README | awk {print $0} 
+: 1530502042:0;cat README | awk {print $0 } 
+: 1530502045:0;cat README | awk { print $0 } 
+: 1530502053:0;man awk
+: 1530502128:0;cat README | awk '{ print $0 }' 
+: 1530502132:0;cat README | awk '{ print $1 }' 
+: 1530502148:0;cat README | awk '{print $1}' 
+: 1530502499:0;cat README | awk '{ print $1 }' 
+: 1530502511:0;echo $OFS
+: 1530510625:0;ping vpandav.com
+: 1530511195:0;cat README | awk '{ print $1 }' 
+: 1530511220:0;cat README | awk '{ last = $0 }' 
+: 1530511242:0;cat README | awk '{ last = $0 } { print last }' 
+: 1530511260:0;cat README | awk '{ last = $1 } { print last }' 
+: 1530511264:0;cat README | awk '{ last = $0 } { print last }' 
+: 1530514226:0;awk {print} < cat README
+: 1530514236:0;awk '{print}' < cat README
+: 1530514245:0;awk '{print}' < README
+: 1530514434:0;sed -n '45p' README
+: 1530514440:0;sed  '45p' README
+: 1530514465:0;sed -n '45p' README
+: 1530514485:0;sed -n '4p' README
+: 1530514490:0;sed -n '5p' README
+: 1530514496:0;sed '5p' README
+: 1530514514:0;sed ',5p' README
+: 1530514519:0;sed '1,5p' README
+: 1530514526:0;sed '1,5/p' README
+: 1530514535:0;sed '/1/,/5/p' README
+: 1530514553:0;sed 'p' README
+: 1530514572:0;sed -n '10p' README
+: 1530514660:0;sed  1,10p README
+: 1530514707:0;sed 1,5p README
+: 1530514766:0;sed 1,5p < README
+: 1530514772:0;sed 1,5p README
+: 1530514776:0;man sed
+: 1530514836:0;sed '1,5p' README
+: 1530515505:0;sed '1,5d' README
+: 1530515509:0;sed '1,50d' README
+: 1530515526:0;sed '1,60d' README
+: 1530515534:0;sed '1,60p' README
+: 1530515542:0;sed '1,60d' README
+: 1530515548:0;sed '1,70d' README
+: 1530516621:0;sudo apt-get upgrade
+: 1530516650:0;sudo apt-get update
+: 1530516672:0;sudo apt-get upgrade
+: 1530519946:0;seq 10
+: 1530520558:0;seq 10 | sed
+: 1530520563:0;seq 10 | sed 2
+: 1530520567:0;seq 10 | sed 2q
+: 1530520573:0;seq 10 | sed 2d
+: 1530520587:0;seq 10 | sed p
+: 1530520612:0;seq 10 | sed -n  p
+: 1530520764:0;seq 10 | sed -n  2p
+: 1530520781:0;seq 10 | sed  2p
+: 1530520793:0;seq 10 | sed  p
+: 1530520796:0;seq 10 | sed  5p
+: 1530520810:0;seq 10 | sed -n 5p
+: 1530520815:0;seq 10 | sed -n 1,5p
+: 1530520941:0;seq 10 | sed 
+: 1530520963:0;seq 10 | sed 'n;n;s/./x/'
+: 1530521015:0;seq 10 | sed 'a;a;s/./x/'
+: 1530521029:0;seq 10 | sed 'g;g;s/./x/'
+: 1530521036:0;seq 10 | sed 'a;a;s/./x/'
+: 1530521075:0;seq 10 | sed 'n;n;s/./x/'
+: 1530521222:0;seq 10 | sed 'n;n;n;s/./x/'
+: 1530521232:0;seq 10 | sed 'n;s/./x/'
+: 1530521306:0;seq 10 | sed '0~3s/./x/'
+: 1530521433:0;seq 10 | sed '2{s/3/x/ ; p}'
+: 1530521442:0;seq 10 | sed -n '2{s/3/x/ ; p}'
+: 1530521481:0;seq 10 | sed -n '2{s/2/x/ ; p}'
+: 1530521489:0;seq 10 | sed -n '2{s/3/x/ ; p}'
+: 1530521492:0;seq 10 | sed  '2{s/3/x/ ; p}'
+: 1530521509:0;seq 10 | sed -n '2{s/3/x/ ; p}'
+: 1530521530:0;seq 10 | sed  '1,5{s/3/x/ ; p}'
+: 1530521543:0;seq 10 | sed -n '1,5{s/3/x/ ; p}'
+: 1530580614:0;sudo apt-get upgrade
+: 1530585940:0;cd ~/projects/xwdm_fw
+: 1530585944:0;git pull
+: 1530585960:0;git fetch --all
+: 1530585980:0;git checkout  angacom-merge
+: 1530585996:0;git log
+: 1530666439:0;skypeforlinux
+: 1530684077:0;sudo apt-get upgrade
+: 1530704263:0;seq 10 | sed '0a hello'
+: 1530704267:0;seq 10 | sed 'a hello'
+: 1530704272:0;seq 10 | sed '1a hello'
+: 1530707562:0;seq 10 | sed '1i hello'
+: 1530707672:0;seq 3 | sed '2i\\
+\
+hello\\
+\
+world\
+\
+s/./X/'
+: 1530707737:0;seq 3 | sed '2i hello world s/./X/'
+: 1530707784:0;seq 3 | sed '2i hello world' 's/./X/'
+: 1530707791:0;seq 3 | sed '2i hello world s/./X/'
+: 1530707844:0;seq 5 | sed '2,4c\\
+\
+hello\\
+\
+world'.
+: 1530707854:0;seq 5 | sed '2,4c\\
+\
+hello\\
+\
+world'
+: 1530707907:0;seq 6 | sed '2,5c\\
+hello\\
+world'
+: 1530707917:0;seq 6 | sed '2,3c\\
+hello\\
+world'
+: 1530707944:0;seq 6 | sed '2,3c\\
+hello'
+: 1530708054:0;seq 3 | sed '2i\\
+hello\\
+world\
+s/./X/'
+: 1530708439:0;seq 3 | sed '2r/etc/hostname'
+: 1530708505:0;seq 3 | sed '1,2r/etc/hostname'
+: 1530759823:0;seq 10 | sed 's/5/x/'
+: 1530759826:0;seq 10 | sed 's/5//'
+: 1530762449:0;a=69.0
+: 1530762457:0;b=40.5
+: 1530762490:0;awk a>b { print $a }
+: 1530762498:0;awk a>b '{print $a}'
+: 1530762519:0;awk -v a>b '{print $a}'
+: 1530762554:0;seq
+: 1530762558:0;seq --help
+: 1530762598:0;seq 10.5
+: 1530762608:0;seq --help
+: 1530762658:0;seq 10 0.5 1
+: 1530762669:0;seq 1 0.5  10
+: 1530762716:0;seq 1 0.5  10 | awk $1 > 5 '{ print $0}'
+: 1530762728:0;seq 1 0.5  10 | awk $1 > 5 '{ print $0 }'
+: 1530762733:0;seq 1 0.5  10 | awk $1 < 5 '{ print $0 }'
+: 1530762750:0;seq 1 0.5  10 | awk $1 < 5 '{ print $1 }'
+: 1530762829:0;seq 1 0.5  10 | awk '{ if ($1 < 5)  print $1 }'
+: 1530762857:0;seq -10 0.5  10 | awk '{ if ($1 < 5)  print $1 }'
+: 1530762862:0;seq -10 0.5  10 | awk '{ if ($1 < -5)  print $1 }'
+: 1530763100:0;seq -10 0.5  10 | awk '{ if ($1 > -5)  print $1 }'
+: 1530840646:0;seq -10 0.4  10 | awk '{ if ($1 > -5)  print $1 }'
+: 1530840703:0;seq -10 0.4  10 | awk '{ if ($1 > -5.00)  print $1 }'
+: 1530842859:0;ping vpandav.com
+: 1530842905:0;systemctl v2ray restart
+: 1530842918:0;systemctl restart v2ray
+: 1530843782:0;ls
+: 1530843794:0;cd ~/De
+: 1530843801:0;cd ~/Desktop
+: 1530843804:0;l
+: 1530843842:0;awk_datasets.zip
+: 1530843845:0;awk â€ƒ¸{print $3}â€ƒ¹ 2014_orioles.txt
+: 1530843870:0;awk â€ƒ¸{ print $3 }â€ƒ¹ 2014_orioles.txt
+: 1530843880:0;awk '{ print $3 }' 2014_orioles.txt
+: 1530843982:0;awk '{ print $2 $3 }' 2014_orioles.txt
+: 1530843990:0;awk '{ print $2, $3 }' 2014_orioles.txt
+: 1530843999:0;awk '{ print $2             $3 }' 2014_orioles.txt
+: 1530844008:0;awk '{ print $2----$3 }' 2014_orioles.txt
+: 1530844014:0;awk '{ print $2 ---- $3 }' 2014_orioles.txt
+: 1530844032:0;awk '{ print $2 "-----" $3 }' 2014_orioles.txt
+: 1530844045:0;awk '{ print $2 "-----" $7 }' 2014_orioles.txt
+: 1530844333:0;seq -10 0.4  10 | awk '{ if ($1 > -5.00)  print $1 }'
+: 1530847555:0;skypeforlinux
+: 1530847571:0;sudo apt-get upgrade
+: 1530847694:0;skypeforlinux
+: 1530848583:0;man sed
+: 1530849133:0;seq 10
+: 1530849153:0;seq 10 | sed 's/5//'
+: 1530849173:0;seq 10 | sed { 's/5//' 's/6//' }
+: 1530849192:0;man sed
+: 1530849219:0;seq 10 | sed {'s/5//' 's/6//' }
+: 1530849232:0;seq 10 | sed {'s/5//' 's/6//' 
+: 1530849236:0;seq 10 | sed {
+: 1530849247:0;seq 10 | sed ' {\
+q
+: 1530849255:0;seq 10 | sed '{'s/5//' 's/6//' }'
+: 1530849261:0;seq 10 | sed '{ 's/5//' 's/6//' }'
+: 1530849275:0;seq 10 | sed '{ 's/5//' }'
+: 1530849293:0;seq 10 | sed '{ 's/5//' 's/6//' }'
+: 1530849353:0;seq 10 | sed '{ s/5// s/6// }'
+: 1530849360:0;seq 10 | sed '{s/5// s/6// }'
+: 1530849397:0;seq 10 | sed '{ s/5//\ns/6// }'
+: 1530849411:0;seq 10 | sed '{ 's/5//'\n's/6//' }'
+: 1530849424:0;seq 10 | sed '{ 's/5//' \n 's/6//' }'
+: 1530856275:0;systemctl restart v2ray
+: 1530856376:0;seq 10 | sed 's/5//; s/6//'
+: 1530856385:0;seq 10 | sed 's/5//;s/6//'
+: 1530856427:0;seq 10 | sed 's/5/a/;s/6/b/'
+: 1530856880:0;seq 10 | sed 's/5/a/; s/6/b/'
+: 1530856932:0;seq 10 | sed 's/5/a/;s/6/b/'
+: 1530856941:0;seq 10 | sed 's/5/a/;s/5/b/'
+: 1530856954:0;seq 10 | sed 's/5/a/;s/a/b/'
+: 1530857042:0;seq 10 | sed '4d;s/a/b/'
+: 1530857059:0;seq 10 | sed 's/5/a/;5d'
+: 1530857066:0;seq 10 | sed 's/5/a/'
+: 1530857068:0;seq 10 | sed 's/5/a/;5d'
+: 1530857471:0;seq 10 | sed p
+: 1530857479:0;seq 10 | sed 2,3p
+: 1530857486:0;seq 10 | sed -n 2,3p
+: 1530857499:0;seq 10 | sed #n 2,3p
+: 1530857528:0;seq 10 | sed -n 2,3p
+: 1530857532:0;seq 10 | sed 2,3p
+: 1530857544:0;seq 10 | sed -n 2,3p
+: 1530857548:0;seq 10 | sed -n 2,5p
+: 1530857595:0;seq 20 | sed -n 2,5p
+: 1530857606:0;seq 20 | sed -n 2,5ping vpandav.com
+: 1530857716:0;bash
+: 1530857897:0;seq 10 | sed 's/5/a/p'
+: 1530857906:0;seq 10 | sed 's/5/a/'
+: 1530857931:0;seq 10 | sed -n 's/5/a/p'
+: 1530858000:0;seq 20 | sed -n 's/5/a/2'
+: 1530858010:0;seq 20 | sed -n 's/*5/a/2'
+: 1530858023:0;seq 20 | sed 's/*5/a/2'
+: 1530858030:0;seq 20 | sed 's/5/a/2'
+: 1530858035:0;seq 20 | sed 's/5/a/1'
+: 1530858053:0;seq 20 | sed 's/*5/a/1'
+: 1530858071:0;seq 20 | sed 'y/5/a/1'
+: 1530858076:0;seq 20 | sed 'y/5/a/'
+: 1530858086:0;seq 20 | -n sed 'y/5/a/'
+: 1530858093:0;seq 20 | sed 'y/5/a/' -n
+: 1530858098:0;seq 20 | sed 'y/5/a/p' -n
+: 1530858103:0;seq 20 | sed 'y/5/a/'
+: 1530858108:0;seq 20 | sed -n 'y/5/a/'
+: 1530858117:0;seq 20 | sed -n 'y/5/a/p'
+: 1530858122:0;seq 20 | sed  'y/5/a/'
+: 1530858347:0;echo "the UNIX operating system â€¦" | sed s/.NI./wwwwwww &/
+: 1530858388:0;echo "the UNIX operating system â€¦" | sed 's/.NI./wwwwwww &/'
+: 1530858412:0;echo "the UNIX operating system â€¦" | sed 's/.NI./wwwwwww /'
+: 1530858417:0;echo "the UNIX operating system â€¦" | sed 's/.NI./wwwwwww &/'
+: 1530858775:0;sudo docker start centos
+: 1530858804:0;sudo docker exec -it centos bash 
+: 1531186094:0;awk echo kkk
+: 1531186100:0;awk 'echo kkk'
+: 1531186245:0;ls
+: 1531186272:0;awk -f  minicom.log
+: 1531186282:0;awk minicom.log
+: 1531186308:0;seq 10 
+: 1531186311:0;seq 10 | awk
+: 1531186720:0;seq 10 | awk $1
+: 1531186728:0;seq 10 | awk ''
+: 1531186760:0;seq 10 
+: 1531186774:0;seq 10 | awk 'if($1>0)'
+: 1531186778:0;seq 10 | awk 'if($1>0) {}'
+: 1531186785:0;seq 10 | awk '$1>0 {}'
+: 1531186797:0;seq 10 | awk '$1>0 {print $1}'
+: 1531186802:0;seq 10 | awk '$1>2 {print $1}'
+: 1531187765:0;seq 10 | awk 'print '
+: 1531187767:0;seq 10 | awk ' print '
+: 1531187773:0;seq 10 | awk ' {print} '
+: 1531187778:0;seq 10 | awk '{print}'
+: 1531188180:0;seq 10 | awk '{print NR, $0}'
+: 1531188185:0;seq 10 | awk '{print NR,$0}'
+: 1531188192:0;seq 10 | awk '{print NR,     $0}'
+: 1531188197:0;seq 10 | awk '{print NR,$0}'
+: 1531188201:0;seq 10 | awk '{print NR $0}'
+: 1531188221:0;seq 10 | awk '{print NR '' $0}'
+: 1531188227:0;seq 10 | awk '{print NR "" $0}'
+: 1531188231:0;seq 10 | awk '{print NR "----" $0}'
+: 1531188239:0;seq 10 | awk '{print NR,$0}'
+: 1531188268:0;man awk
+: 1531189443:0;seq 10 | awk '$1 ~ "5" {print NR,$0}'
+: 1531189453:0;seq 10 | awk '$1 ~ "5ggg" {print NR,$0}'
+: 1531189480:0;seq 10 | awk '$1 ~ "[0-9]" {print NR,$0}'
+: 1531189486:0;seq 10 | awk '$1 ~ "[0-9]+" {print NR,$0}'
+: 1531189492:0;seq 10 | awk '$1 ~ "[0-9]+" {$0}'
+: 1531189503:0;seq 10 | awk '$1 ~ "5" {print $0}'
+: 1531189512:0;seq 10 | awk '$1 ~ "[0-9]" {print $0}'
+: 1531189520:0;seq 10 | awk '$1 ~ "[0-9]+" {print $0}'
+: 1531189531:0;seq 10 | awk '$1 ~ "a[0-9]+" {print $0}'
+: 1531189545:0;seq 10 | awk '$1 ~ "[0-9]" {print $0}'
+: 1531189555:0;seq 10 | awk '$1 ~ "[4-7]" {print $0}'
+: 1531189569:0;seq 10 | awk '$1 ~ "[4-7]+" {print $0}'
+: 1531189575:0;seq 10 | awk '$1 ~ "[4-7]+1" {print $0}'
+: 1531189586:0;seq 50 | awk '$1 ~ "[4-7]+1" {print $0}'
+: 1531189595:0;seq 70 | awk '$1 ~ "[4-7]+1" {print $0}'
+: 1531192592:0;git branch -a
+: 1531192631:0;git branch -a | awk "{print}'
+: 1531192653:0;git branch -a | awk "{ print }'\
+a
+: 1531192668:0;git branch -a \
+a
+: 1531192715:0;git checkout remotes/origin/feature/XWDM-6-failover\
+a
+: 1531192728:0;git status 
+: 1531192742:0;ls
+: 1531192745:0;cd failover
+: 1531192746:0;ls
+: 1531192749:0;vim
+: 1531192813:0;git status 
+: 1531192825:0;git diff runtests.sh
+: 1531192831:0;ls
+: 1531192847:0;./runtests.sh
+: 1531192858:0;su
+: 1531192872:0;./runtests.sh
+: 1531192988:0;barsh
+: 1531192992:0;bash
+: 1531193096:0;sudo -i
+: 1531193115:0;sudo -s
+: 1531193180:0;sudo -i
+: 1531195631:0;sudo docker images ls
+: 1531195635:0;sudo docker images ls -a
+: 1531195639:0;sudo docker image
+: 1531195642:0;sudo docker image ls
+: 1531201052:0;ls
+: 1531201054:0;vim
+: 1531202007:0;set
+: 1531202044:0;set | grep x
+: 1531202051:0;set | grep xrag
+: 1531202056:0;xrag
+: 1531203938:0;whatis xarg
+: 1531203943:0;whatis ls
+: 1531205924:0;echo abcde12345 == abcde12345
+: 1531205935:0;test abcde12345 == abcde12345
+: 1531205942:0;test abcde12345==abcde12345
+: 1531205963:0;echo abcde12345==abcde12345
+: 1531205990:0;echo abcde12345=abcde12345
+: 1531205999:0;test abcde12345=abcde12345
+: 1531206007:0;echo $?
+: 1531206010:0;test abcde12345=abcde1234
+: 1531206011:0;echo $?
+: 1531206032:0;test abcde12345 = abcde12345
+: 1531206034:0;echo $?
+: 1531206037:0;test abcde12345 = abcde12342
+: 1531206038:0;echo $?
+: 1531206051:0;test
+: 1531206057:0;test --help
+: 1531206062:0;test -h
+: 1531206071:0;mam test
+: 1531206077:0;man test
+: 1531206974:0;tee
+: 1531207012:0;seq 10 | xargs tee
+: 1531207042:0;ls
+: 1531207045:0;man tee
+: 1531208940:0;cat 
+: 1531209043:0;sudo docker container ls
+: 1531210562:0;sudo -i
+: 1531210612:0;vim
+: 1531273133:0;cd ~/projects/xwdm_fw
+: 1531273134:0;ls
+: 1531273146:0;make clean
+: 1531273151:0;make BL=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1531273208:0;clear
+: 1531273229:0;git checkout development
+: 1531273234:0;make clean
+: 1531273241:0;make BL=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1531273314:0;arm-none-eabi-gdb 
+: 1531273469:0;make clean
+: 1531273484:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531273613:0;git pull
+: 1531273727:0;git checkout origin/feature/H7_MUX_ETH_test
+: 1531273755:0;make clean
+: 1531273761:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531275735:0;cd ~/projects/muxtool
+: 1531275737:0;ls
+: 1531275757:0;./muxtool 
+: 1531275786:0;./muxtool -e 00
+: 1531275792:0;./muxtool -h
+: 1531275832:0;./muxtool --pull 2:/xwdm_config.log | xargs cat
+: 1531275841:0;./muxtool --pull 2:/xwdm_config.log .
+: 1531275866:0;./muxtool -e kk
+: 1531275874:0;./muxtool --pull 2:/xwdm_config.log .
+: 1531275898:0;./muxtool --pull 1:/xwdm_config.log .
+: 1531275907:0;./muxtool --pull 2:/xwdm_led.log .
+: 1531275963:0;./muxtool --push "ddd" 2:/test.log 
+: 1531275974:0;ls
+: 1531275995:0;./muxtool --push sw_log 2:/test.log 
+: 1531276009:0;./muxtool --push 2:/test.log | xargs cat
+: 1531276014:0;./muxtool --push 2:/test.log .
+: 1531276021:0;./muxtool --pull 2:/test.log .
+: 1531276033:0;./muxtool --push sw_log 2:/test.log 
+: 1531276043:0;./muxtool -
+: 1531276045:0;./muxtool -h
+: 1531276065:0;./muxtool --pull 2:/test.log  .test.tlog
+: 1531276077:0;ls
+: 1531276097:0;./muxtool --pull 2:/xwdm_config.log xxx.xxx
+: 1531276103:0;cat xxx.xxx
+: 1531276129:0;cat xxx.xxx | more
+: 1531276261:0;./muxtool --pull /dev/null  2:/xwdm_config.log 
+: 1531276270:0;./muxtool --push /dev/null  2:/xwdm_config.log 
+: 1531276277:0;./muxtool --pull 2:/xwdm_config.log xxx.xxx
+: 1531276280:0;cat xxx.xxx | more
+: 1531276284:0;cat xxx.xxx 
+: 1531276304:0;./muxtool --pull 2:/xwdm_config.log xxx.xxx
+: 1531276306:0;cat xxx.xxx 
+: 1531276478:0;./muxtool --pull 1:/network.comf xxx.xxx
+: 1531276483:0;./muxtool --pull 1:/network.conf xxx.xxx
+: 1531276487:0;cat xx
+: 1531276490:0;cat xxx.xxx
+: 1531276555:0;ping 192.168.40.010
+: 1531276562:0;ping 192.168.40.101
+: 1531276675:0;git checkout origin/angacom-merge
+: 1531276679:0;make clean
+: 1531276687:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531276877:0;./muxtool
+: 1531276912:0;./muxtool -e rr
+: 1531277358:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531277396:0;make clean
+: 1531277398:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531277517:0;make clean
+: 1531277519:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531277707:0;./muxtool -e rr
+: 1531277744:0;./muxtool --push <(echo "G;SLW") /dev/channel/42/tx/led
+: 1531277791:0;./muxtool --push <(echo "G;OFF") /dev/channel/42/tx/led
+: 1531277796:0;./muxtool --push <(echo "G;SLW") /dev/channel/42/tx/led
+: 1531277799:0;./muxtool --push <(echo "G;OFF") /dev/channel/42/tx/led
+: 1531277803:0;./muxtool --push <(echo "G;SLW") /dev/channel/42/tx/led
+: 1531277810:0;./muxtool --push <(echo "G;OFF") /dev/channel/42/tx/led
+: 1531277820:0;./muxtool --push <(echo "G;SLW") /dev/channel/42/tx/led
+: 1531277823:0;./muxtool --push <(echo "G;OFF") /dev/channel/42/tx/led
+: 1531277836:0;./muxtool --push <(echo "G;OFF") /dev/channel/45/tx/led
+: 1531277845:0;./muxtool --push <(echo "G;SLW") /dev/channel/45/tx/led
+: 1531277895:0;./muxtool --push <(echo "G;OFF") /dev/channel/45/tx/led
+: 1531277936:0;./muxtool --push <(echo "G;SLW") /dev/channel/45/tx/led
+: 1531278853:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531278966:0;cd ~/projects/muxtool
+: 1531278970:0;./muxtool --push <(echo "G;SLW") /dev/channel/45/tx/led
+: 1531279092:0;./muxtool --push <(echo "G;SLW") /dev/channel/41/tx/led
+: 1531279098:0;./muxtool --push <(echo "G;SLW") /dev/channel/42/tx/led
+: 1531279131:0;./muxtool --push <(echo "G;SLW") /dev/channel/47/tx/led
+: 1531279140:0;./muxtool --push <(echo "G;SLW") /dev/channel/42/tx/led
+: 1531279146:0;./muxtool --push <(echo "G;SLW") /dev/channel/42/rx/led
+: 1531280287:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531280815:0;./muxtool --push <(echo "G;SLW") /dev/channel/42/rx/led
+: 1531280832:0;./muxtool --push <(echo "G;SLW") /dev/channel/42/tx/led
+: 1531280838:0;./muxtool --push <(echo "G;SLW") /dev/channel/41/tx/led
+: 1531281589:0;./muxtool --push <(echo "G;SLW") /dev/channel/41/rx/led
+: 1531281938:0;./muxtool --push <(echo "G;SLW") /dev/channel/41/tx/led
+: 1531289315:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531290046:0;./muxtool --push <(echo "G;SLW") /dev/led/line_tx
+: 1531290056:0;./muxtool --push <(echo "G;OFF") /dev/led/line_tx
+: 1531290075:0;./muxtool --push <(echo "G;OFF") /dev/led/line_Rx
+: 1531290080:0;./muxtool --push <(echo "G;OFF") /dev/led/line_rx
+: 1531290093:0;./muxtool --push <(echo "G;SLW") /dev/channel/46/tx/led
+: 1531290595:0;./muxtool --push <(echo "G;SLW") /dev/channel/41/tx/led
+: 1531290620:0;./muxtool --push <(echo "R;SLW") /dev/channel/41/tx/led
+: 1531291546:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531291976:0;./muxtool -e ee
+: 1531292091:0;arm-none-eabi-gdb 
+: 1531292167:0;./muxtool -e ee
+: 1531292474:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531296133:0;arm-none-eabi-gdb 
+: 1531296708:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531297614:0;./muxtool --push <(echo "G;SLW") /dev/channel/45/tx/led
+: 1531297673:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531297740:0;./muxtool --push <(echo "G;SLW") /dev/channel/45/tx/led
+: 1531297745:0;./muxtool --push <(echo "G;SLW") /dev/channel/41/tx/led
+: 1531297762:0;./muxtool --push <(echo "G;SLW") /dev/channel/41/rx/led
+: 1531298788:0;git status 
+: 1531298799:0;git diff led_driver.c
+: 1531298815:0;git diff main.c
+: 1531298873:0;git status 
+: 1531298884:0;git diff lib_cfg/lwip/ethernetif_h7.c
+: 1531298898:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531312089:0;git status 
+: 1531312104:0;giit diff lib_cfg/cube/stm32h7xx_hal_msp_mux.c
+: 1531312110:0;git diff lib_cfg/cube/stm32h7xx_hal_msp_mux.c
+: 1531312310:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531358483:0;./openocd/bin/openocd
+: 1531358497:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1531358770:0;openocd -v
+: 1531358880:0;openocd
+: 1531359571:0;git status 
+: 1531359581:0;git diff main.c
+: 1531359592:0;git diff lib_cfg/cube/stm32h7xx_hal_msp_mux.c
+: 1531359709:0;git status 
+: 1531359721:0;git diff led_driver.c
+: 1531359873:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531360242:0;git status 
+: 1531360257:0;git diff led_driver.c
+: 1531360369:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531360665:0;./muxtool --pull 2:/xwdm_led.log xxx.xxx
+: 1531360696:0;cat xxx.xxx
+: 1531360760:0;./muxtool --push /dev/null 2:/xwdm_led.log 
+: 1531360764:0;./muxtool --pull 2:/xwdm_led.log xxx.xxx
+: 1531360765:0;cat xxx.xxx
+: 1531360781:0;./muxtool --pull 2:/xwdm_led.log xxx.xxx
+: 1531360782:0;cat xxx.xxx
+: 1531360829:0;./muxtool --pull 2:/xwdm_led.log xxx.xxx
+: 1531360830:0;cat xxx.xxx
+: 1531360846:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531360887:0;./muxtool --push /dev/null 2:/xwdm_led.log 
+: 1531360892:0;./muxtool --pull 2:/xwdm_led.log xxx.xxx
+: 1531360895:0;cat xxx.xxx
+: 1531360920:0;./muxtool --pull 2:/xwdm_led.log xxx.xxx
+: 1531360921:0;cat xxx.xxx
+: 1531360936:0;./muxtool --pull 2:/xwdm_led.log xxx.xxx
+: 1531360937:0;cat xxx.xxx
+: 1531361001:0;./muxtool --pull 2:/xwdm_led.log xxx.xxx
+: 1531361003:0;cat xxx.xxx
+: 1531361053:0;./muxtool --pull 2:/xwdm_led.log xxx.xxx
+: 1531361055:0;cat xxx.xxx
+: 1531361133:0;./muxtool --pull 2:/xwdm_led.log xxx.xxx
+: 1531361135:0;cat xxx.xxx
+: 1531362816:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531363193:0;arm-none-eabi-gdb 
+: 1531363221:0;make clean
+: 1531363224:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531363473:0;./muxtool --pull 2:/xwdm_led.log xxx.xxx
+: 1531363551:0;cat xxx.xxx
+: 1531363683:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531365086:0;arm-none-eabi-gdb 
+: 1531365204:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531365811:0;make clean
+: 1531365814:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531366303:0;make clean
+: 1531366308:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531366862:0;./muxtool --pull 2:/xwdm_led.log xxx.xxx
+: 1531366905:0;cat xxx.xxx
+: 1531367107:0;arm-none-eabi-gdb 
+: 1531367458:0;make clean
+: 1531367465:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531453766:0;ls
+: 1531453804:0;ls build
+: 1531453819:0;cat firmware.sym
+: 1531453828:0;cat build/firmware.sym
+: 1531461053:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531464545:0;cat build/firmware.sym
+: 1531464548:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531474481:0;arm-none-eabi-nm -C build/firmware.elf | grep hdma_led_tx
+: 1531704554:0;arm-none-eabi-gdb 
+: 1531704655:0;make clean
+: 1531704658:0;make BL=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1531704766:0;make clean
+: 1531704770:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531705201:0;arm-none-eabi-nm -C build/firmware.elf | grep hdma_led_tx
+: 1531709552:0;git pull --all
+: 1531709596:0;git fectch 
+: 1531709611:0;git fetch 
+: 1531709712:0;git checkout origin/bugfix/H7_MUX_SPI_DMA
+: 1531709723:0;make clean
+: 1531709727:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531709822:0;git status 
+: 1531709838:0;git checkout origin/bugfix/H7_MUX_SPI_DMA
+: 1531709862:0;rm core.8063
+: 1531709865:0;git checkout origin/bugfix/H7_MUX_SPI_DMA
+: 1531709903:0;git status 
+: 1531709937:0;git commit -m 'epanda test bak'
+: 1531709966:0;git add devfs/device_testing.c led_driver.c lib/STM32Cube_FW_H7_V1.1.0/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c lib_cfg/cube/stm32h7xx_hal_msp_mux.c lib_cfg/lwip/ethernetif_h7.c main.c xwdm_callbacks.c
+: 1531709975:0;git status 
+: 1531709979:0;git checkout origin/bugfix/H7_MUX_SPI_DMA
+: 1531709986:0;git commit -m 'epanda test bak'
+: 1531709999:0;git checkout origin/bugfix/H7_MUX_SPI_DMA
+: 1531710006:0;make clean
+: 1531710009:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531710315:0;git checkout origin/bugfix/H7_MUX_SPI_DMA
+: 1531710427:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531710580:0;cd ../muxtool
+: 1531710604:0;./muxtool --push <(echo "G;SLW") /dev/channel/45/tx/led
+: 1531710711:0;git checkout angacom-merge
+: 1531710735:0;git checkout led_driver.c
+: 1531710738:0;git checkout angacom-merge
+: 1531710742:0;git log
+: 1531710876:0;git branch -m angacom-merge spi_dma_test
+: 1531710907:0;git merge origin/bugfix/H7_MUX_SPI_DMA
+: 1531710927:0;git status 
+: 1531710939:0;git diff led_driver.c
+: 1531710962:0;vim led_driver.c
+: 1531711023:0;git status 
+: 1531711034:0;git diff lib_cfg/cube/stm32h7xx_hal_msp_mux.c
+: 1531711049:0;git vim lib_cfg/cube/stm32h7xx_hal_msp_mux.c
+: 1531711055:0;vim lib_cfg/cube/stm32h7xx_hal_msp_mux.c
+: 1531711111:0;git vim lib_cfg/cube/stm32h7xx_hal_msp_mux.c
+: 1531711116:0;git diff lib_cfg/cube/stm32h7xx_hal_msp_mux.c
+: 1531711125:0;git status 
+: 1531711131:0;git add .
+: 1531711135:0;git status 
+: 1531711152:0;git commit -m ''
+: 1531711249:0;git commit -m ' \
+'
+: 1531711262:0;git commit
+: 1531711274:0;git log
+: 1531711302:0;make clean
+: 1531711306:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531711695:0;git status 
+: 1531711706:0;git checkout .
+: 1531711710:0;git status 
+: 1531711731:0;git checkout origin/bugfix/H7_MUX_SPI_DMA
+: 1531711769:0;git checkout  spi_dma_test
+: 1531711829:0;git checkout origin/bugfix/H7_MUX_SPI_DMA
+: 1531711843:0;make clean
+: 1531711846:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531711936:0;git status 
+: 1531711953:0;git diff led_driver.c
+: 1531712023:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531712151:0;git checkout .
+: 1531712193:0;git checkout spi_dma_test
+: 1531712199:0;git status
+: 1531712289:0;make clean
+: 1531712292:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531712344:0;git diff development
+: 1531712503:0;./muxtool --push <(echo "G;SLW") /dev/channel/45/tx/led
+: 1531712519:0;./muxtool -e rr
+: 1531712521:0;./muxtool --push <(echo "G;SLW") /dev/channel/45/tx/led
+: 1531719838:0;git checkout origin/bugfix/H7_MUX_SPI_DMA
+: 1531719849:0;git checkout .
+: 1531719851:0;git checkout origin/bugfix/H7_MUX_SPI_DMA
+: 1531719859:0;make clean
+: 1531719867:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531720141:0;make clean
+: 1531720143:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531720439:0;git branch bugfix/H7_MUX_SPI_DMA
+: 1531720446:0;git status
+: 1531720458:0;git add main.c lib_cfg/lwip/ethernetif_h7.c
+: 1531720470:0;git commit -m 'test'
+: 1531720491:0;git status
+: 1531732228:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531732608:0;git log
+: 1531732627:0;git checkout bugfix/H7_MUX_SPI_DMA
+: 1531732655:0;git branch -d  bugfix/H7_MUX_SPI_DMA
+: 1531732691:0;git reset 
+: 1531732696:0;git reset --help
+: 1531732771:0;git reset hard a221b6c...
+: 1531732783:0;git reset --help
+: 1531732797:0;git reset --hard a221b6c...
+: 1531732811:0;git reset --hard a221b6ca
+: 1531732819:0;git log
+: 1531732830:0;git status
+: 1531732884:0;git checkout spi_dma_test
+: 1531732889:0;git status
+: 1531732906:0;git index-pack -h
+: 1531732921:0;git --help
+: 1531732950:0;git help -g
+: 1531732968:0;git help ignore
+: 1531733000:0;git help -a
+: 1531733069:0;git index-pack --help
+: 1531733696:0;git check-ignore --help
+: 1531733740:0;git status
+: 1531733755:0;git check-ignore  version.h
+: 1531733763:0;rm build.sh
+: 1531733768:0;rm buildnew.sh
+: 1531733779:0;rm xwdm_make_tests.sh
+: 1531733785:0;git status
+: 1531733796:0;git ignore 
+: 1531733813:0;git ignore version.h
+: 1531733820:0;git status
+: 1531733828:0;clear
+: 1531791402:0;./studio.sh
+: 1531794522:0;./gradlew :assembleDebug
+: 1531882882:0;./muxtool --push <(echo "G;SLW") /dev/channel/45/tx/led
+: 1531882907:0;./muxtool --push <(echo "R;SLW") /dev/channel/45/tx/led
+: 1531882931:0;./muxtool --push <(echo "R;SLW") /dev/channel/41/tx/led
+: 1531882953:0;./muxtool --push <(echo "G;OFF") /dev/channel/45/tx/led
+: 1531882960:0;./muxtool --push <(echo "G;OFF") /dev/channel/41/tx/led
+: 1531882968:0;./muxtool --push <(echo "G;OFF") /dev/channel/41/Rx/led
+: 1531883021:0;git branch 
+: 1531883044:0;git log
+: 1531883114:0;git diff bugfix/H7_MUX_SPI_DMA
+: 1531883188:0;git diff --help
+: 1531883310:0;g
+: 1531883455:0;git diff bugfix/H7_MUX_SPI_DMA --main.c
+: 1531883473:0;git diff bugfix/H7_MUX_SPI_DMA --led_driver.c
+: 1531883489:0;git diff bugfix/H7_MUX_SPI_DMA -- led_driver.c
+: 1531883522:0;git diff bugfix/H7_MUX_SPI_DMA -- led_driver.c main.c
+: 1531883612:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531883670:0;git diff bugfix/H7_MUX_SPI_DMA -- led_driver.c stm32h7xx_hal_msp_mux.c
+: 1531883954:0;git diff bugfix/H7_MUX_SPI_DMA -- led_driver.c stm32h7xx_hal_msp_mux.c xwdm_callbacks.c
+: 1531884104:0;git checkout .
+: 1531884111:0;git status
+: 1531884130:0;git ignore version.h
+: 1531884143:0;git checkout origin/bugfix/H7_MUX_SPI_DMA
+: 1531884152:0;make clean
+: 1531884159:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531884177:0;ls
+: 1531884183:0;vim main.c
+: 1531884377:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531884546:0;git checkout spi_dma_test
+: 1531884563:0;git checkout .
+: 1531884578:0;git status
+: 1531884589:0;git ignore version.h
+: 1531884606:0;git checkout spi_dma_test
+: 1531884611:0;git log
+: 1531884634:0;git checkout de44345e024801569b5fdb59c947dd57082b81bc
+: 1531884640:0;make clean
+: 1531884647:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531885087:0;git diff bugfix/H7_MUX_SPI_DMA
+: 1531885101:0;git diff bugfix/H7_MUX_SPI_DMA -- led_driver.c stm32h7xx_hal_msp_mux.c xwdm_callbacks.c
+: 1531885122:0;git diff bugfix/H7_MUX_SPI_DMA -- led_driver.c stm32h7xx_hal_msp_mux.c xwdm_callbacks.c main.c
+: 1531885254:0;git diff bugfix/H7_MUX_SPI_DMA -- led_driver.c main.c
+: 1531885266:0;git diff bugfix/H7_MUX_SPI_DMA -- main.c
+: 1531885292:0;git log
+: 1531885317:0;git branch 
+: 1531885334:0;git checkout bugfix/H7_MUX_SPI_DMA
+: 1531885338:0;git log
+: 1531885347:0;make clean
+: 1531885351:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531892426:0;git log
+: 1531892444:0;git diff origin/bugfix/H7_MUX_SPI_DMA
+: 1531892525:0;./muxtool --push <(echo "G;OFF") /dev/channel/41/Rx/led
+: 1531892554:0;./muxtool -e oo
+: 1531892567:0;./muxtool --push <(echo "G;OFF") /dev/channel/41/rx/led
+: 1531892574:0;./muxtool --push <(echo "G;OFF") /dev/channel/41/Tx/led
+: 1531892578:0;./muxtool --push <(echo "G;OFF") /dev/channel/41/tx/led
+: 1531892635:0;./muxtool --push <(echo "G;OFF") /dev/channel/44/tx/led
+: 1531892646:0;./muxtool --push <(echo "G;OFF") /dev/channel/44/rx/led
+: 1531892698:0;./muxtool --push <(echo "R;OFF") /dev/channel/44/rx/led
+: 1531892776:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531892889:0;./muxtool --push <(echo "G;SLW") /dev/channel/41/rx/led
+: 1531892900:0;./muxtool --push <(echo "G;SLW") /dev/channel/41/Tx/led
+: 1531892905:0;./muxtool --push <(echo "G;SLW") /dev/channel/41/tx/led
+: 1531892912:0;./muxtool --push <(echo "G;SLW") /dev/channel/47/tx/led
+: 1531892945:0;git merge origin/development
+: 1531892952:0;git log
+: 1531892967:0;git fetch
+: 1531892982:0;git pull
+: 1531893010:0;git merge origin/development
+: 1531893019:0;git status
+: 1531893033:0;git diff main.c
+: 1531893065:0;git checkout  main.c
+: 1531893067:0;git merge origin/development
+: 1531893094:0;make clean
+: 1531893114:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531893248:0;git log
+: 1531893262:0;./muxtool --push <(echo "G;SLW") /dev/channel/47/tx/led
+: 1531893270:0;./muxtool --push <(echo "G;OFF") /dev/channel/47/tx/led
+: 1531893285:0;./muxtool --push <(echo "G;OFF") /dev/channel/41/tx/led
+: 1531893292:0;./muxtool --push <(echo "G;OFF") /dev/channel/41/rx/led
+: 1531893320:0;./muxtool --push <(echo "G;OFF") /dev/channel/41/tx/led
+: 1531893343:0;./muxtool --push <(echo "OFF;G") /dev/channel/41/tx/led
+: 1531893353:0;./muxtool --push <(echo "OFF;G") /dev/channel/41/rx/led
+: 1531893362:0;./muxtool --push <(echo "OFF;G") /dev/channel/45/rx/led
+: 1531893404:0;git status
+: 1531893415:0;rm xxx.xxx
+: 1531893451:0;./muxtool --push <(echo "ON;G") /dev/channel/41/rx/led
+: 1531893458:0;./muxtool --push <(echo "ON;G") /dev/channel/41/tx/led
+: 1531893471:0;./muxtool --push <(echo "SLW;G") /dev/channel/41/tx/led
+: 1531893478:0;./muxtool --push <(echo "SLW;G") /dev/channel/41/rx/led
+: 1531893627:0;./muxtool --push <(echo "SLW;G") /dev/channel/41/tx/led
+: 1531893953:0;./muxtool -e oo
+: 1531894062:0;make clean
+: 1531894073:0;make BL=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1531894306:0;./muxtool -e oo
+: 1531904793:0;git merge update_h7_library_version 
+: 1531904830:0;make clean
+: 1531904838:0;make BL=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1531904949:0;make clean
+: 1531904985:0;make BL=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1531905131:0;z
+: 1531905148:0;z 9604
+: 1531905171:0;c ~/projects/xwdm_fw
+: 1531905176:0;~/projects/xwdm_fw
+: 1531905182:0;make BL=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1531905221:0;git status
+: 1531905228:0;git checkout  .
+: 1531905231:0;git status
+: 1531905237:0;git ignore version.h
+: 1531905242:0;git log
+: 1531905263:0;git checkout origin/development
+: 1531905272:0;git merge update_h7_library_version 
+: 1531905287:0;git log
+: 1531905301:0;make BL=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1531905305:0;make clean
+: 1531905309:0;make BL=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1531905343:0;make clean
+: 1531905351:0;make FL=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1531905358:0;make FW=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1531905541:0;git log
+: 1531905759:0;git pull
+: 1531905785:0;git fecth
+: 1531905792:0;git fetch
+: 1531964921:0;git checkout firmware_update_for_MUX_board
+: 1531964930:0;git log
+: 1531964964:0;git diff 26219b79d683f24920653eff796efc314ccea322
+: 1531966620:0;git branch -d firmware_update_for_MUX_board
+: 1531966633:0;git checkout development
+: 1531966636:0;git branch -d firmware_update_for_MUX_board
+: 1531966645:0;git branch -r firmware_update_for_MUX_board
+: 1531966667:0;git branch -m firmware_update_for_MUX_board
+: 1531966674:0;git log
+: 1531966692:0;git pull
+: 1531966699:0;git log
+: 1531968745:0;git diff
+: 1531968813:0;make clean
+: 1531968824:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531969213:0;\
+
+: 1531969262:0;arm-none-eabi-gdb 
+: 1531969332:0;make clean
+: 1531969466:0;make BL=1 MUX=1 STM32H7=1 -j4
+: 1531970601:0;git log
+: 1531970622:0;git push --set-upstream origin firmware_update_for_MUX_board
+: 1531970651:0;git push --help
+: 1531970713:0;git push -f --set-upstream origin firmware_update_for_MUX_board
+: 1531979623:0;git checkout development
+: 1531979630:0;make clean
+: 1531979636:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531979652:0;make clean
+: 1531979669:0;make FW=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1531979747:0;make clean
+: 1531979755:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531979763:0;make clean
+: 1531979782:0;make BL=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1531979835:0;make clean
+: 1531979840:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531979931:0;cd ~/projects/muxtool
+: 1531979937:0;./muxtool -e oo
+: 1531980110:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531980195:0;./muxtool -e oo
+: 1531980312:0;git pull
+: 1531980470:0;git log
+: 1531980482:0;git checkout ttttt
+: 1531980496:0;git branch ttttt
+: 1531980503:0;git checkout ttttt
+: 1531980517:0;git merge bugfix/H7_MUX_SPI_DMA
+: 1531980536:0;git checkout main.c lib_cfg/lwip/ethernetif_h7.c
+: 1531980540:0;git merge bugfix/H7_MUX_SPI_DMA
+: 1531980557:0;make clean
+: 1531980563:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531980669:0;git log
+: 1531980719:0;git branch -d development
+: 1531980723:0;git branch -d ttttt
+: 1531980729:0;git log
+: 1531980761:0;git merge origin/bugfix/H7_MUX_SPI_DMA
+: 1531980769:0;git log
+: 1531980795:0;git checkout origin/development
+: 1531980811:0;git checkout lib_cfg/lwip/ethernetif_h7.c
+: 1531980813:0;git checkout origin/development
+: 1531980822:0;git branch -d ttttt
+: 1531980831:0;git branch -D ttttt
+: 1531980834:0;git log
+: 1531980845:0;git pull
+: 1531980858:0;git merge origin/bugfix/H7_MUX_SPI_DMA
+: 1531980866:0;git log
+: 1531980917:0;make clean
+: 1531980922:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531981183:0;./muxtool --push <(echo "SLW;G") /dev/channel/41/rx/led
+: 1531981192:0;./muxtool --push <(echo "SLW;G") /dev/channel/41/tx/led
+: 1531981245:0;./muxtool --push <(echo "SLW;G") /dev/led/1_tx
+: 1531981256:0;./muxtool --push <(echo "OFF;G") /dev/led/1_tx
+: 1531981281:0;./muxtool --push <(echo "OFF;G") /dev/led/0_tx
+: 1531981292:0;./muxtool --push <(echo "SLW;G") /dev/channel/41/tx/led
+: 1531981344:0;git branch -a
+: 1531981389:0;git merge origin/bugfix/tx_rx_mixed_by_/dev/led{Channel_ID}_t/rx
+: 1531981402:0;git log
+: 1531981421:0;make clean
+: 1531981424:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1531981502:0;./muxtool --push <(echo "SLW;G") /dev/channel/41/tx/led
+: 1531981515:0;./muxtool --push <(echo "OFF;G") /dev/led/0_tx
+: 1531981520:0;./muxtool --push <(echo "SLW;G") /dev/channel/41/rx/led
+: 1531981524:0;./muxtool --push <(echo "OFF;G") /dev/led/0_rx
+: 1531981527:0;./muxtool --push <(echo "SLW;G") /dev/channel/41/rx/led
+: 1531981531:0;./muxtool --push <(echo "OFF;G") /dev/led/0_rx
+: 1531983433:0;git log
+: 1531985082:0;git branch -a
+: 1531985169:0;git checkout origin/feature/C
+: 1531985183:0;git checkout origin
+: 1531985200:0;git checkout lib_cfg/lwip/ethernetif_h7.c main.c
+: 1531985211:0;git status
+: 1531985225:0;git checkout buildtest.sh
+: 1531985248:0;git checkout origin/feature/Control_led_timeout_by_devfs
+: 1531985270:0;git diff origin/development
+: 1531985326:0;git checkout origin/development
+: 1531985341:0;git merge remotes/origin/feature/Control_led_timeout_by_devfs
+: 1531985348:0;git status
+: 1531985366:0;git diff leds_priority.c
+: 1531985419:0;vim leds_priority.c
+: 1531985538:0;git diff leds_priority.c
+: 1531985558:0;git add leds_priority.c
+: 1531985563:0;git log
+: 1531985572:0;git status
+: 1531985605:0;git diff leds_priority.c
+: 1531985625:0;git diff origin/development -- leds_priority.c
+: 1531985712:0;git commit -m 'fix confilcts'
+: 1531985780:0;git branch feature/Control_led_timeout_by_devfs
+: 1531985791:0;git checkout feature/Control_led_timeout_by_devfs
+: 1531985831:0;git diff origin/feature/Control_led_timeout_by_devfs
+: 1531985910:0;git checkout origin/development
+: 1531986074:0;git log
+: 1531986468:0;git checkout origin/feature/Control_led_timeout_by_devfs
+: 1531986507:0;git merge origin/development
+: 1531986516:0;git status
+: 1531986533:0;git diff leds_priority.c
+: 1531986542:0;vim leds_priority.c
+: 1531986580:0;git diff leds_priority.c
+: 1531986592:0;git add leds_priority.c
+: 1531986608:0;git status
+: 1531986626:0;git commit -m 'fix confilcts'
+: 1531986663:0;diff 4701923
+: 1531986671:0;git diff 4701923
+: 1531986723:0;git diff feature/Control_led_timeout_by_devfs
+: 1531986759:0;git push  --set-upstream origin feature/Control_led_timeout_by_devfs
+: 1531986971:0;git diff 47019239cf4  0702ea9ab17
+: 1531987118:0;git checkout origin/feature/Control_led_timeout_by_devfs
+: 1531987133:0;git og
+: 1531987135:0;git log
+: 1531999046:0;git branch -a
+: 1531999079:0;git branch 
+: 1531999166:0;git branch -d adjust_dma_section_data_initialization feature/H7_SD_card feature/get_MAC_address_from_EEPROM fix_update_firmware_function firmware_update_for_MUX_board 
+: 1531999181:0;git branch 
+: 1531999196:0;git branch -d bugfix/H7_MUX_SPI_DMA
+: 1531999239:0;git branch -d h7_disable_cache mux_sub_board_info  stm32h753xx_sd_card_support test_large_fw_size_update
+: 1531999253:0;git branch 
+: 1531999273:0;git branch -d spi_dma_test
+: 1531999279:0;git branch -D spi_dma_test
+: 1531999292:0;git branch -D test_large_fw_size_update
+: 1531999307:0;git status
+: 1531999324:0;rm pi_dma_testq
+: 1531999337:0;git branch 
+: 1531999437:0;git config
+: 1531999462:0;git config --get-all
+: 1531999564:0;git config --show-or
+: 1531999571:0;git config --show-origin
+: 1531999582:0;git --show-origin
+: 1531999611:0;git config -l
+: 1532000015:0;cd /
+: 1532000019:0;git config -l
+: 1532004121:0;git pull
+: 1532004144:0;git checkout origin/development
+: 1532051016:0;ping vpandav.com
+: 1532075141:0;git checkout origin/development
+: 1532075146:0;make clean
+: 1532075150:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1532075202:0;arm-none-eabi-gdb 
+: 1532075270:0;cd ~/projects/muxtool
+: 1532075291:0;./muxtool --pull 2:/xwdm_led.log xxx.xxx
+: 1532075306:0;cat xxx.xxx
+: 1532075382:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1532075404:0;git add leds_priority.c
+: 1532075449:0;git commit -m 'limit log output'
+: 1532075468:0;git add led_driver.c
+: 1532075470:0;git commit -m 'limit log output'
+: 1532075524:0;git checkout adjust_log_info_level
+: 1532075533:0;git branch adjust_log_info_level
+: 1532075569:0;git push  --set-upstream origin adjust_log_info_level
+: 1532075638:0;./muxtool --push /dev/null 2:/xwdm_led.log 
+: 1532075647:0;./muxtool --pull 2:/xwdm_led.log xxx.xxx
+: 1532075651:0;cat xxx.xxx
+: 1532075663:0;./muxtool --pull 2:/xwdm_led.log xxx.xxx
+: 1532075664:0;cat xxx.xxx
+: 1532075675:0;./muxtool --pull 2:/xwdm_led.log xxx.xxx
+: 1532075677:0;cat xxx.xxx
+: 1532075697:0;./muxtool --pull 2:/xwdm_led.log xxx.xxx
+: 1532075698:0;cat xxx.xxx
+: 1532075700:0;./muxtool --pull 2:/xwdm_led.log xxx.xxx
+: 1532075701:0;cat xxx.xxx
+: 1532075705:0;./muxtool --pull 2:/xwdm_led.log xxx.xxx
+: 1532075706:0;cat xxx.xxx
+: 1532075724:0;./muxtool --pull 2:/xwdm_led.log xxx.xxx
+: 1532075726:0;cat xxx.xxx
+: 1532075749:0;./muxtool --pull 2:/xwdm_led.log xxx.xxx
+: 1532075751:0;cat xxx.xxx
+: 1532075856:0;git checkout origin/development
+: 1532075885:0;git branch -d adjust_log_info_level
+: 1532075898:0;vim led_driver.c
+: 1532076063:0;git diff development
+: 1532076083:0;git diff origin/development
+: 1532076093:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1532076112:0;git branch -d adjust_log_info_level
+: 1532076118:0;git branch  adjust_log_info_level
+: 1532076125:0;git push  --set-upstream origin adjust_log_info_level -f
+: 1532316685:0;cp -h
+: 1532316690:0;cp --help
+: 1532324498:0;rsync
+: 1532324541:0;man sync
+: 1532324568:0;man rsync
+: 1532329512:0;git pull
+: 1532329573:0;pwd
+: 1532329579:0;git pull
+: 1532329601:0;git checkout origin/development
+: 1532329616:0;git checkout .
+: 1532329619:0;git checkout origin/development
+: 1532329629:0;git status
+: 1532329667:0;git checkout origin/development
+: 1532329672:0;git pull
+: 1532329690:0;git log
+: 1532329705:0;git checkout origin/development
+: 1532329757:0;git checkout origin/master
+: 1532329766:0;git branch  -a
+: 1532413776:0;cd ~/projects/xwdm_fw
+: 1532413787:0;git checkout origin/development
+: 1532423304:0;git pull
+: 1532423729:0;ls /var/log/
+: 1532423749:0;ls /var/log/apache2
+: 1532423827:0;ls /var/log/apache2 -l
+: 1532481945:0;more /var/log/dpkg.log
+: 1532481994:0;grep "2018-07-25" /var/log/dpkg.log | grep "status installed"
+: 1532483353:0;cd /etc/v2ray
+: 1532483355:0;ls
+: 1532483362:0;cat config.json
+: 1532485225:0;cd ~/
+: 1532485233:0;git pull
+: 1532485567:0;vim /etc/v2ray/config.json
+: 1532485949:0;ls /etc/v2ray
+: 1532485952:0;ls
+: 1532485981:0;mv config.json.new /etc/v2ray
+: 1532486013:0;ls config.json.new
+: 1532486016:0;ls config.json.new -l
+: 1532486044:0;sudo mv config.json.new /etc/v2ray
+: 1532486076:0;cd /etc/v2ray
+: 1532486077:0;ls
+: 1532486098:0;sudo mv config.json config.json.bak
+: 1532486100:0;ls
+: 1532486111:0;mv config.json.new config.json
+: 1532486117:0;sudo mv config.json.new config.json
+: 1532486120:0;ls
+: 1532486134:0;fiff config.json config.json.bak
+: 1532486139:0;diff config.json config.json.bak
+: 1532486164:0;systemctl restart v2ray
+: 1532486245:0;cat /var/log/
+: 1532486250:0;ls /var/log/
+: 1532486275:0;dmesg
+: 1532486302:0;ls 
+: 1532486321:0;ls
+: 1532486337:0;v2ray
+: 1532486342:0;sudo v2ray
+: 1532486359:0;systemctl restart v2ray
+: 1532486384:0;rsyslogd 
+: 1532486399:0;rsyslogd config.json
+: 1532486616:0;systemctl restart v2ray
+: 1532486717:0;vim config.json
+: 1532486777:0;ls
+: 1532486785:0;mv config.json config.json.new
+: 1532486790:0;sudo mv config.json config.json.new
+: 1532486807:0;mv config.json.bak config.json
+: 1532486811:0;sudo mv config.json.bak config.json
+: 1532486818:0;systemctl restart v2ray
+: 1532487302:0;ls /var/log/
+: 1532487312:0;ls /var/log/apache2
+: 1532487467:0;ls
+: 1532487474:0;vim config.json
+: 1532487484:0;sudo vim config.json
+: 1532487662:0;systemctl restart v2ray
+: 1532487690:0;sudo vim config.json
+: 1532487842:0;systemctl restart v2ray
+: 1532488443:0;sudo mkdir -p /var/log/v2ray/
+: 1532488446:0;systemctl restart v2ray
+: 1532488604:0;cd  /var/log/v2ray/
+: 1532488606:0;ls
+: 1532488610:0;cat access.log
+: 1532488614:0;sduo cat access.log
+: 1532488619:0;sudo cat access.log
+: 1532488629:0;sudo cat error.log
+: 1532488661:0;systemctl stop v2ray
+: 1532488692:0;systemctl start v2ray
+: 1532488707:0;ls
+: 1532488712:0;cat access.log
+: 1532488717:0;sudo cat access.log
+: 1532488733:0;sudo cat error.log
+: 1532488792:0;ls
+: 1532488797:0;cd /etc/v2ray
+: 1532488804:0;sudo vim config.json
+: 1532488895:0;systemctl restart v2ray
+: 1532489072:0;sudo vim config.json
+: 1532489085:0;systemctl restart v2ray
+: 1532489179:0;sudo vim config.json
+: 1532489276:0;systemctl restart v2ray
+: 1532490079:0;sudo vim config.json
+: 1532490129:0;systemctl restart v2ray
+: 1532490214:0;ls
+: 1532499886:0;skypeforlinux
+: 1532501198:0;sudo vim config.json
+: 1532505801:0;ls
+: 1532505817:0;cd /var/log/v2ray
+: 1532505818:0;ls
+: 1532505821:0;cat access.log
+: 1532505825:0;sudo cat access.log
+: 1532505868:0;ls
+: 1532505873:0;cat error.log
+: 1532505876:0;sudo cat error.log
+: 1532505990:0;ls
+: 1532505996:0;cat config.json.new
+: 1532506040:0;ls
+: 1532506046:0;sudo vim config.json
+: 1532506379:0;systemctl restart v2ray
+: 1532506404:0;ls
+: 1532506409:0;sudo cat error.log
+: 1532506422:0;sudo cat access.log
+: 1532506447:0;systemctl restart v2ray
+: 1532506464:0;sudo cat error.log
+: 1532506480:0;sudo cat access.log
+: 1532506483:0;sudo cat error.log
+: 1532506498:0;systemctl stop v2ray
+: 1532506520:0;systemctl start v2ray
+: 1532506556:0;systemctl restart v2ray
+: 1532506595:0;ls
+: 1532506628:0;sudo jq config.j
+: 1532506633:0;sudo jq config.json
+: 1532506659:0;sudo jq config.json.new
+: 1532506680:0;systemctl stop v2ray
+: 1532506688:0;v2ray --help
+: 1532506692:0;sudo v2ray --help
+: 1532506695:0;sudo v2ray 
+: 1532506702:0;sudo /bin/v2ray 
+: 1532506711:0;locate v2ray
+: 1532506734:0;sudo ./v2ray --help
+: 1532506739:0;sudo ./v2ray -h
+: 1532506751:0;sudo ./etc/v2ray -h
+: 1532506756:0;sudo sh /etc/v2ray -h
+: 1532506762:0;sudo sh /etc/v2ray --help
+: 1532506780:0;man v2ray
+: 1532506801:0;sudo /usr/bin/v2ray
+: 1532506805:0;sudo ./usr/bin/v2ray
+: 1532506825:0;/usr/bin/v2ray/v2ray
+: 1532506835:0;/usr/bin/v2ray/v2ray -h
+: 1532506843:0;/usr/bin/v2ray/v2ray -test config.json
+: 1532506866:0;ls
+: 1532506871:0;sudo ./usr/bin/v2ray
+: 1532506880:0;sudo vim config.json
+: 1532507050:0;/usr/bin/v2ray/v2ray -test config.json
+: 1532507064:0;systemctl start v2ray
+: 1532507102:0;sudo cat error.log
+: 1532507106:0;sudo cat access.log
+: 1532507130:0;systemctl restart v2ray
+: 1532507174:0;systemctl start v2ray
+: 1532507249:0;sudo vim config.json
+: 1532507426:0;/usr/bin/v2ray/v2ray -test config.json
+: 1532507435:0;systemctl start v2ray
+: 1532507483:0;ps -aux | grep v2ray
+: 1532507496:0;kill 19432
+: 1532507501:0;systemctl start v2ray
+: 1532507541:0;ls
+: 1532507546:0;sudo vim config.json
+: 1532507573:0;systemctl start v2ray
+: 1532507593:0;ps -aux | grep v2ray
+: 1532507601:0;systemctl start v2ray
+: 1532507670:0;ls
+: 1532507680:0;diff config.json config.json.new
+: 1532507730:0;sudo vim config.json
+: 1532507790:0;systemctl start v2ray
+: 1532507895:0;sudo vim config.json
+: 1532508304:0;/usr/bin/v2ray/v2ray -test config.json
+: 1532508313:0;systemctl restart v2ray
+: 1532508399:0;sudo vim config.json
+: 1532508458:0;systemctl restart v2ray
+: 1532508500:0;sudo vim config.json
+: 1532508709:0;sudo cat access.log
+: 1532508718:0;sudo cat error.log
+: 1532508745:0;sudo systemctl restart v2ray
+: 1532508893:0;sudo cat access.log
+: 1532508901:0;sudo cat error.log
+: 1532508906:0;sudo cat access.log
+: 1532509160:0;ls
+: 1532510294:0;sudo vim config.json
+: 1532512439:0;systemctl stop v2ray
+: 1532516868:0;skypeforlinux
+: 1532518083:0;sudo
+: 1532518087:0;pwd
+: 1532518091:0;cd ..
+: 1532518093:0;ls
+: 1532518473:0;man syslog
+: 1532518540:0;systemctl restart v2ray
+: 1532519747:0;make clean
+: 1532519752:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1532519822:0;git status
+: 1532519829:0;git diff origin/development
+: 1532519854:0;git log
+: 1532519896:0;git checkout xwdm_log.c xwdm_log.h 
+: 1532519908:0;git checkout origin/development
+: 1532519914:0;make clean
+: 1532519917:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1532519970:0;git status
+: 1532519975:0;git diff origin/development
+: 1532521101:0;git push  --set-upstream origin adjust_log_level
+: 1532521115:0;git push  --set-upstream origin adjust_log_level -f
+: 1532521122:0;git diff origin/development
+: 1532521129:0;git pull
+: 1532521140:0;git push  --set-upstream origin adjust_log_level -f
+: 1532521184:0;git checkout -d adjust_log_level
+: 1532521192:0;git branch adjust_log_level
+: 1532521196:0;git push  --set-upstream origin adjust_log_level -f
+: 1532568603:0;git log
+: 1532572091:0;cd ~/projects/muxtool
+: 1532572093:0;ls
+: 1532572111:0;./muxtool --pull 1:/network.conf xxx.xxx
+: 1532572228:0;ping 192.168.40.101
+: 1532572246:0;arm-none-eabi-gdb 
+: 1532572300:0;ping 192.168.40.101
+: 1532573215:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1532573586:0;ping 192.168.40.101
+: 1532573628:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1532573683:0;ping 192.168.40.101
+: 1532573787:0;git checkout origin/development
+: 1532573793:0;make clean
+: 1532573796:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1532573804:0;ping 192.168.40.101
+: 1532574164:0;ping 192.168.40.101 | awk { print $0 }
+: 1532574178:0;ping 192.168.40.101 | awk 'print $0'
+: 1532574188:0;ping 192.168.40.101 | awk {'print $0'}
+: 1532574204:0;ping 192.168.40.101 | awk {'print $(NR-1)'}
+: 1532574231:0;ping 192.168.40.101 | awk {'print NR'}
+: 1532574241:0;ping 192.168.40.101 | awk {'print fR'}
+: 1532574252:0;ping 192.168.40.101 | awk {'print FR'}
+: 1532574258:0;man awk
+: 1532574296:0;ping 192.168.40.101 | awk {'print NF'}
+: 1532574311:0;ping 192.168.40.101 | awk {'print $(NF-1)'}
+: 1532576289:0;git log
+: 1532577064:0;git status
+: 1532577095:0;rm xxx.xxx
+: 1532577366:0;ping 192.168.40.101 | awk {'print $(NF-1)'}
+: 1532577430:0;man sed
+: 1532587688:0;systemctl restart v2ray
+: 1532588897:0;git checkout firmware_update_for_MUX_board
+: 1532591575:0;git log
+: 1532591587:0;git diff 87aa7b098f999985ef7fcb5b274e27eca8b54c90
+: 1532595113:0;dot
+: 1532608675:0;cd ../centostrap
+: 1532608687:0;git branch -a
+: 1532608697:0;git log
+: 1532608714:0;git branch -a
+: 1532608743:0;git checkout remotes/origin/feature/XWDM-12-snmp
+: 1532608766:0;git pull
+: 1532655161:0;ls
+: 1532655173:0;wc
+: 1532655190:0;nano
+: 1532655205:0;mc
+: 1532655306:0;make
+: 1532655335:0;mc
+: 1532655356:0;make
+: 1532655370:0;ls
+: 1532656103:0;make
+: 1532656114:0;mc
+: 1532656179:0;cd ../centostrap
+: 1532656183:0;makr
+: 1532656185:0;make
+: 1532656202:0;ls
+: 1532656226:0;cd snmp
+: 1532656227:0;l
+: 1532656235:0;make
+: 1532656248:0;smilint
+: 1532656265:0;sudo apt install smilint
+: 1532656298:0;sudo apt update
+: 1532656309:0;sudo apt upgrade
+: 1532656412:0;sudo apt install smilint
+: 1532656417:0;make
+: 1532656436:0;vim
+: 1532660175:0;cat ../snmp/FLEXOPTIX-MIB.txt
+: 1532660185:0;cat ../snmp/FLEXOPTIX-MIB.txt | more
+: 1532662316:0;git checkout origin/development
+: 1532662319:0;git log
+: 1532662338:0;make clean
+: 1532662346:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1532662440:0;arm-none-eabi-gdb
+: 1532662523:0;ping 192.168.40.102
+: 1532662743:0;git status
+: 1532662747:0;rm core
+: 1532662760:0;git checkout led_driver.c
+: 1532662765:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1532662790:0;arm-none-eabi-gdb 
+: 1532662860:0;ping 192.168.40.102
+: 1532662882:0;vim led_driver.c
+: 1532662921:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1532663084:0;ls
+: 1532663098:0;git diff leds_priority.c
+: 1532663107:0;git status leds_priority.c
+: 1532663113:0;git status 
+: 1532663153:0;mv build/firmware.elf m_elf.elf
+: 1532663158:0;git checkout led_driver.c
+: 1532663162:0;git status 
+: 1532663167:0;rm core
+: 1532663170:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1532663177:0;ls
+: 1532663197:0;diff build/firmware.elf m_elf.elf
+: 1532663220:0;diff -Nu build/firmware.elf m_elf.elf
+: 1532663243:0;com  build/firmware.elf m_elf.elf
+: 1532663249:0;cmp  build/firmware.elf m_elf.elf
+: 1532663268:0;cmp  --help
+: 1532663281:0;cmp  build/firmware.elf m_elf.elf -l
+: 1532663285:0;cmp  --help
+: 1532663291:0;cmp  build/firmware.elf m_elf.elf -b
+: 1532663342:0;diff 
+: 1532663346:0;diff --help
+: 1532663451:0;ls
+: 1532663462:0;rm m_elf.elf
+: 1532663463:0;ls
+: 1532663480:0;mv build/firmware.bin .
+: 1532663482:0;ls
+: 1532669965:0;git status 
+: 1532669998:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1532670060:0;ping 192.168.40.101
+: 1532670157:0;diff -uN build/firmware.bin firmware.bin
+: 1532670168:0;cmp -uN build/firmware.bin firmware.bin
+: 1532670175:0;cmp  build/firmware.bin firmware.bin
+: 1532670231:0;ping 192.168.40.101
+: 1532670389:0;git diff 
+: 1532670408:0;git status 
+: 1532670416:0;git checkout led_driver.c
+: 1532670418:0;git status 
+: 1532670424:0;rm firmware.bin
+: 1532670428:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1532670585:0;ping 192.168.40.101
+: 1532670641:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1532670824:0;ping 192.168.40.101
+: 1532671259:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1532671608:0;sudo apt-get update
+: 1532671629:0;sudo apt-get upgrade
+: 1532671695:0;sudo apt update && sudo apt dist-upgrade
+: 1532671729:0;update-manager
+: 1532671785:0;sudo apt update && sudo apt dist-upgrade
+: 1532671799:0;update-manager
+: 1532671921:0;sudo do-release-upgrade~
+: 1532671924:0;sudo do-release-upgrade
+: 1532672054:0;systemctl stop Hexchat
+: 1532672067:0;systemctl stop HexChat
+: 1532672084:0;systemctl st
+: 1532672094:0;ps -aux | grep HexChat
+: 1532672101:0;ps -aux | grep hexchat
+: 1532673673:0;reboot
+: 1532673690:0;systemctl reboot
+: 1532673693:0;systemctl reboot -i
+: 1532674595:0;systemctl start v2ray
+: 1532675977:0;sudo apt update && sudo apt dist-upgrade
+: 1532677256:0;l
+: 1532677304:0;cd ~/projects/centostrap/
+: 1532677306:0;ls
+: 1532677313:0;git status 
+: 1532677329:0;cat graphs/flexoptix-mib.png
+: 1532677337:0;cd graphs
+: 1532677337:0;ls
+: 1532677351:0;cat flexoptix-mib.png
+: 1532677356:0;cat flexoptix-mib.dot
+: 1532677362:0;ls
+: 1532677367:0;cd ..
+: 1532677368:0;ls
+: 1532677408:0;git diff origin/development
+: 1532677771:0;git status origin/development
+: 1532677784:0;git diff --help
+: 1532677866:0;git diff index origin/development
+: 1532677871:0;git diff-index origin/development
+: 1532677919:0;git status origin/development -- Makefile
+: 1532677932:0;git diff origin/development -- Makefile
+: 1532678056:0;git diff origin/development -- Makefile build_nms_root_content.sh prepare_build_host.sh requestHandler/Dockerfile_manos requestHandler/snmptest/uri.py
+: 1532678165:0;vim
+: 1532678653:0;git diff-index origin/development
+: 1532678718:0;git branch -a
+: 1532678778:0;git diff-index origin/feature/XWDM-12-snmp origin/feature/XWDM-12-snmp-c
+: 1532678795:0;git diff origin/feature/XWDM-12-snmp origin/feature/XWDM-12-snmp-c
+: 1532679236:0;git log
+: 1532679292:0;git branch -d development
+: 1532679555:0;git status
+: 1532680829:0;your_name="qinjx"\
+greeting="hello, "$your_name" \
+greeting_1="hello, ${your_name} \!"\
+echo $greeting $greeting_1\
+
+: 1532680847:0;your_name="qinjx"\
+greeting="hello, "$your_name" \
+greeting_1="hello, ${your_name} \!"\
+echo $greeting $greeting_1\
+\
+;
+: 1532913461:0;cd ~/projects/xwdm_fw
+: 1532913466:0;git pull
+: 1532913485:0;git log
+: 1532913510:0;git fetch
+: 1532913515:0;git log
+: 1532913604:0;git log origin/reset_cause
+: 1532913651:0;git log -all
+: 1532913656:0;git log --help
+: 1532915390:0;ps
+: 1532915395:0;ps -aux
+: 1532915573:0;netstat -l
+: 1532915690:0;systemctl reboot -i
+: 1532916003:0;systemctl start v2ray
+: 1532916277:0;software-properties-gtk
+: 1532916675:0;systemctl reboot -i
+: 1532916756:0;sudo apt update && sudo apt dist-upgrade
+: 1532917040:0;systemctl start v2ray
+: 1532917091:0;sudo apt-get install software-center
+: 1532917193:0;ubuntu-software
+: 1532917547:0;sudo apt update && sudo apt dist-upgrade
+: 1532917639:0;sudo apt install --reinstall ubuntu-software
+: 1532917672:0;sudo add-apt-repository ppa:ubuntu-desktop/gnome-software
+: 1532917709:0;sudo apt-get update
+: 1532917859:0;sudo apt-get install gnome-software packagekit
+: 1532917921:0;ubuntu-software
+: 1532918021:0;netstat -l
+: 1532918057:0;sudo wireshark
+: 1532918170:0;sudo apt-get upgrade
+: 1532918193:0;ubuntu-support-status
+: 1532918224:0;ubuntu-drivers
+: 1532918242:0;ubuntu-software
+: 1532918780:0;ping vpandav.com
+: 1532921749:0;sudo apt purge gnome-software ubuntu-software
+: 1532921892:0;sudo apt autoremove
+: 1532921914:0;sudo apt install gnome-software ubuntu-software
+: 1532921943:0;ubuntu-software
+: 1532922699:0;cd ~/projects/centostrap/
+: 1532930750:0;sudo apt install graphics
+: 1532930814:0;sudo apt install graphviz
+: 1532930831:0;dot
+: 1532931060:0;ls
+: 1532931065:0;cd graphs
+: 1532931068:0;make
+: 1532931074:0;ls
+: 1532931099:0;make
+: 1532931103:0;ls
+: 1532931125:0;rm flexoptix-mib.*
+: 1532931128:0;make
+: 1532931142:0;ls
+: 1532931172:0;dot display 
+: 1532931521:0;cd ..
+: 1532931522:0;ls
+: 1532931535:0;git checkout origin/development
+: 1532931577:0;git pull
+: 1532931591:0;git checkout origin/development
+: 1532931596:0;git log
+: 1532931647:0;git checkout origin/feature/manos
+: 1532931659:0;git checkout origin/development
+: 1532931670:0;vim
+: 1532942283:0;git log
+: 1532942393:0;git branch
+: 1532942397:0;git branch -a
+: 1532942424:0;git checkout origin/feature/XWDM-12-snmp
+: 1532949666:0;cd test
+: 1532949683:0;python test.py
+: 1532949686:0;ls
+: 1532949693:0;cd snmp
+: 1532949696:0;python test.py
+: 1533023080:0;git status
+: 1533023098:0;cd ~/projects/xwdm_fw
+: 1533023106:0;make clean
+: 1533023146:0;make FW=1 MUX=1 STM32H7=1 PROFILING=1 -j4 
+: 1533023260:0;cd ~/projects/muxtool
+: 1533023264:0;./muxtool -h
+: 1533023322:0;arm-none-eabi-gdb 
+: 1533023411:0;vim ~/.gdbinitbmp
+: 1533023452:0;pwd
+: 1533023492:0;vim ~/.gdbinitbmp
+: 1533023499:0;arm-none-eabi-gdb 
+: 1533023620:0;./muxtool -e oo
+: 1533023641:0;./muxtool -P
+: 1533024139:0;make FW=1 MUX=1 STM32H7=1 PROFILING=1 -j4 
+: 1533024249:0;./muxtool -P
+: 1533024391:0;make FW=1 MUX=1 STM32H7=1 PROFILING=1 -j4 
+: 1533024449:0;./muxtool -P
+: 1533024484:0;git status
+: 1533024502:0;git diff gmon.c
+: 1533024511:0;git diff lib/mcuoneclipse/STM32_Profiling/Profiling/gmon.c
+: 1533024522:0;make clean
+: 1533024526:0;make FW=1 MUX=1 STM32H7=1 PROFILING=1 -j4 
+: 1533024597:0;./muxtool -P
+: 1533024714:0;arm-none-eabi-gdb 
+: 1533024765:0;./muxtool -P
+: 1533024997:0;make clean
+: 1533025005:0;make FW=1 MUX=1 STM32H7=1 PROFILING=1 -j4 
+: 1533025086:0;arm-none-eabi-gdb 
+: 1533025208:0;./muxtool -P
+: 1533025329:0;make FW=1 MUX=1 STM32H7=1 PROFILING=1 -j4 
+: 1533025398:0;./muxtool -P
+: 1533025535:0;vim ~/.gdbinitbmp
+: 1533025557:0;arm-none-eabi-gdb 
+: 1533025671:0;make FW=1 MUX=1 STM32H7=1 PROFILING=1 -j4 
+: 1533025714:0;./muxtool -P
+: 1533025744:0;./muxtool --pull 2:/gmon.out gmon.out
+: 1533025881:0;./muxtool -P
+: 1533026925:0;vim ~/.gdbinitbmp
+: 1533026974:0;arm-none-eabi-gdb 
+: 1533027324:0;./muxtool --pull 2:/xwdm_led.log xxx.xxx
+: 1533027356:0;make clean
+: 1533027365:0;make FW=1 MUX=1 STM32H7=1 -j4 
+: 1533027540:0;./muxtool --pull 2:/xwdm_led.log xxx.xxx
+: 1533027580:0;arm-none-eabi-gdb -x
+: 1533027601:0;arm-none-eabi-gdb -x ~/.gdbinitbmp
+: 1533027628:0;arm-none-eabi-gdb 
+: 1533027632:0;arm-none-eabi-gdb --help
+: 1533027669:0;arm-none-eabi-gdb -x ~/.gdbinitbmp
+: 1533030014:0;make clean
+: 1533030027:0;make FW=1 MUX=1 STM32H7=1 PROFILING=1 -j4 '\
+;
+: 1533030029:0;make FW=1 MUX=1 STM32H7=1 PROFILING=1 -j4 \
+;
+: 1533030296:0;arm-none-eabi-gdb -x ~/.gdbinitbmp
+: 1533091038:0;systemctl start v2ray
+: 1533104954:0;make FW=1 MUX=1 STM32H7=1 PROFILING=1 -j4 \
+;
+: 1533108385:0;arm-none-eabi-gdb -x ~/.gdbinitbmp
+: 1533108460:0;\
+
+: 1533108463:0;arm-none-eabi-gdb -x ~/.gdbinitbmp
+: 1533108482:0;vim ~/.gdbinitbmp
+: 1533111264:0;vim /var/log/
+: 1533111311:0;vim /etc/logrotate.conf
+: 1533111771:0;make clean
+: 1533111783:0;vim Makefile
+: 1533111835:0;make FW=1 MUX=1 STM32H7=1 PROFILING=1 -j4 \
+;
+: 1533112187:0;arm-none-eabi-gdb -x ~/.gdbinitbmp
+: 1533116799:0;make FW=1 MUX=1 STM32H7=1 PROFILING=1 -j4 \
+;
+: 1533172884:0;sudo apt update && sudo apt dist-upgrade
+: 1533172905:0;sudo apt upgrade
+: 1533173224:0;sudo apt-get clean
+: 1533173237:0;sudo apt-get update
+: 1533173482:0;sudo vim /etc/apt/sources.list:44
+: 1533173487:0;sudo vim /etc/apt/sources.list
+: 1533173514:0;sudo apt-get update
+: 1533173547:0;sudo vim /etc/apt/sources.list
+: 1533173613:0;sudo apt-get update
+: 1533173682:0;sudo vim /etc/apt/sources.list
+: 1533173773:0;sudo apt-get update
+: 1533173863:0;sudo rm /etc/apt/sources.list.d/js-reynaud-ubuntu-kicad-4-xenial.list
+: 1533173880:0;sudo apt-get update
+: 1533173930:0;sudo vim /etc/apt/sources.list.d/vertex-theme.list
+: 1533173949:0;sudo rm /etc/apt/sources.list.d/vertex-theme.list
+: 1533173959:0;sudo apt-get update
+: 1533174008:0;sudo apt-get upg
+: 1533174010:0;sudo apt-get upgrade
+: 1533174013:0;sudo apt-get update
+: 1533174248:0;sudo apt-key del 1496576244
+: 1533174281:0;sudo apt-get clean
+: 1533174343:0;ls /etc/apt/sources.list.d/
+: 1533174389:0;sudo apt-key 
+: 1533174402:0;sudo apt-key update
+: 1533174412:0;sudo apt-get update
+: 1533174486:0;sudo apt-key del 1496576244
+: 1533174488:0;sudo apt-get update
+: 1533174521:0;sudo apt-get sudo apt-get clean
+: 1533174522:0;sudo apt-get clean
+: 1533174546:0;sudo vim /etc/apt/sources.list
+: 1533174678:0;ls /etc/apt/sources.list.d/
+: 1533174727:0;sudo apt-get update
+: 1533174932:0;sudo add-apt-repository ppa:fossfreedom/arc-gtk-theme-daily
+: 1533174948:0;sudo apt-get update
+: 1533175064:0;ls /etc/apt/sources.list.d/
+: 1533175080:0;sudo vim /etc/apt/sources.list.d/arc-theme.list
+: 1533175107:0;sudo rm /etc/apt/sources.list.d/arc-theme.*
+: 1533175110:0;ls /etc/apt/sources.list.d/
+: 1533175114:0;sudo apt-get update
+: 1533175137:0;sudo add-apt-repository ppa:fossfreedom/arc-gtk-theme-daily
+: 1533175147:0;sudo apt-get update
+: 1533175164:0;sudo apt-get upgrade
+: 1533175908:0;systemctl start v2ray
+: 1533179857:0;chmod a+x Stellarium-0.18.1-x86_64.AppImage
+: 1533179861:0;./Stellarium-0.18.1-x86_64.AppImage
+: 1533180162:0;sudo add -apt -repository ppa:stellarium/stellarium -releases
+: 1533180176:0;sudo apt add-repository ppa:stellarium/stellarium -releases
+: 1533180181:0;sudo apt add -repository ppa:stellarium/stellarium -releases
+: 1533180201:0;sudo apt
+: 1533180223:0;sudo apt --add-repository ppa:stellarium/stellarium -releases
+: 1533180228:0;sudo apt -add-repository ppa:stellarium/stellarium -releases
+: 1533180274:0;sudo add-apt-repository
+: 1533180303:0;sudo add -apt -repository ppa:stellarium/stellarium -releases
+: 1533180311:0;sudo add-apt-repository ppa:stellarium/stellarium -releases
+: 1533180338:0;sudo add-apt-repository ppa:stellarium/stellarium-releases
+: 1533180372:0;sudo apt update
+: 1533180442:0;sudo apt install stellarium
+: 1533180496:0;sudo vim /etc/apt/sources.list:44
+: 1533180505:0;sudo vim /etc/apt/sources.list
+: 1533180540:0;sudo vim /etc/apt/sources.list.d/xenial-partner.list
+: 1533180563:0;sudo rm /etc/apt/sources.list.d/xenial-partner.list
+: 1533180604:0;sudo apt install stellarium
+: 1533181779:0;sudo add-apt-repository ppa:inkscape.dev/stable
+: 1533181810:0;sudo apt-get update
+: 1533182575:0;sudo apt install stellarium
+: 1533188235:0;sudo apt-get update --fix-missing
+: 1533188266:0;sudo apt install stellarium
+: 1533188567:0;uname -a
+: 1533189076:0;lsb_release -a
+: 1533189357:0;sudo do-release-upgrade -d 
+: 1533190706:0;lsb_release -a
+: 1533190826:0;ls
+: 1533191461:0;lsb_release -a
+: 1533191487:0;cd ~/projects/xwdm_fw
+: 1533191499:0;git diff
+: 1533191534:0;vim
+: 1533191658:0;mc
+: 1533191685:0;jjkk
+: 1533191749:0;ls
+: 1533191752:0;pwd
+: 1533191802:0;ls
+: 1533191832:0;syslo
+: 1533191868:0;ls /var/log
+: 1533191888:0;dmesg
+: 1533191908:0;dmesg --tail
+: 1533191911:0;dmesg -tail
+: 1533191914:0;dmesg tail
+: 1533191918:0;dmesg | tail
+: 1533191929:0;dmesg | tail -100
+: 1533191936:0;dmesg | tail -10
+: 1533191940:0;dmesg | tail -20
+: 1533191960:0;ls
+: 1533191967:0;ls /var/log
+: 1533191980:0;cat /var/log/syslog
+: 1533192030:0;uptime
+: 1533192044:0;ls /var/log
+: 1533192065:0;cat /var/log/dpkg.log
+: 1533192086:0;cat /var/log/dpkg.log | tail 
+: 1533192092:0;cat /var/log/dpkg.log | tail 100
+: 1533192095:0;cat /var/log/dpkg.log | tail -100
+: 1533192113:0;cat /var/log/dpkg.log | tail 
+: 1533192218:0;history 
+: 1533192230:0;sudo do-release-upgrade -d 
+: 1533192481:0;y
+: 1533192499:0;pwd
+: 1533192514:0;s
+: 1533192521:0;pwd
+: 1533192523:0;ls
+: 1533192527:0;sls
+: 1533192528:0;ls
+: 1533192566:0;systemctl reboot -i
+: 1533192826:0;systemctl start v2ray
+: 1533193011:0;sudo apt update 
+: 1533193025:0;sudo apt upgrade
+: 1533193038:0;sudo apt autoremove
+: 1533193222:0;sudo apt upgrade
+: 1533193232:0;sudo apt update 
+: 1533193539:0;tweaks
+: 1533193659:0;lsb_release -a
+: 1533194532:0;remmina
+: 1533194742:0;skypeforlinux
+: 1533195061:0;history 
+: 1533196439:0;tweaks
+: 1533197383:0;systemctl reboot -i
+: 1533197503:0;systemctl start v2ray
+: 1533197565:0;sudo apt purge unity-session
+: 1533197604:0;sudo apt autoremove
+: 1533197714:0;sudo apt-get purge ubuntu-desktop
+: 1533197737:0;sudo apt autoremove
+: 1533198112:0;systemctl start v2ray
+: 1533198120:0;systemctl enable v2ray
+: 1533198160:0;systemctl stop v2ray
+: 1533198168:0;systemctl enable v2ray
+: 1533198209:0;systemctl start v2ray
+: 1533198346:0;ls /usr/bin/*session
+: 1533198848:0;sudo rm -r /usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com
+: 1533198884:0;gsettings get org.gnome.gnome-panel.layout toplevel-id-list
+: 1533199364:0;ps -aux 
+: 1533199411:0;systemctl reboot -i
+: 1533199772:0;skypeforlinux
+: 1533200690:0;systemctl start v2ray
+: 1533201198:0;sudo apt-add-repository ppa:numix/ppa
+: 1533201223:0;sudo apt-get update
+: 1533201229:0;sudo apt-get install numix-icon-theme numix-icon-theme-circle
+: 1533201385:0;cd ~/projects/xwdm_fw
+: 1533201390:0;git pull
+: 1533201405:0;git status
+: 1533201451:0;git log
+: 1533201459:0;ls
+: 1533201474:0;git status
+: 1533201484:0;git checkout lib_cfg/mcuoneclipse/gmon.c lib_cfg/mcuoneclipse/gmon.h
+: 1533201489:0;rm core
+: 1533201500:0;git branch -a
+: 1533201553:0;git checkout origin/feature/expand_partition_size_of_sd
+: 1533201566:0;git pull
+: 1533201646:0;make clean
+: 1533201662:0;make FW=1 MUX=1 STM32H7=1 -j4\
+;
+: 1533201682:0;make clean
+: 1533201684:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533201764:0;sudo apt-get install mpfr
+: 1533201776:0;sudo apt-get install libmpfr
+: 1533201787:0;sudo apt search libmpfr
+: 1533201818:0;sudo apt-get install libmpfr-dev
+: 1533201843:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533201975:0;set
+: 1533202039:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533202064:0;fuck
+: 1533202079:0;locate libmpfr.so.4
+: 1533202173:0;export PATH=/usr/lib/x86_64-linux-gnu:$PATH
+: 1533202177:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533202187:0;echo PATH
+: 1533202193:0;echo $PATH
+: 1533202258:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533203686:0;locate libmpfr.so.4
+: 1533203691:0;locate libmpfr.so
+: 1533203696:0;locate libmpfr
+: 1533258627:0;sudo apt-get install --reinstall libmpfr4
+: 1533258637:0;sudo apt-get install --reinstall libmpfr
+: 1533258644:0;sudo apt-get install --reinstall libmpfr-dev
+: 1533258715:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533259476:0;make clean
+: 1533259478:0;makr
+: 1533259480:0;make
+: 1533259523:0;./muxtool
+: 1533259608:0;arm-none-eabi-gdb -x ~/.gdbinitbmp
+: 1533259668:0;arm-none-eabi-gdb 
+: 1533259687:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533259803:0;make clean
+: 1533259807:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533260910:0;sudo apt-get reinstall build-essential 
+: 1533260923:0;sudo apt-get install --reinstall build-essential 
+: 1533260937:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533261027:0;sudo apt-get install --reinstall build-essential 
+: 1533261419:0;find -name libmpfr.so
+: 1533261502:0;find / -name libmpfr.so
+: 1533261526:0;find ~/ -name libmpfr.so
+: 1533261575:0;find / -name libmpfr.so
+: 1533261589:0;sudo find / -name libmpfr.so
+: 1533261634:0;sudo find / -name *libmpfr.so*
+: 1533261675:0;sudo find / -name "*libmpfr.so*"
+: 1533261698:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533261718:0;sudo find / -name "libmpfr.so.4"
+: 1533261743:0;sudo find / -name "*libmpfr.so*"
+: 1533261793:0;ls /usr/lib/x86_64-linux-gnu | grep libmpfr
+: 1533261805:0;ls -l  /usr/lib/x86_64-linux-gnu | grep libmpfr
+: 1533261856:0;man ln
+: 1533261926:0;ls -l  /usr/lib/x86_64-linux-gnu | grep libmpfr
+: 1533262007:0;sudo ln -s /usr/lib/x86_64-linux-gnu/libmpfr.so.6.0.1 /usr/lib/x86_64-linux-gnu/libmpfr.so.4
+: 1533262009:0;ls -l  /usr/lib/x86_64-linux-gnu | grep libmpfr
+: 1533262063:0;sudo rm /usr/lib/x86_64-linux-gnu/libmpfr.so.4
+: 1533262075:0;sudo ln -s libmpfr.so.6.0.1 /usr/lib/x86_64-linux-gnu/libmpfr.so.4
+: 1533262078:0;ls -l  /usr/lib/x86_64-linux-gnu | grep libmpfr
+: 1533262084:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533262105:0;make clean
+: 1533262107:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533262359:0;vim
+: 1533262511:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533263710:0;vim
+: 1533263778:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533263911:0;make FW=1 MUX=1 STM32F4=1 -j4 \
+;
+: 1533263918:0;make clean
+: 1533263919:0;make FW=1 MUX=1 STM32F4=1 -j4 \
+;
+: 1533263946:0;git status
+: 1533263952:0;git checkout Makefile
+: 1533263962:0;make clean
+: 1533263970:0;make FW=1 MUX=1 STM32F4=1 -j4 \
+;
+: 1533264283:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533264295:0;make clean
+: 1533264297:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533264337:0;ls -l /usr/lib/x86_64-linux-gnu | grep libisl
+: 1533264529:0;sudo ln -s libisl.so.19.0.0 /usr/lib/x86_64-linux-gnu/libisl.so.15
+: 1533264547:0;sudo rm /usr/lib/x86_64-linux-gnu/libisl.so.15
+: 1533264548:0;sudo ln -s libisl.so.19.0.0 /usr/lib/x86_64-linux-gnu/libisl.so.15
+: 1533264552:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533264558:0;make clean
+: 1533264560:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533264585:0;make FW=1 MUX=1 STM32H7=1 -j4 -v\
+;
+: 1533264591:0;make FW=1 MUX=1 STM32H7=1 -j4 -d\
+;
+: 1533264667:0;make FW=1 MUX=1 STM32H7=1 -j4 -v\
+;
+: 1533264671:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533265323:0;systemctl reboot -i
+: 1533265408:0;cd ~/projects/xwdm_fw
+: 1533265414:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533265433:0;make clean
+: 1533265437:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533265461:0;make clean
+: 1533265472:0;make FW=1 MUX=1 STM32F4=1 -j4 \
+;
+: 1533265510:0;make clean
+: 1533265512:0;make FW=1 MUX=1 STM32F4=1 -j4 \
+;
+: 1533267090:0;systemctl start v2ray
+: 1533268749:0;skypeforlinux
+: 1533274940:0;gnome-screenshot -i
+: 1533275830:0;udo apt-get install gnome-shell-pomodoro
+: 1533275835:0;sudo apt-get install gnome-shell-pomodoro
+: 1533276003:0;configure --version
+: 1533276240:0;gnome-shell --version
+: 1533276619:0;systemctl reboot -i
+: 1533277022:0;sudo pacman -S gnome-menus
+: 1533277046:0;sudo apt install gnome-menus
+: 1533277484:0;systemctl start v2ray
+: 1533277812:0;make FW=1 MUX=1 STM32F4=1 -j4 \
+;
+: 1533277820:0;make clean
+: 1533277827:0;make FW=1 MUX=1 STM32F4=1 -j4 \
+;
+: 1533277832:0;make clean
+: 1533277836:0;ls
+: 1533277844:0;sudo rm build/
+: 1533277848:0;make clean
+: 1533277862:0;sudo rm -rf build/*
+: 1533277864:0;make clean
+: 1533277929:0;sudo chmod -R 777  xwdm_fw
+: 1533277942:0;make clean
+: 1533277947:0;make FW=1 MUX=1 STM32F4=1 -j4 \
+;
+: 1533277974:0;make clean
+: 1533277979:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533278122:0;git status
+: 1533278149:0;git diff xwdm_usb_hid.c
+: 1533278168:0;git checkout .
+: 1533278176:0;git status
+: 1533278335:0;history | git
+: 1533278342:0;history | grep  git
+: 1533278385:0;history | grep  version
+: 1533278398:0;git ignore version.h
+: 1533278464:0;git update-index 
+: 1533278468:0;git update-index --help
+: 1533278489:0;make clean
+: 1533278505:0;make FW=1 MUX=1 STM32F4=1 -j4 \
+;
+: 1533279064:0;cd ~/projects/xwdm_fw
+: 1533279067:0;make clean
+: 1533279070:0;make FW=1 MUX=1 STM32F4=1 -j4 \
+;
+: 1533279078:0;make clean
+: 1533279083:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533279798:0;gnome-shell --version
+: 1533280156:0;systemctl reboot -i
+: 1533280506:0;systemctl start v2ray
+: 1533280564:0;sudo apt install Googlepinyin
+: 1533280569:0;sudo apt install Googlepinying
+: 1533280575:0;sudo apt install googlepinying
+: 1533280592:0;sudo apt search pinying
+: 1533280607:0;sudo apt-cahce search pinying
+: 1533280618:0;sudo apt-cache search pinying
+: 1533280624:0;sudo apt-cache search pinyin
+: 1533280654:0;sudo apt-cache search googlepinyin
+: 1533280687:0;sudo apt install fcitx-googlepinyin
+: 1533280886:0;skypeforlinux
+: 1533282128:0;cd ~/projects/xwdm_fw
+: 1533282129:0;ls
+: 1533282135:0;make clean
+: 1533282138:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533282200:0;gparted
+: 1533282287:0;sudo apt remove gparted
+: 1533282302:0;sudo apt autoremove
+: 1533282315:0;sudo apt install  gparted
+: 1533282327:0;gparted
+: 1533282448:0;synaptic
+: 1533282464:0;sudo synaptic
+: 1533282501:0;synaptic
+: 1533282517:0;sudo synaptic
+: 1533282568:0;sudo -i
+: 1533283560:0;arm-none-eabi-gdb -x ~/.gdbinitbmp
+: 1533283647:0;cd ../muxtool
+: 1533283653:0;./muxtool -e oo
+: 1533283726:0;git pull
+: 1533283750:0;git checkout remotes/origin/feature/expand_partition_size_of_sd
+: 1533283761:0;make clean
+: 1533283794:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533283836:0;git diff development
+: 1533283852:0;git diff origin/development
+: 1533283889:0;arm-none-eabi-gdb -x ~/.gdbinitbmp
+: 1533284140:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533284179:0;arm-none-eabi-gdb -x ~/.gdbinitbmp
+: 1533284306:0;make clean
+: 1533284317:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533284356:0;arm-none-eabi-gdb -x ~/.gdbinitbmp
+: 1533284517:0;./muxtool -e oo
+: 1533286923:0;systemctl reboot -i
+: 1533287368:0;systemctl start v2ray
+: 1533288146:0;s
+: 1533288152:0;systemctl start v2ray
+: 1533288235:0;systemctl restart v2ray
+: 1533288301:0;find / -name caribou
+: 1533288308:0;sudo find / -name caribou
+: 1533288394:0;sudo find / -name "*caribou*"
+: 1533288437:0;ls /usr/lib/caribou/
+: 1533288547:0;sudo gparted
+: 1533289404:0;sudo docker container ls
+: 1533289416:0;sudo docker container ls -a
+: 1533517904:0;sudo apt upgrade
+: 1533517912:0;sudo apt update
+: 1533517980:0;systemctl reboot -i
+: 1533518137:0;ping 192.168.40.1
+: 1533518145:0;ping 192.168.33.76
+: 1533518595:0;skypeforlinux
+: 1533519387:0;cd ~/projects/xwdm_fw
+: 1533519399:0;arm-none-eabi-gdb -x ~/.gdbinitbmp
+: 1533519654:0;ps -aux | grep foxit
+: 1533519683:0;ps -aux | grep foxit | awk { 'print $1'}
+: 1533519697:0;ps -aux | grep foxit | awk {' print $1 '}
+: 1533519702:0;ps -aux | grep foxit | awk {' print $2 '}
+: 1533519738:0;ps -aux | grep foxit | awk {' print $2 '} | xargs kill 
+: 1533519764:0;man xargs
+: 1533519932:0;ps -aux | grep foxit | awk {' print $2 '} | xargs kill -
+: 1533519968:0;ps -aux | grep foxit | awk {' print $2 '} | xargs kill 
+: 1533519981:0;ps -aux | grep foxit | awk {' print $2 '} 
+: 1533520633:0;hill 6906
+: 1533520638:0;kill 6906
+: 1533520643:0;ps -aux | grep foxit | awk {' print $2 '} 
+: 1533521475:0;ls
+: 1533521487:0;vim Makefile
+: 1533521792:0;sudo apt update
+: 1533521807:0;sudo apt upgrade
+: 1533521817:0;sudo apt update
+: 1533521839:0;systemctl restart v2ray
+: 1533522320:0;ps -aux | grep foxit | awk {' print $2 '} 
+: 1533522326:0;kill 7791
+: 1533523840:0;make clean
+: 1533523868:0;git checkout origin/development
+: 1533523871:0;make clean
+: 1533523876:0;git pull
+: 1533523904:0;make clean
+: 1533523910:0;make FW=1 MUX=1 STM32H7=1 -j4 \
+;
+: 1533523916:0;make clean
+: 1533523934:0;make FW=1 MUX=1 STM32H7=1 PROFILING=1 -j4\
+;
+: 1533524034:0;vim
+: 1533525215:0;make FW=1 MUX=1 STM32H7=1 PROFILING=1 -j4\
+;
+: 1533525225:0;git diff 
+: 1533525247:0;arm-none-eabi-gdb -x ~/.gdbinitbmp
+: 1533533464:0;sudo apt update
+: 1533533478:0;sudo apt upgrade
+: 1533533749:0;sudo apt update
+: 1533533756:0;sudo apt upgrade
+: 1533533787:0;skypeforlinux
+: 1533533945:0;cd ~/projects/xwdm_fw
+: 1533533976:0;arm-none-eabi-gdb -x ~/.gdbinitbmp
+: 1533533989:0;make FW=1 MUX=1 STM32H7=1 PROFILING=1 -j4\
+;
+: 1533533995:0;vim
+: 1533534522:0;systemctl restart v2ray
+: 1533535965:0;make FW=1 MUX=1 STM32H7=1 PROFILING=1 -j4\
+;
+: 1533536419:0;arm-none-eabi-gdb -x ~/.gdbinitbmp
+: 1533537713:0;make FW=1 MUX=1 STM32H7=1 PROFILING=1 -j4\
+;
+: 1533537807:0;git log
+: 1533537841:0;git pull
+: 1533537854:0;git fetch
+: 1533539800:0;./openocd/bin/openocd
+: 1533540569:0;cd ~/
+: 1533540621:0;git clone  ssh://git@niter.flexoptix.net:7999/xwdm/openocd.git
+: 1533540679:0;ls
+: 1533540687:0;cd openocd
+: 1533540690:0;make
+: 1533540703:0;ls
+: 1533540749:0;./bootstrap
+: 1533540836:0;./configure --ejlp
+: 1533540840:0;./configure --help
+: 1533540911:0;./configure --prefix=$HOME/build
+: 1533540922:0;make
+: 1533541045:0;make install
+: 1533541084:0;ls
+: 1533541095:0;./gdb-server.sh
+: 1533541146:0;vim gdb-server.sh
+: 1533541222:0;./gdb-server.sh
+: 1533541431:0;./openocd/bin/openocd
+: 1533541523:0;vim gdb-server.sh
+: 1533541565:0;./openocd/bin/openocd
+: 1533541569:0;./gdb-server.sh
+: 1533541695:0;cat /etc/udev/rules.d/49-stlinkv2.rules
+: 1533541717:0;sudo vim /etc/udev/rules.d/49-stlinkv2.rules
+: 1533541780:0;q
+: 1533541846:0;./gdb-server.sh
+: 1533541959:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1533542010:0;cd ~/projects/xwdm_fw
+: 1533542017:0;make clean
+: 1533542070:0;ls ~/Desktop/stmh7/STM32
+: 1533542179:0;ls ~/Desktop/stmh7/STM32Cube_FW_H7_V1.2.0/Projects/STM32H743I_EVAL/Examples/DMA/DMA_FIFOMode/SW4STM32/st
+: 1533542192:0;cd  ~/Desktop/stmh7/STM32Cube_FW_H7_V1.2.0/Projects/STM32H743I_EVAL/Examples
+: 1533542194:0;ls
+: 1533542555:0;./install_sw4stm32_linux_64bits-v2.4.run
+: 1533542755:0;sudo ./install_sw4stm32_linux_64bits-v2.4.run
+: 1533542787:0;ls
+: 1533542860:0;./install_sw4stm32_linux_64bits-v2.4.run
+: 1533542879:0;chmod a+x install_sw4stm32_linux_64bits-v2.4.run
+: 1533542881:0;./install_sw4stm32_linux_64bits-v2.4.run
+: 1533543033:0;sudo apt-get install gksu
+: 1533543057:0;sudo apt-get install gksudo
+: 1533543081:0;gksudo
+: 1533543125:0;cd ~/p
+: 1533543142:0;cd ~/projects/xwdm_fw
+: 1533543148:0;make clean
+: 1533543168:0;make BL=1 MUX=1 STM32H7=1 PROFILING=1 -j4
+: 1533543206:0;make BL=1 MUX=1 STM32H7=1 -j4
+: 1533543209:0;make clean
+: 1533543213:0;vim main.c
+: 1533543248:0;make BL=1 MUX=1 STM32H7=1 -j4
+: 1533543428:0;./gdb-server.sh
+: 1533543436:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1533543553:0;cd ~/Desktop/stmh7/
+: 1533543554:0;ls
+: 1533543557:0;cd openocd_cfg
+: 1533543560:0;./openocd/bin/openocd
+: 1533543568:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1533543583:0;cd ~/projects/xwdm_fw
+: 1533543585:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1533543588:0;./openocd/bin/openocd
+: 1533543818:0;git status
+: 1533543829:0;git checkout main.
+: 1533543831:0;git checkout main.c
+: 1533543834:0;git status
+: 1533543845:0;make BL=1 MUX=1 STM32H7=1 -j4
+: 1533543888:0;make BL=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1533543896:0;make clean
+: 1533543900:0;make BL=1 MUX=1 STM32H7=1 SKIP_FW_CHECK=1 -j4
+: 1533543965:0;make clean
+: 1533543974:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1533544072:0;make clean
+: 1533544086:0;make FW=1 MUX=1 STM32H7=1 PROFILING=1 -j4
+: 1533545795:0;vim main.c
+: 1533545825:0;make FW=1 MUX=1 STM32H7=1 PROFILING=1 -j4
+: 1533557003:0;./openocd/bin/openocd
+: 1533557083:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1533604639:0;sudo apt update
+: 1533604677:0;apt list --upgradable
+: 1533604706:0;sudo apt upgrade
+: 1533604753:0;gparted
+: 1533604852:0;xhost
+: 1533604897:0;$XDG_CACHE_HOME
+: 1533604909:0;echo $XDG_CACHE_HOME
+: 1533604914:0;echo $XAUTHORITY
+: 1533605043:0;find / -name Xauthority
+: 1533605137:0;sudo find / -name Xauthority
+: 1533605225:0;gparted
+: 1533605267:0;synaptic
+: 1533605279:0;sudo synaptic
+: 1533605376:0;xauth list
+: 1533605451:0;systemctl reboot -i
+: 1533605514:0;xauth list
+: 1533605521:0;sudo synaptic
+: 1533605573:0;xhost
+: 1533605603:0;systemctl restart v2ray
+: 1533605888:0;xauth list
+: 1533605903:0;touch home/epanda/.Xauthority
+: 1533605914:0;touch-p  home/epanda/.Xauthority
+: 1533605917:0;touch -p  home/epanda/.Xauthority
+: 1533605923:0;touch --help
+: 1533606033:0;touch-p  home/epanda/.Xauthority
+: 1533606036:0;touch home/epanda/.Xauthority
+: 1533606132:0;touch --help
+: 1533606183:0;cd ~/
+: 1533606189:0;touch .Xauthority
+: 1533606203:0;xauth list
+: 1533606225:0;sudo synaptic
+: 1533606240:0;gparted
+: 1533610730:0;xhost +
+: 1533610753:0;sudo synaptic
+: 1533610769:0;gparted
+: 1533610791:0;sudo synaptic
+: 1533610839:0;xhost -
+: 1533610880:0;xhost --help
+: 1533610883:0;xhost 
+: 1533610893:0;sudo xhost 
+: 1533611024:0;xhost 
+: 1533611149:0;echo $DISPLAY
+: 1533611225:0;export $DISPLAY
+: 1533611233:0;echo $DISPLAY
+: 1533611621:0;Xorg
+: 1533611850:0;cat /etc/X11/xorg.conf
+: 1533611926:0;find / -name xorg.conf
+: 1533611955:0;sudo find / -name xorg.conf
+: 1533612267:0;rpm -ivh Deployment_Guide-en-US-5.0.0-9.el5.centos.noarch.rpm
+: 1533612528:0;man xorg.conf
+: 1533620100:0;sudo apt update
+: 1533620112:0;sudo apt upgrade
+: 1533620145:0;sudo apt install stellarium
+: 1533621074:0;export $DISPLAY
+: 1533621081:0;echo $DISPLAY
+: 1533621612:0;dmesg
+: 1533621625:0;echo $DISPLAY
+: 1533621670:0;cat /var/log/syslog
+: 1533621731:0;date
+: 1533621807:0;cat /var/log/syslog | tail 100
+: 1533621815:0;cat /var/log/syslog | tail -100
+: 1533621832:0;cat /var/log/syslog | tail -200 | more
+: 1533622523:0;vim /etc/systemd/logind.conf
+: 1533622617:0;ls -l /etc/systemd/logind.conf
+: 1533622641:0;sudo vim /etc/systemd/logind.conf
+: 1533622658:0;reboot
+: 1533622769:0;cat /etc/default/console-setup
+: 1533622953:0;systemctl reboot -i
+: 1533623057:0;systemctl restart v2ray
+: 1533623696:0;loginctl show-session c1\
+\
+
+: 1533623923:0;skypeforlinux
+: 1533624184:0;systemctl list-units --type service --all
+: 1533624239:0;systemctl list-units --type service --all | grep gnome
+: 1533624246:0;systemctl list-units --type service --all 
+: 1533624552:0;sudo apt-get install ubuntu-desktop
+: 1533624626:0;sudo apt-get purge --auto-remove ubuntu-gnome-desktop
+: 1533624643:0;sudo apt-get purge --auto-remove ubuntu-desktop
+: 1533624681:0;sudo apt-get remove gdm 
+: 1533624695:0;sudo apt-get purge --auto-remove lightDM
+: 1533624699:0;sudo apt-get purge --auto-remove lightdm
+: 1533624735:0;sudo apt-get auto-remove
+: 1533624743:0;systemctl reboot -i
+: 1533624843:0;skypeforlinux
+: 1533624876:0;echo $DISPLAY
+: 1533625294:0;sudo apt-get update
+: 1533625303:0;sudo apt-get upgrade
+: 1533625318:0;sudo apt-get install ubuntu-desktop
+: 1533625328:0;sudo apt-get install ubuntu-gnome-desktop
+: 1533625877:0;gparted
+: 1533625893:0;xhost +
+: 1533625896:0;gparted
+: 1533625954:0;sudo ufw status
+: 1533625972:0;udo ufw enable
+: 1533625979:0;sudo ufw enable
+: 1533626000:0;sudo apt install gufw
+: 1533626064:0;info cpu
+: 1533626074:0;cat /proc/cpuinfo
+: 1533626316:0;sudo apt install gnome-session gdm3
+: 1533626333:0;sudo apt install tasksel
+: 1533626357:0;sudo tasksel install ubuntu-desktop
+: 1533626405:0;systemctl status gdm3
+: 1533626470:0;sudo apt purge ubuntu-web-launchers
+: 1533626522:0;sudo apt install gnome-tweak-tool
+: 1533627117:0;wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+: 1533627128:0;sudo apt-add-repository "deb https://download.sublimetext.com/ apt/stable/"
+: 1533627145:0;sudo apt install sublime-text
+: 1533627649:0;sudo add-apt-repository ppa:oguzhaninan/stacer
+: 1533627680:0;sudo apt-get update
+: 1533627688:0;sudo apt-get install stacer
+: 1533628475:0;sudo dpkg -i rstudio-xenial-1.1.456-amd64.deb
+: 1533629024:0;sudo apt-get install libjpeg62
+: 1533629030:0;sudo dpkg -i rstudio-xenial-1.1.456-amd64.deb
+: 1533629064:0;rstart
+: 1533629113:0;sudo apt-get install r
+: 1533629133:0;sudo apt-get install R
+: 1533629161:0;systemctl restart v2ray
+: 1533629214:0;sudo apt-get install r-base
+: 1533629309:0;sudo apt-get install r-base-dev
+: 1533630492:0;cd ~/Desktop/stmh7/
+: 1533630498:0;./openocd/bin/openocd
+: 1533630508:0;ls
+: 1533630515:0;cd openocd_cfg
+: 1533630517:0;./openocd/bin/openocd
+: 1533630529:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1533630544:0;cd ~/projects/xwdm_fw
+: 1533630553:0;git pull
+: 1533630575:0;git checkout origin/ssp
+: 1533630586:0;git status
+: 1533630598:0;git checkout lib_cfg/mcuoneclipse/gmon.c lib_cfg/mcuoneclipse/gmon.h main.c
+: 1533630600:0;git checkout origin/ssp
+: 1533630609:0;make clean
+: 1533630618:0;make FW=1 MUX=1 STM32H7=1 -j4
+: 1533631553:0;cd ~/Desktop/stmh7/openocd_cfg
+: 1533631557:0;./openocd/bin/openocd
+: 1533631571:0;cd ~/projects/xwdm_fw
+: 1533631581:0;arm-none-eabi-gdb --eval-command="target remote localhost:3333"
+: 1533631756:0;systemctl restart v2ray
+: 1533633096:0;arm-none-eabi-gdb --version
+: 1533633794:0;./install_sw4stm32_linux_64bits-v2.4.run
+: 1533633872:0;apt-get install gksu
+: 1533633878:0;sudo apt-get install gksu
+: 1533640110:0;./install_sw4stm32_linux_64bits-v2.4.run
+: 1533640178:0;systemctl restart v2ray
+: 1533641628:0;sudo apt-get install gksu
+: 1533641730:0;./install_sw4stm32_linux_64bits-v2.4.run
+: 1533642993:0;cp epanda/* /media/epanda/Seagate\ Expansion\ Drive/epanda/home
+: 1533643029:0;cp -r epanda/ /media/epanda/Seagate\ Expansion\ Drive/epanda/home
+: 1533643066:0;cp -rv epanda/ /media/epanda/Seagate\ Expansion\ Drive/epanda/home
+: 1533886983:0;reboot
+: 1533887000:0;systemctl reboot -i
+: 1533887515:0;bash dot.sh
+: 1533887629:0;cd dotfiles
+: 1533887635:0;git status
+: 1533887675:0;history | grep  ssh
+: 1533887839:0;git status
+: 1533887856:0;git add -A

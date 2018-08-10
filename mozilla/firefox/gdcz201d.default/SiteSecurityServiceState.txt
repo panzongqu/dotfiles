@@ -55,7 +55,7 @@ discovery.addons.mozilla.org:HSTS	0	17751	1565245420386,1,0,2
 tmnsync.target.com:HSTS	0	17752	1565337726896,1,1,2
 aus5.mozilla.org:HSTS	1	17753	1565416591306,1,0,2
 www.amazon.com:HSTS	0	17751	1581192902793,1,1,2
-shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:HSTS	2	17753	1565416480207,1,1,2
+shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:HSTS	2	17753	1565420081349,1,1,2
 blog.jetbrains.com:HSTS	0	17753	1565406843594,1,0,2
 skype.com:HSTS	0	17751	1565243992402,1,1,2
 www.google.com:HSTS	2	17753	1533958698636,1,0,2

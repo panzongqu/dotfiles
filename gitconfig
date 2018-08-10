@@ -1,0 +1,7 @@
+[user]
+	name = Epanda.Pan
+	email = epanda.pan@eoptolink.com
+[core]
+	editor = vim
+[http]
+	postBuffer = 524288000

@@ -1,0 +1,13 @@
+# HSTS 1.0 Known Hosts database for GNU Wget.
+# Edit at your own risk.
+# <hostname>[:<port>]	<incl. subdomains>	<created>	<max-age>
+git.io	0	1	1520908980	31536000
+ftp.gnu.org	0	0	1512636527	63072000
+my.atlassian.com	0	0	1482385687	31536000
+raw.githubusercontent.com	0	0	1520908982	31536000
+get.skype.com	0	1	1482460412	31536000
+mirrors.tuna.tsinghua.edu.cn	0	0	1515051554	31536000
+silicom.ftptoday.com	0	0	1526451016	15768000
+get.acme.sh	0	0	1514966951	31536000
+github.com	0	1	1523958634	31536000
+www.atlassian.com	0	0	1513856491	31536000

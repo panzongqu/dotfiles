@@ -1,7 +1,10 @@
 .ssh/
 z
 zcompdump
+atom/
 ssh/
 cache/
 local/
 config/
+antigen/
+pki/
