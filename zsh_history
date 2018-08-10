@@ -1,0 +1,22 @@
+: 1533869210:0;git status 
+: 1533869280:0;git reset 
+: 1533869282:0;git status 
+: 1533869433:0;git reflog show
+: 1533869462:0;git fsck --lost-found
+: 1533872410:0;cd ~/projects/flexoptix/xwdm_fw/
+: 1533872416:0;git show-ref
+: 1533880220:0;sh dot.sh
+: 1533880273:0;pwd
+: 1533880278:0;cd dotfiles
+: 1533880283:0;git show-ref
+: 1533880288:0;echo $?
+: 1533880310:0;sh dot.sh
+: 1533880472:0;git help gc
+: 1533880507:0;git gc
+: 1533880515:0;sh dot.sh
+: 1533881457:0;git add --help
+: 1533881525:0;sh dot.sh
+: 1533881551:0;git status 
+: 1533881667:0;sh dot.sh
+: 1533882061:0;git init
+: 1533882151:0;sh dot.sh

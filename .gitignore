@@ -1,0 +1,7 @@
+.ssh/
+z
+zcompdump
+ssh/
+cache/
+local/
+config/
